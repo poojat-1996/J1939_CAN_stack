@@ -1,0 +1,4033 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<j1939>
+	 <PGN0>
+		<SPN_LIST>5,695,696,897,898,518</SPN_LIST>
+                <SPN_695>Override Control Model,1,1,2,1,2</SPN_695>
+		<SPN_695_00>Override disabled</SPN_695_00>
+		<SPN_695_01>Speed control</SPN_695_01>
+		<SPN_695_10>Torque control</SPN_695_10>
+		<SPN_695_11>Speed/torque limit control</SPN_695_11>
+		<SPN_696>Requested Speed Control Conditions,1,1,2,3,4</SPN_696>
+		<SPN_696_00>Transient Optimized for driveline disengaged and non-lockup conditions</SPN_696_00>
+		<SPN_696_01>Stability Optimized for driveline disengaged and non-lockup conditions</SPN_696_01>
+		<SPN_696_10>Stability Optimized for driveline engaged and/or in lockup condition 1</SPN_696_10>
+		<SPN_696_11>Stability Optimized for driveline engaged and/or in lockup condition 2</SPN_696_11>
+		<SPN_897>Override Control Mode Priority,1,1,2,5,6</SPN_897>
+		<SPN_897_00>Highest priority</SPN_897_00>
+		<SPN_897_01>High priority</SPN_897_01>
+		<SPN_897_10>Medium priority</SPN_897_10>
+		<SPN_897_11>Low priority</SPN_897_11>
+		<SPN_898>Requested Speed/Speed Limit,0,0.125,0,rpm,2,2,3</SPN_898>
+		<SPN_518>Requested Torque/Torque Limit,0,1,-125,%,1,4</SPN_518>
+        </PGN0>
+
+	<PGN256>
+		<SPN_LIST>16,681,682,683,684,525,685,686,687,688,689,690,691,1852,1853,1854,1855</SPN_LIST>
+		<SPN_681>Gear Shift Inhibit Request,1,1,2,1,2</SPN_681>
+		<SPN_681_00>Gear shifts are allowed (disable function)</SPN_681_00>
+		<SPN_681_01>Gear shifts are inhibited (enable function)</SPN_681_01>
+		<SPN_681_10>Not available</SPN_681_10>
+		<SPN_681_11>Take no action (leave function as is)</SPN_681_11>
+		<SPN_682>Torque Converter Lockup Disable Request,1,1,2,3,4</SPN_682>
+		<SPN_682_00>Allow torque convertor lockup</SPN_682_00>
+		<SPN_682_01>Disable torque convertor lockup</SPN_682_01>
+		<SPN_682_10>Not available</SPN_682_10>
+		<SPN_682_11>Take no action</SPN_682_11>
+		<SPN_683>Disengage Driveline Request,1,1,2,5,6</SPN_683>
+		<SPN_683_00>Allow driveline engagement</SPN_683_00>
+		<SPN_683_01>Disengage driveline</SPN_683_01>
+		<SPN_683_10>Not available</SPN_683_10>
+		<SPN_683_11>Take no action</SPN_683_11>
+		<SPN_684>Requested Percent Clutch Slip,0,0.4,0,%,1,2</SPN_684>
+		<SPN_525>Requested Gear,0,1,-125,no unit,1,3</SPN_525>
+		<SPN_685>Disengage Differential Lock Request-Front Axle 1,1,4,2,1,2</SPN_685>
+		<SPN_685_00>Engage differential lock</SPN_685_00>
+		<SPN_685_01>Disengage differential lock</SPN_685_01>
+		<SPN_685_10>Not available</SPN_685_10>
+		<SPN_685_11>Take no action</SPN_685_11>
+		<SPN_686>Disengage Differential Lock Request-Front Axle 2,1,4,2,3,4</SPN_686>
+		<SPN_686_00>Engage differential lock</SPN_686_00>
+		<SPN_686_01>Disengage differential lock</SPN_686_01>
+		<SPN_686_10>Not available</SPN_686_10>
+		<SPN_686_11>Take no action</SPN_686_11>
+		<SPN_687>Disengage Differential Lock Request-Rear Axle 1,1,4,2,5,6</SPN_687>
+		<SPN_687_00>Engage differential lock</SPN_687_00>
+		<SPN_687_01>Disengage differential lock</SPN_687_01>
+		<SPN_687_10>Not available</SPN_687_10>
+		<SPN_687_11>Take no action</SPN_687_11>
+		<SPN_688>Disengage Differential Lock Request-Rear Axle 2,1,4,2,7,8</SPN_688>
+		<SPN_688_00>Engage differential lock</SPN_688_00>
+		<SPN_688_01>Disengage differential lock</SPN_688_01>
+		<SPN_688_10>Not available</SPN_688_10>
+		<SPN_688_11>Take no action</SPN_688_11>
+		<SPN_689>Disengage Differential Lock Request-Central,1,5,2,1,2</SPN_689>
+		<SPN_689_00>Engage differential lock</SPN_689_00>
+		<SPN_689_01>Disengage differential lock</SPN_689_01>
+		<SPN_689_10>Not available</SPN_689_10>
+		<SPN_689_11>Take no action</SPN_689_11>
+		<SPN_690>Disengage Differential Lock Request-Central Front,1,5,2,3,4</SPN_690>
+		<SPN_690_00>Engage differential lock</SPN_690_00>
+		<SPN_690_01>Disengage differential lock</SPN_690_01>
+		<SPN_690_10>Not available</SPN_690_10>
+		<SPN_690_11>Take no action</SPN_690_11>
+		<SPN_691>Disengage Differential Lock Request-Central Rear,1,5,2,5,6 2,1,4,2,7,8</SPN_691>
+		<SPN_691_00>Engage differential lock</SPN_691_00>
+		<SPN_691_01>Disengage differential lock</SPN_691_01>
+		<SPN_691_10>Not available</SPN_691_10>
+		<SPN_691_11>Take no action</SPN_691_11>
+		<SPN_1852>Transmission Mode 1,1,6,2,1,2</SPN_1852>
+		<SPN_1852_00>Disable</SPN_1852_00>
+		<SPN_1852_01>Enable</SPN_1852_01>
+		<SPN_1852_10>Reserved</SPN_1852_10>
+		<SPN_1852_11>Take no action</SPN_1852_11>
+		<SPN_1853>Transmission Mode 2,1,6,2,3,4</SPN_1853>
+		<SPN_1853_00>Disable</SPN_1853_00>
+		<SPN_1853_01>Enable</SPN_1853_01>
+		<SPN_1853_10>Reserved</SPN_1853_10>
+		<SPN_1853_11>Take no action</SPN_1853_11>
+		<SPN_1854>Transmission Mode 3,1,6,2,5,6</SPN_1854>
+		<SPN_1854_00>Disable</SPN_1854_00>
+		<SPN_1854_01>Enable</SPN_1854_01>
+		<SPN_1854_10>Reserved</SPN_1854_10>
+		<SPN_1854_11>Take no action</SPN_1854_11>
+		<SPN_1855>Transmission Mode 4,1,6,7,8</SPN_1855>
+		<SPN_1855_00>Disable</SPN_1855_00>
+		<SPN_1855_01>Enable</SPN_1855_01>
+		<SPN_1855_10>Reserved</SPN_1855_10>
+		<SPN_1855_11>Take no action</SPN_1855_11>
+	</PGN256>
+
+	<PGN52992>
+		<SPN_LIST>8,1784,1785,1786,1787,1788,1789,1790,1791</SPN_LIST>
+		<SPN_1784>Minimum Continuous Engine Speed Limit Request,0,32,0,rpm/bit,1,1</SPN_1784>
+		<SPN_1785>Maximum Continuous Engine Speed Limit Request,0,32,0,rpm/bit,1,2</SPN_1785>
+		<SPN_1786>Minimum Continuous Engine Torque Limit Request,0,1,-125,%/bit,1,3</SPN_1786>
+		<SPN_1787>Maximum Continuous Engine Torque Limit Request,0,1,-125,%/bit,1,4</SPN_1787>
+		<SPN_1788>Minimum Continuous Retarder Speed Limit Request,0,32,0,rpm/bit,1,5</SPN_1788>
+		<SPN_1789>Maximum Continuous Retarder Speed Limit Request,0,32,0,rpm/bit,1,6</SPN_1789>
+		<SPN_1790>Minimum Continuous Retarder Torque Limit Request,0,1,-125,%/bit,1,7</SPN_1790>
+		<SPN_1791>Maximum Continuous Retarder Torque Limit Request,0,1,-125,%/bit,1,8</SPN_1791>
+	</PGN52992>
+
+	<PGN53248>
+		<SPN_LIST>1,1487</SPN_LIST>
+		<SPN_1487>Illumination Brightness Percent,0,0.4,0,%/bit,1,1</SPN_1487>
+	</PGN53248>
+
+	<PGN53504>
+		<SPN_LIST>4,1732,1757,1758,1735</SPN_LIST>
+		<SPN_1732>Level Preset Front Axle Left,0,0.1,-3200,mm/bit,2,1,2</SPN_1732>
+		<SPN_1757>Level Preset Front Axle Right,0,0.1,-3200,mm/bit,2,3,4</SPN_1757>
+		<SPN_1758>Level Preset Rear Axle Left,0,0.1,-3200,mm/bit,2,5,6</SPN_1758>
+		<SPN_1735>Level Preset Rear Axle Right,0,0.1,-3200,mm/bit,2,7,8</SPN_1735>
+	</PGN53504>
+
+	<PGN53760>
+		<SPN_LIST>13,1749,1748,1747,1751,1750,1753,1752,1828,1719,1720,1830,1829</SPN_LIST>
+		<SPN_1749>Kneeling Request Left Side,1,1,2,3,4</SPN_1749>
+		<SPN_1749_00>No kneeling request</SPN_1749_00>
+		<SPN_1749_01>Kneeling request</SPN_1749_01>
+		<SPN_1749_10>Reserved</SPN_1749_10>
+		<SPN_1749_11>Don't care/take no action</SPN_1749_11>
+		<SPN_1748>Kneeling Request Right Side,1,2,2,5,6</SPN_1748>
+		<SPN_1748_00>Automatically actuated</SPN_1748_00>
+		<SPN_1748_01>Manually actuated</SPN_1748_01>
+		<SPN_1748_10>Reserved</SPN_1748_10>
+		<SPN_1748_11>Don't care/take no action</SPN_1748_11>
+		<SPN_1747>Kneeling Control Mode Request,1,1,2,7,8</SPN_1747>
+		<SPN_1747_00>Automatically actuated</SPN_1747_00>
+		<SPN_1747_01>Manually actuated</SPN_1747_01>
+		<SPN_1747_10>Reserved</SPN_1747_10>
+		<SPN_1747_11>Don't care/take no action</SPN_1747_11>
+		<SPN_1751>Nominal Level Request Front Axle,1,2,4,1,4</SPN_1751>
+		<SPN_1751_0000>No level request</SPN_1751_0000>
+		<SPN_1751_0001>Normal Level 1</SPN_1751_0001>
+		<SPN_1751_0010>Normal Level 2</SPN_1751_0010>
+		<SPN_1751_0011>Normal Level 3</SPN_1751_0011>
+		<SPN_1751_0100>Preset Level</SPN_1751_0100>
+		<SPN_1751_0101>Customer Level</SPN_1751_0101>
+		<SPN_1751_0110>Upper Level</SPN_1751_0110>
+		<SPN_1751_0111>Lower Level</SPN_1751_0111>
+		<SPN_1751_1000>Stop level change</SPN_1751_1000>
+		<SPN_1751_1001>Not defined</SPN_1751_1001>
+		<SPN_1751_1010>Not defined</SPN_1751_1010>
+		<SPN_1751_1011>Not defined</SPN_1751_1011>
+		<SPN_1751_1100>Not defined</SPN_1751_1100>
+		<SPN_1751_1101>Not defined</SPN_1751_1101>
+		<SPN_1751_1110>Reserved</SPN_1751_1110>
+		<SPN_1751_1111>Don't care/take no action</SPN_1751_1111>
+		<SPN_1750>Nominal Level Request Rear Axle,1,2,4,5,8</SPN_1750>
+		<SPN_1750_0000>No level request</SPN_1750_0000>
+		<SPN_1750_0001>Normal Level 1</SPN_1750_0001>
+		<SPN_1750_0010>Normal Level 2</SPN_1750_0010>
+		<SPN_1750_0011>Normal Level 3</SPN_1750_0011>
+		<SPN_1750_0100>Preset Level</SPN_1750_0100>
+		<SPN_1750_0101>Customer Level</SPN_1750_0101>
+		<SPN_1750_0110>Upper Level</SPN_1750_0110>
+		<SPN_1750_0111>Lower Level</SPN_1750_0111>
+		<SPN_1750_1000>Stop level change</SPN_1750_1000>
+		<SPN_1750_1001>Not defined</SPN_1750_1001>
+		<SPN_1750_1010>Not defined</SPN_1750_1010>
+		<SPN_1750_1011>Not defined</SPN_1750_1011>
+		<SPN_1750_1100>Not defined</SPN_1750_1100>
+		<SPN_1750_1101>Not defined</SPN_1750_1101>
+		<SPN_1750_1110>Reserved</SPN_1750_1110>
+		<SPN_1750_1111>Don't care/take no action</SPN_1750_1111>
+		<SPN_1753>Level Control Mode Request,1,3,4,1,4</SPN_1753>
+		<SPN_1753_0000>Normal operation</SPN_1753_0000>
+		<SPN_1753_0001>Traction help</SPN_1753_0001>
+		<SPN_1753_0010>Load fixing2</SPN_1753_0010>
+		<SPN_1753_0011>Pressure ratio 1</SPN_1753_0011>
+		<SPN_1753_0100>Pressure ratio 2</SPN_1753_0100>
+		<SPN_1753_0101>Optimum traction 1</SPN_1753_0101>
+		<SPN_1753_0110>Optimum traction 2</SPN_1753_0110>
+		<SPN_1753_0111>Not definedl</SPN_1753_0111>
+		<SPN_1753_1000>Not defined</SPN_1753_1000>
+		<SPN_1753_1001>Not defined</SPN_1753_1001>
+		<SPN_1753_1010>Not defined</SPN_1753_1010>
+		<SPN_1753_1011>Not defined</SPN_1753_1011>
+		<SPN_1753_1100>Not defined</SPN_1753_1100>
+		<SPN_1753_1101>Not defined</SPN_1753_1101>
+		<SPN_1753_1110>Reserved</SPN_1753_1110>
+		<SPN_1753_1111>Don't care/take no action</SPN_1753_1111>
+		<SPN_1752>Lift Axle 1 Position Command,1,3,2,5,6</SPN_1752>
+		<SPN_1752_00>Lift axle position down/tag axle laden</SPN_1752_00>
+		<SPN_1752_01>Lift axle position up/tag axle unladen</SPN_1752_01>
+		<SPN_1752_10>Reserved</SPN_1752_10>
+		<SPN_1752_11>Don't care/take no action</SPN_1752_11>
+		<SPN_1828>Lift Axle 2 Position Command,1,3,2,7,8</SPN_1828>
+		<SPN_1828_00>Lift axle position down/tag axle laden</SPN_1828_00>
+		<SPN_1828_01>Lift axle position up/tag axle unladen</SPN_1828_01>
+		<SPN_1828_10>Reserved</SPN_1828_10>
+		<SPN_1828_11>Don't care/take no action</SPN_1828_11>
+		<SPN_1718>Damper Stiffness Request Front Axle,0,0.4,0,%,1,4</SPN_1718>
+		<SPN_1719>Damper Stiffness Request Rear Axle,0,0.4,0,%,1,5</SPN_1719>
+		<SPN_1720>Damper Stiffness Request Lift/Tag Axle,0,0.4,0,%,1,6</SPN_1720>
+		<SPN_1830>Kneeling Command - Front Axle,1,7,2,1,2</SPN_1830>
+		<SPN_1830_00>Deactivate kneeling</SPN_1830_00>
+		<SPN_1830_01>Activate kneeling</SPN_1830_01>
+		<SPN_1830_10>Reserved</SPN_1830_10>
+		<SPN_1830_11>Don't care/take no action</SPN_1830_11>
+		<SPN_1829>Kneeling Command - Rear Axle,1,7,2,3,4</SPN_1829>
+		<SPN_1829_00>Deactivate kneeling</SPN_1829_00>
+		<SPN_1829_01>Activate kneeling</SPN_1829_01>
+		<SPN_1829_10>Reserved</SPN_1829_10>
+		<SPN_1829_11>Don't care/take no action</SPN_1829_11>
+	</PGN53760>
+
+	<PGN54528>
+		<SPN_LIST>8,1603,1604,1605,1606,1607,1608,1609,1610</SPN_LIST>
+		<SPN_1603>Adjust seconds,0,0.25,0,s,1,1</SPN_1603>
+		<SPN_1604>Adjust minutes,0,1,0,min,1,2</SPN_1604>
+		<SPN_1605>Adjust hours,0,1,0,hr,1,3</SPN_1605>
+		<SPN_1606>Adjust month,0,1,0,months,1,4</SPN_1606>
+		<SPN_1607>Adjust day,0,0.25,0,day,1,5</SPN_1607>
+		<SPN_1608>Adjust year,0,1,1985,years,1,6</SPN_1608>
+		<SPN_1609>Adjust local minute offset,0,1,-125,min,1,7</SPN_1609>
+		<SPN_1610>Adjust local hour offset,0,1,-125,hr,1,8</SPN_1610>
+	</PGN54528>
+
+	<PGN56320>
+		<SPN_LIST>5,1194,1195,1196,1197,1198</SPN_LIST>
+		<SPN_1194>Anti-theft Encryption Seed Present Indicator,1,1,2,1,2</SPN_1194>
+		<SPN_1194_00>Random number is not present</SPN_1194_00>
+		<SPN_1194_01>Random number is present</SPN_1194_01>
+		<SPN_1194_10>Not available</SPN_1194_10>
+		<SPN_1194_11>Not available</SPN_1194_11>
+		<SPN_1195>Anti-theft Password Valid Indicator,1,1,2,3,4</SPN_1195>
+		<SPN_1195_00>Password is not a validated password</SPN_1195_00>
+		<SPN_1195_01>Password is a validated password</SPN_1195_01>
+		<SPN_1195_10>Not available</SPN_1195_10>
+		<SPN_1195_11>Not available</SPN_1195_11>
+		<SPN_1196>Anti-theft Component Status States,1,1,2,5,6</SPN_1196>
+		<SPN_1196_00>Unlocked</SPN_1196_00>
+		<SPN_1196_01>Locked</SPN_1196_01>
+		<SPN_1196_10>Blocked</SPN_1196_10>
+		<SPN_1196_11>Not defined</SPN_1196_11>
+		<SPN_1197>Anti-theft Modify Password States,1,1,2,7,8</SPN_1197>
+		<SPN_1197_00>Ok</SPN_1197_00>
+		<SPN_1197_01>Full_of_Passwords</SPN_1197_01>
+		<SPN_1197_10>Empty_of_Passwords</SPN_1197_10>
+		<SPN_1197_11>Not_valid</SPN_1197_11>
+		<SPN_1198>Anti-theft Random Number,0,30,0,Per Byte,7,2,8</SPN_1198>
+	</PGN56320>
+
+	<PGN56576>
+		<SPN_LIST>4,1199,1200,1201,1202</SPN_LIST>
+		<SPN_1199>Anti-theft Encryption Indicator States,1,1,2,2,3</SPN_1199>
+		<SPN_1199_00>Encryption_Seed_Request</SPN_1199_00>
+		<SPN_1199_01>Encrypted_Code_Present</SPN_1199_01>
+		<SPN_1199_10>Not defined</SPN_1199_10>
+		<SPN_1199_11>Not available</SPN_1199_11>
+		<SPN_1200>Anti-theft Desired Exit Mode States,1,1,2,4,5</SPN_1200>
+		<SPN_1200_00>Lock_Upon_Operator_Request</SPN_1200_00>
+		<SPN_1200_01>Lock_When_Key_Off</SPN_1200_01>
+		<SPN_1200_10>Not defined</SPN_1200_10>
+		<SPN_1200_11>Not available</SPN_1200_11>
+		<SPN_1201>Anti-theft Command States,1,1,2,6,8</SPN_1201>
+		<SPN_1201_000>Add_password</SPN_1201_000>
+		<SPN_1201_001>Delete_password</SPN_1201_001>
+		<SPN_1201_010>Change_passwprd</SPN_1201_010>
+		<SPN_1201_011>Lock_or_Unlock</SPN_1201_011>
+		<SPN_1201_100>Chekc_status</SPN_1201_100>
+		<SPN_1201_101>Login</SPN_1201_101>
+		<SPN_1201_110>Not defined</SPN_1201_110>
+		<SPN_1201_111>Not defined</SPN_1201_111>
+		<SPN_1202>Anti-theft Password Representation,0,30,0,per byte,1,2,8</SPN_1202>
+	</PGN56576>
+
+	<PGN56832>
+		<SPN_LIST>4,988,989,1584,1211</SPN_LIST>
+		<SPN_988>Trip Group 1,1,2,1,2</SPN_988>
+		<SPN_988_00>Take no action</SPN_988_00>
+		<SPN_988_01>Reset</SPN_988_01>
+		<SPN_988_10>Not available</SPN_988_10>
+		<SPN_988_11>Not applicable</SPN_988_11>
+		<SPN_989>Trip Group 2 - Proprietary,1,1,2,3,4</SPN_989>
+		<SPN_989_00>Take no action</SPN_989_00>
+		<SPN_989_01>Reset</SPN_989_01>
+		<SPN_989_10>Not available</SPN_989_10>
+		<SPN_989_11>Not applicable</SPN_989_11>
+		<SPN_1584>Service Component Identification,0,1,0,ID,1,2</SPN_1584>
+		<SPN_1211>Engine Build Hours Reset,1,3,2,1,2</SPN_1211>
+		<SPN_1211_00>Do not reset</SPN_1211_00>
+		<SPN_1211_01>Reset</SPN_1211_01>
+		<SPN_1211_10>Not available</SPN_1211_10>
+		<SPN_1211_11>Take no action</SPN_1211_11>
+	</PGN56832>
+		
+	<PGN57344>
+		<SPN_LIST>15,986,1691,1684,1682,1714,1856,1655,1654,1653,1666,1656,1683,1685,1686,2596</SPN_LIST>
+		<SPN_986>Requested Percent Fan Speed,0,0.4,0,%,1,1</SPN_986>
+		<SPN_1691>Cab Interior Temperature Command,0,0.03125,-273,deg C,2,2,3</SPN_1691>
+		<SPN_1684>Auxiliary Heater Coolant Pump Request,1,4,2,1,2</SPN_1684>
+		<SPN_1684_00>Deactivate water pump</SPN_1684_00>
+		<SPN_1684_01>Activate water pump</SPN_1684_01>
+		<SPN_1684_10>Reserved</SPN_1684_10>
+		<SPN_1684_11>Don't care/take no action</SPN_1684_11>
+		<SPN_1682>Battery Main Switch Hold Request,1,4,2,3,4</SPN_1682>
+		<SPN_1682_00>Release Battery Main Switch</SPN_1682_00>
+		<SPN_1682_01>Hold Battery Main Switch</SPN_1682_01>
+		<SPN_1682_10>undefined</SPN_1682_10>
+		<SPN_1682_11>Don't care/take no action</SPN_1682_11>
+		<SPN_1714>Operator Seat Direction Switch,1,4,2,5,6</SPN_1714>
+		<SPN_1714_00>Operator seat not facing forward</SPN_1714_00>
+		<SPN_1714_01>Operator seat is facing forward</SPN_1714_01>
+		<SPN_1714_10>Error</SPN_1714_10>
+		<SPN_1714_11>Not available</SPN_1714_11>
+		<SPN_1856>Seat Belt Switch,1,4,2,7,8</SPN_1856>
+		<SPN_1856_00>NOT Buckled</SPN_1856_00>
+		<SPN_1856_01>OK - Seat Belt is buckled</SPN_1856_01>
+		<SPN_1856_10>Error - Switch state cannot be determined</SPN_1856_10>
+		<SPN_1856_11>Not Available</SPN_1856_11>
+		<SPN_1655>Vehicle Limiting Speed Governor Decrement Switch,1,5,2,3,4</SPN_1655>
+		<SPN_1655_00>Switch in the off state</SPN_1655_00>
+		<SPN_1655_01>Switch in the on state – decrease</SPN_1655_01>
+		<SPN_1655_10>Error</SPN_1655_10>
+		<SPN_1655_11>Not available</SPN_1655_11>
+		<SPN_1654>Vehicle Limiting Speed Governor Increment Switch,1,5,2,5,6</SPN_1654>
+		<SPN_1654_00>Switch in the off state</SPN_1654_00>
+		<SPN_1654_01>Switch in the on state – increase</SPN_1654_01>
+		<SPN_1654_10>Error</SPN_1654_10>
+		<SPN_1654_11>Not available</SPN_1654_11>
+		<SPN_1653>Vehicle Limiting Speed Governor Enable Switch,1,5,2,7,8</SPN_1653>
+		<SPN_1653_00>Switch disabled</SPN_1653_00>
+		<SPN_1653_01>Switched enabled</SPN_1653_01>
+		<SPN_1653_10>Error</SPN_1653_10>
+		<SPN_1653_11>Not available</SPN_1653_11>
+		<SPN_1666>Automatic Gear Shifting Enable Switch,1,6,2,5,6</SPN_1666>
+		<SPN_1666_00>Automated Gear Shifting is disabled</SPN_1666_00>
+		<SPN_1666_01>Automated Gear Shifting is enabled</SPN_1666_01>
+		<SPN_1666_10>Error</SPN_1666_10>
+		<SPN_1666_11>Not available</SPN_1666_11>
+		<SPN_1656>Engine Automatic Start Enable Switch,1,6,2,7,8</SPN_1656>
+		<SPN_1656_00>Switch in the off state</SPN_1656_00>
+		<SPN_1656_01>Switch in the on state – increase</SPN_1656_01>
+		<SPN_1656_10>Error</SPN_1656_10>
+		<SPN_1656_11>Not available</SPN_1656_11>
+		<SPN_1683>Auxiliary Heater Mode Request,1,7,4,1,4</SPN_1683>
+		<SPN_1683_0000>De-activate auxiliary heater</SPN_1683_0000>
+		<SPN_1683_0001>Off due to ADR per European Regulations for Transport of hazardous materials</SPN_1683_0001>
+		<SPN_1683_0010>Economy mode</SPN_1683_0010>
+		<SPN_1683_0011>Normal mode</SPN_1683_0011>
+		<SPN_1683_0100>Not defined</SPN_1683_0100>
+		<SPN_1683_0101>Not defined</SPN_1683_0101>
+		<SPN_1683_0110>Not defined</SPN_1683_0110>
+		<SPN_1683_0111>Not defined</SPN_1683_0111>
+		<SPN_1683_1000>Not defined</SPN_1683_1000>
+		<SPN_1683_1001>Not defined</SPN_1683_1001>
+		<SPN_1683_1010>Not defined</SPN_1683_1010>
+		<SPN_1683_1011>Not defined</SPN_1683_1011>
+		<SPN_1683_1100>Not defined</SPN_1683_1100>
+		<SPN_1683_1101>Not defined</SPN_1683_1101>
+		<SPN_1683_1110>Reserved</SPN_1683_1110>
+		<SPN_1683_1111>Don't care/take no action</SPN_1683_1111>
+		<SPN_1685>Request Engine Zone Heating,1,7,2,5,6</SPN_1685>
+		<SPN_1685_00>Do not heat engine zone</SPN_1685_00>
+		<SPN_1685_01>Heat engine zone</SPN_1685_01>
+		<SPN_1685_10>Reserved</SPN_1685_10>
+		<SPN_1685_11>Don't care/take no action</SPN_1685_11>
+		<SPN_1686>Request Cab Zone Heating,1,7,2,7,8</SPN_1686>
+		<SPN_1686_00>Do not cab engine zone</SPN_1686_00>
+		<SPN_1686_01>Heat cab zone</SPN_1686_01>
+		<SPN_1686_10>Reserved</SPN_1686_10>
+		<SPN_1686_11>Don't care/take no action</SPN_1686_11>
+		<SPN_2596>Selected Maximum Vehicle Speed Limit,0,1,8</SPN_2596>
+	</PGN57344>
+	
+	<PGN61440>
+		<SPN_LIST>11,900,571,572,520,1085,1082,1667,1480,1715,1716,1717</SPN_LIST>
+		<SPN_900>Retarder Torque Mode,1,1,4,1,4</SPN_900>
+		<SPN_900_0000>No torque request</SPN_900_0000>
+		<SPN_900_0001>torque request Present</SPN_900_0001>
+		<SPN_900_0010>torque request Present</SPN_900_0010>
+		<SPN_900_0011>torque request Present</SPN_900_0011>
+		<SPN_900_0100>torque request Present</SPN_900_0100>
+		<SPN_900_0101>torque request Present</SPN_900_0101>
+		<SPN_900_0110>torque request Present</SPN_900_0110>
+		<SPN_900_0111>torque request Present</SPN_900_0111>
+		<SPN_900_1000>torque request Present</SPN_900_1000>
+		<SPN_900_1001>torque request Present</SPN_900_1001>
+		<SPN_900_1010>torque request Present</SPN_900_1010>
+		<SPN_900_1011>torque request Present</SPN_900_1011>
+		<SPN_900_1100>torque request Present</SPN_900_1100>
+		<SPN_900_1101>torque request Present</SPN_900_1101>
+		<SPN_900_1110>torque request Present</SPN_900_1110>
+		<SPN_900_1111>Not available</SPN_900_1111>
+		<SPN_571>Retarder Enable - Brake Assist Switch,1,1,2,5,6</SPN_571>
+		<SPN_571_00>Retarder - brake assist disabled</SPN_571_00>
+		<SPN_571_01>Retarder - brake assist enabled</SPN_571_01>
+		<SPN_571_10>Not available</SPN_571_10>
+		<SPN_571_11>Not available</SPN_571_11>
+		<SPN_572>Retarder Enable - Shift Assist Switch,1,1,2,7,8</SPN_572>
+		<SPN_572_00>Retarder - shift assist disabled</SPN_572_00>
+		<SPN_572_01>Retarder - shift assist enabled</SPN_572_01>
+		<SPN_572_10>Not available</SPN_572_10>
+		<SPN_572_11>Not available</SPN_572_11>
+		<SPN_520>Actual Retarder - Percent Torque,0,1,-125,%,1,2</SPN_520>
+		<SPN_1085>Intended Retarder Percent Torque,0,1,-125,%,1,3</SPN_1085>
+		<SPN_1082>Engine Coolant Load Increase,1,4,2,1,2</SPN_1082>
+		<SPN_1082_00>No coolant load increase</SPN_1082_00>
+		<SPN_1082_01>Coolant load increase possible</SPN_1082_01>
+		<SPN_1082_10>Not available</SPN_1082_10>
+		<SPN_1082_11>Not available</SPN_1082_11>
+		<SPN_1667>Retarder Requesting Brake Light,1,4,2,3,4</SPN_1667>
+		<SPN_1667_00>Retarder is not requesting that the brake lights are illuminated</SPN_1667_00>
+		<SPN_1667_01>Retarder is requesting that the brake lights are illuminated</SPN_1667_01>
+		<SPN_1667_10>Reserved</SPN_1667_10>
+		<SPN_1667_11>Not available/Take no action</SPN_1667_11>
+		<SPN_1480>Source Address of Controlling Device for Retarder Control,0,1,0,no unit,1,5</SPN_1480>
+		<SPN_1715>Drivers Demand Retarder - Percent Torque,0,1,-125,%,1,6</SPN_1715>
+		<SPN_1716>Retarder Selection, non-engine,0,0.4,0,%,1,7</SPN_1716>
+		<SPN_1717>Actual Maximum Available Retarder - Percent Torque,0,1,-125,%,1,8</SPN_1717>
+	</PGN61440>
+
+	<PGN61441>
+		<SPN_LIST>21,561,562,563,1121,521,575,576,577,1238,972,971,970,969,973,1243,1439,1438,1793,1481,1836,1792</SPN_LIST>
+		<SPN_561>ASR Engine Control Active,1,1,2,1,2</SPN_561>
+		<SPN_561_00>ASR engine control passive but installed</SPN_561_00>
+		<SPN_561_01>ASR engine control active</SPN_561_01>
+		<SPN_561_10>Not available</SPN_561_10>
+		<SPN_561_11>Not available</SPN_561_11>
+		<SPN_562>ASR Brake Control Active,1,1,2,3,4</SPN_562>
+		<SPN_562_00>ASR brake control passive but installed</SPN_562_00>
+		<SPN_562_01>ASR brake control active</SPN_562_01>
+		<SPN_562_10>Not available</SPN_562_10>
+		<SPN_562_11>Not available</SPN_562_11>
+		<SPN_563>Anti-Lock Braking (ABS) Active,1,1,2,5,6</SPN_563>
+		<SPN_563_00>ABS passive but installed</SPN_563_00>
+		<SPN_563_01>ABS active</SPN_563_01>
+		<SPN_563_10>Not available</SPN_563_10>
+		<SPN_563_11>Not available</SPN_563_11>
+		<SPN_1121>EBS Brake Switch,1,1,2,7,8</SPN_1121>
+		<SPN_1121_00>Brake pedal is not being pressed</SPN_1121_00>
+		<SPN_1121_01>Brake pedal is being pressed</SPN_1121_01>
+		<SPN_1121_10>Not available</SPN_1121_10>
+		<SPN_1121_11>Not available</SPN_1121_11>
+		<SPN_521>Brake Pedal Position,0,0.4,0,%,1,2</SPN_521>
+		<SPN_575>ABS Off-road Switch,1,3,2,1,2</SPN_575>
+		<SPN_575_00>ABS off-road switch passive</SPN_575_00>
+		<SPN_575_01>ABS off-road switch active</SPN_575_01>
+		<SPN_575_10>Not available</SPN_575_10>
+		<SPN_575_11>Not available</SPN_575_11>
+		<SPN_576>ASR Off-road Switch,1,3,2,3,4</SPN_576>
+		<SPN_576_00>ASR off-road switch passive</SPN_576_00>
+		<SPN_576_01>ASR off-road switch active</SPN_576_01>
+		<SPN_576_10>Not available</SPN_576_10>
+		<SPN_576_11>Not available</SPN_576_11>
+		<SPN_577>ASR "Hill Holder" Switch,1,3,2,5,6</SPN_577>
+		<SPN_577_00>ASR 'hill holder' switch passive</SPN_577_00>
+		<SPN_577_01>ASR 'hill holder' switch active</SPN_577_01>
+		<SPN_577_10>Not available</SPN_577_10>
+		<SPN_577_11>Not available</SPN_577_11>
+		<SPN_1238>Traction Control Override Switch,1,3,2,7,8</SPN_1238>
+		<SPN_1238_00>Off</SPN_1238_00>
+		<SPN_1238_01>On</SPN_1238_01>
+		<SPN_1238_10>Error</SPN_1238_10>
+		<SPN_1238_11>Not available or not installed</SPN_1238_11>
+		<SPN_972>Accelerator Interlock Switch,1,4,2,1,2</SPN_972>
+		<SPN_972_00>Off</SPN_972_00>
+		<SPN_972_01>On</SPN_972_01>
+		<SPN_972_10>Not available</SPN_972_10>
+		<SPN_972_11>Not available</SPN_972_11>
+		<SPN_971>Engine Derate Switch,1,4,2,3,4</SPN_971>	
+		<SPN_971_00>Off</SPN_971_00>
+		<SPN_971_01>On</SPN_971_01>
+		<SPN_971_10>Not available</SPN_971_10>
+		<SPN_971_11>Not available</SPN_971_11>
+		<SPN_970>Auxiliary Engine Shutdown Switch,1,4,2,5,6</SPN_970>
+		<SPN_970_00>Off</SPN_970_00>
+		<SPN_970_01>On</SPN_970_01>
+		<SPN_970_10>Not available</SPN_970_10>
+		<SPN_970_11>Not available</SPN_970_11>
+		<SPN_969>Remote Accelerator Enable Switch,1,4,2,7,8</SPN_969>
+		<SPN_969_00>Off</SPN_969_00>
+		<SPN_969_01>On</SPN_969_01>
+		<SPN_969_10>Not available</SPN_969_10>
+		<SPN_969_11>Not available</SPN_969_11>
+		<SPN_973>Engine Retarder Selection,0,0.4,0,%,1,5</SPN_973>
+		<SPN_1243>ABS Fully Operational,1,6,2,1,2</SPN_1243>
+		<SPN_1243_00>Not Fully Operational</SPN_1243_00>
+		<SPN_1243_01>Fully Operational</SPN_1243_01>
+		<SPN_1243_10>Not available</SPN_1243_10>
+		<SPN_1243_11>Not available</SPN_1243_11>
+		<SPN_1439>EBS Red Warning Signal,1,6,2,3,4</SPN_1439>
+		<SPN_1439_00>Off</SPN_1439_00>
+		<SPN_1439_01>On</SPN_1439_01>
+		<SPN_1439_10>Reserved</SPN_1439_10>
+		<SPN_1439_11>Take no action</SPN_1439_11>
+		<SPN_1438>ABS/EBS Amber Warning Signal (Powered Vehicle),1,6,2,5,6</SPN_1438>
+		<SPN_1438_00>Off</SPN_1438_00>
+		<SPN_1438_01>On</SPN_1438_01>
+		<SPN_1438_10>Reserved</SPN_1438_10>
+		<SPN_1438_11>Take no action</SPN_1438_11>
+		<SPN_1793>ATC/ASR Information Signal,1,6,2,7,8</SPN_1793>
+		<SPN_1793_00>Off</SPN_1793_00>
+		<SPN_1793_01>On</SPN_1793_01>
+		<SPN_1793_10>Reserved</SPN_1793_10>
+		<SPN_1793_11>Take no action</SPN_1793_11>
+		<SPN_1481>Source Address of Controlling Device for Brake Control,0,1,0,no unit,1,7</SPN_1481>
+		<SPN_1836>Trailer ABS Status,1,8,2,5,6</SPN_1836>
+		<SPN_1836_00>Trailer ABS Status Information Available But Not Active</SPN_1836_00>
+		<SPN_1836_01>Trailer ABS Active</SPN_1836_01>s
+		<SPN_1836_10>Reserved</SPN_1836_10>
+		<SPN_1836_11>Trailer ABS Status Information Not Available or Parameter Not Supported</SPN_1836_11>
+		<SPN_1792>Tractor-Mounted Trailer ABS Warning Signal,1,8,2,7,8</SPN_1792>
+		<SPN_1792_00>Off</SPN_1792_00>
+		<SPN_1792_01>On</SPN_1792_01>
+		<SPN_1792_10>Reserved</SPN_1792_10>
+		<SPN_1792_11>Take no action</SPN_1792_11>
+	</PGN61441>
+
+	<PGN61442>
+		<SPN_LIST>9,560,573,574,191,522,606,607,161,1482</SPN_LIST>
+		<SPN_560>Driveline Engaged,1,1,2,1,2</SPN_560>
+		<SPN_560_00>Driveline disengaged</SPN_560_00>
+		<SPN_560_01>Driveline engaged</SPN_560_01>
+		<SPN_560_10>Not available</SPN_560_10>
+		<SPN_560_11>Not available</SPN_560_11>
+		<SPN_573>Torque Converter Lockup Engaged,1,1,2,3,4</SPN_573>
+		<SPN_573_00>Torque converter lockup disengaged</SPN_573_00>
+		<SPN_573_01>Torque converter lockup engaged</SPN_573_01>
+		<SPN_573_10>Not available</SPN_573_10>
+		<SPN_573_11>Not available</SPN_573_11>
+		<SPN_574>Shift In Process,1,1,2,5,6</SPN_574>
+		<SPN_574_00>Shift is not in process</SPN_574_00>
+		<SPN_574_01>Shift in process</SPN_574_01>
+		<SPN_574_10>Not available</SPN_574_10>
+		<SPN_574_11>Not available</SPN_574_11>
+		<SPN_191>Output Shaft Speed,0,0.125,0,rpm,2,2,3</SPN_191>
+		<SPN_522>Percent Clutch Slip,0,0.4,0,%,1,4</SPN_522>
+		<SPN_606>Momentary Engine Overspeed Enable,1,5,2,1,2</SPN_606>
+		<SPN_606_00>Momentary engine overspeed is disabled</SPN_606_00>
+		<SPN_606_01>Momentary engine overspeed is enabled</SPN_606_01>
+		<SPN_606_10>Not available</SPN_606_10>
+		<SPN_606_11>Take no action</SPN_606_11>
+		<SPN_607>Progressive Shift Disable,1,5,2,3,4</SPN_607>
+		<SPN_607_00>Progressive shift is not disabled</SPN_607_00>
+		<SPN_607_01>Progressive shift is disabled</SPN_607_01>
+		<SPN_607_10>Not available</SPN_607_10>
+		<SPN_607_11>Take no action</SPN_607_11>
+		<SPN_161>Input Shaft Speed,0,0.125,0,rpm,2,6,7</SPN_161>
+		<SPN_1482>Source Address of Controlling Device for Transmission Control,0,1,0,no unit,1,8</SPN_1482>
+	</PGN61442>
+	
+	<PGN61443>
+		<SPN_LIST>6,558,559,1437,91,92,974</SPN_LIST>
+		<SPN_558>Accelerator Pedal 1 Low Idle Switch,1,1,2,1,2</SPN_558>
+		<SPN_558_00>Accelerator pedal 1 not in low idle condition</SPN_558_00>
+		<SPN_558_01>Accelerator pedal 1 in low idle condition</SPN_558_01>
+		<SPN_558_10>Error</SPN_558_10>
+		<SPN_558_11>Not available</SPN_558_11>
+		<SPN_559>Accelerator Pedal Kickdown Switch,1,1,2,3,4</SPN_559>
+		<SPN_559_00>Kickdown passive</SPN_559_00>
+		<SPN_559_01>Kickdown active</SPN_559_01>
+		<SPN_559_10>Not available</SPN_559_10>
+		<SPN_559_11>Not available</SPN_559_11>
+		<SPN_1437>Road Speed Limit Status,1,1,2,5,6</SPN_1437>
+		<SPN_1437_00>Active</SPN_1437_00>
+		<SPN_1437_01>Not Active</SPN_1437_01>		
+		<SPN_1437_10>Not available</SPN_1437_10>
+		<SPN_1437_11>Not available</SPN_1437_11>
+		<SPN_91>Accelerator Pedal Position 1,0,0.4,0,%,1,2</SPN_91>
+		<SPN_92>Percent Load At Current Speed,0,1,0,%,1,3</SPN_92>
+		<SPN_974>Remote Accelerator Pedal Position,0,0.4,0,%,1,4</SPN_974>
+	</PGN61443>
+
+	<PGN61444>
+		<SPN_LIST>7,899,512,513,190,1483,1675,2432</SPN_LIST>
+		<SPN_899>Engine Torque Mode,1,1,4,1,4</SPN_899>
+		<SPN_899_0000>No idle governor/no request</SPN_899_0000>
+		<SPN_899_0001>Accelerator pedal/operator selection</SPN_899_0001>
+		<SPN_899_0010>cruise control</SPN_899_0010>
+		<SPN_899_0011>PTO Governor</SPN_899_0011>
+		<SPN_899_0100>Road speed governor</SPN_899_0100>
+		<SPN_899_0101>ASR Control</SPN_899_0101>
+		<SPN_899_0110>Transmission control</SPN_899_0110>
+		<SPN_899_0111>ABS control</SPN_899_0111>
+		<SPN_899_1000>Torque liniting</SPN_899_1000>
+		<SPN_899_1001>high speed governor</SPN_899_1001>
+		<SPN_899_1010>Braking system</SPN_899_1010>
+		<SPN_899_1011>Remote Accelerator</SPN_899_1011>
+		<SPN_899_1100>Not defined</SPN_899_1100>
+		<SPN_899_1101>Not defined</SPN_899_1101>
+		<SPN_899_1110>Other</SPN_899_1110>
+		<SPN_899_1111>Not available</SPN_899_1111>
+		<SPN_512>Driver's Demand Engine - Percent Torque,0,1,-125,%,1,2</SPN_512>
+		<SPN_513>Actual Engine - Percent Torque,0,1,-125,%,1,3</SPN_513>
+		<SPN_190>Engine Speed,0,0.125,0,rpm,2,4,5</SPN_190>
+		<SPN_1483>Source Address of Controlling Device for Engine Control,0,1,0,address/bit,1,6</SPN_1483>
+		<SPN_1675>Engine Starter Mode,1,7,4,1,4</SPN_1675>
+		<SPN_1675_0000>Start not requested</SPN_1675_0000>
+		<SPN_1675_0001>Starter active, gear not engaged</SPN_1675_0001>
+		<SPN_1675_0010>Starter active, gear engaged</SPN_1675_0010>
+		<SPN_1675_0011>Start finished;starter not active after having been actively engaged</SPN_1675_0011>
+		<SPN_1675_0100>Starter inhibited due to engine already running</SPN_1675_0100>
+		<SPN_1675_0101>Starter inhibited due to engine not ready for start</SPN_1675_0101>
+		<SPN_1675_0110>Starter inhibited due to driveline engaged or other transmission inhibit</SPN_1675_0110>
+		<SPN_1675_0111>Starter inhibited due to active immobilizer</SPN_1675_0111>
+		<SPN_1675_1000>Starter inhibited due to starter over-temp</SPN_1675_1000>
+		<SPN_1675_1001>Reserved</SPN_1675_1001>
+		<SPN_1675_1010>Reserved</SPN_1675_1010>
+		<SPN_1675_1011>Reserved</SPN_1675_1011>
+		<SPN_1675_1100>Starter inhibited - reason unknown</SPN_1675_1100>
+		<SPN_1675_1101>Error (legacy implementations only; use 1110)</SPN_1675_1101>
+		<SPN_1675_1110>Error</SPN_1675_1110>
+		<SPN_1675_1111>Not available</SPN_1675_1111>
+		<SPN_2432>Engine Demand - Percent Torque,0,1,-125,%,1,8</SPN_2432>
+	</PGN61444>
+
+	<PGN61445>
+		<SPN_LIST>5,524,526,523,162,163</SPN_LIST>
+		<SPN_524>Selected Gear,0,1,-125,no unit,1,1</SPN_524>
+		<SPN_526>Actual Gear Ratio,0,0.001,0,no unit,2,2,3</SPN_526>
+		<SPN_523>Current Gear,0,1,-125,no unit,1,4</SPN_523>
+		<SPN_162>Transmission Requested Range,3,0,per byte,2,5,6</SPN_162>
+		<SPN_163>Transmission Current Range,3,0,per byte,2,7,8</SPN_163>
+	</PGN61445>
+
+	<PGN61446>
+		<SPN_LIST>8,927,567,568,569,570,564,565,566</SPN_LIST>
+		<SPN_927>Location,1,1,8,1,8</SPN_927>
+		<SPN_567>Differential Lock State - Front Axle 1,1,2,1,2</SPN_567>
+		<SPN_567_00>Differential lock disengaged</SPN_567_00>
+		<SPN_567_01>Differential lock engaged</SPN_567_01>
+		<SPN_567_10>Not available</SPN_567_10>
+		<SPN_567_11>Not available</SPN_567_11>
+		<SPN_568>Differential Lock State - Front Axle 2,1,2,3,4</SPN_568>
+		<SPN_568_00>Differential lock disengaged</SPN_568_00>
+		<SPN_568_01>Differential lock engaged</SPN_568_01>
+		<SPN_568_10>Not available</SPN_568_10>
+		<SPN_568_11>Not available</SPN_568_11>
+		<SPN_569>Differential Lock State - Rear Axle 1,1,2,5,6</SPN_569>
+		<SPN_569_00>Differential lock disengaged</SPN_569_00>
+		<SPN_569_01>Differential lock engaged</SPN_569_01>
+		<SPN_569_10>Not available</SPN_569_10>
+		<SPN_569_11>Not available</SPN_569_11>
+		<SPN_570>Differential Lock State - Rear Axle 2,1,2,7,8</SPN_570>
+		<SPN_570_00>Differential lock disengaged</SPN_570_00>
+		<SPN_570_01>Differential lock engaged</SPN_570_01>
+		<SPN_570_10>Not available</SPN_570_10>
+		<SPN_570_11>Not available</SPN_570_11>
+		<SPN_564>Differential Lock State - Central,1,3,1,2</SPN_564>
+		<SPN_564_00>Differential lock disengaged</SPN_564_00>
+		<SPN_564_01>Differential lock engaged</SPN_564_01>
+		<SPN_564_10>Not available</SPN_564_10>
+		<SPN_564_11>Not available</SPN_564_11>
+		<SPN_565>Differential Lock State - Central Front,1,3,3,4</SPN_565>
+		<SPN_565_00>Differential lock disengaged</SPN_565_00>
+		<SPN_565_01>Differential lock engaged</SPN_565_01>
+		<SPN_565_10>Not available</SPN_565_10>
+		<SPN_565_11>Not available</SPN_565_11>
+		<SPN_566>Differential Lock State - Central Rear,1,3,5,6</SPN_566>
+		<SPN_566_00>Differential lock disengaged</SPN_566_00>
+		<SPN_566_01>Differential lock engaged</SPN_566_01>
+		<SPN_566_10>Not available</SPN_566_10>
+		<SPN_566_11>Not available</SPN_566_11>
+	</PGN61446>
+
+	<PGN61447>
+		<SPN_LIST>2,1701,1700</SPN_LIST>
+		<SPN_1701>Lane Departure Imminent, Right Side,1,1,2,5,6</SPN_1701>
+		<SPN_1701_00>Not imminent</SPN_1701_00>
+		<SPN_1701_01>Imminent</SPN_1701_01>
+		<SPN_1701_10>Reserved</SPN_1701_10>
+		<SPN_1701_11>Not used</SPN_1701_11>
+		<SPN_1700>Lane Departure Imminent, Left Side,1,1,2,7,8</SPN_1700>
+		<SPN_1700_00>Not imminent</SPN_1700_00>
+		<SPN_1700_01>Imminent</SPN_1700_01>
+		<SPN_1700_10>Reserved</SPN_1700_10>
+		<SPN_1700_11>Not used</SPN_1700_11>
+	</PGN61447>
+
+	<PGN61448>
+		<SPN_LIST>4, 1762,1763,1764,2599</SPN_LIST>
+		<SPN_1762>Hydraulic Pressure,0,2,0,kPa,2,1,2</SPN_1762>
+		<SPN_1763>Hydraulic Pressure Mode Indicator,1,3,2,1,2</SPN_1763>
+		<SPN_1763_00>Disabled</SPN_1763_00>
+		<SPN_1763_01>Enabled</SPN_1763_01>
+		<SPN_1763_10>Error Indicator</SPN_1763_10>
+		<SPN_1763_11>Not Available</SPN_1763_11>
+		<SPN_1764>Hydraulic Pressure Governor Switch,1,3,2,3,4</SPN_1764>
+		<SPN_1764_00>Pressure Mode Inactive</SPN_1764_00>
+		<SPN_1764_01>Pressure Mode Active</SPN_1764_01>
+		<SPN_1764_10>Error Indicator</SPN_1764_10>
+		<SPN_1764_11>Not Available</SPN_1764_11>
+		<SPN_2599>Fire Apparatus Pump Engagement,1,3,2,5,6</SPN_2599>
+		<SPN_2599_00>Pump not engaged</SPN_2599_00>
+		<SPN_2599_01>Pump engaged</SPN_2599_01>
+		<SPN_2599_10>Error</SPN_2599_10>
+		<SPN_2599_11>Not Available or not installed</SPN_2599_11>
+	</PGN61448>
+
+	<PGN61449>
+		<SPN_LIST>6,1807,1811,1812,1808,1809,1810</SPN_LIST>
+		<SPN_1807>Steering Wheel Angle,0,0.000976563,-31.374,rad,2,1,2</SPN_1807>
+		<SPN_1811>Steering Wheel Turn Counter,1,1,-32,turns,3,6,1,6</SPN_1811>
+		<SPN_1812>Steering Wheel Angle Sensor Type,1,3,2,7,8</SPN_1812>
+		<SPN_1812_00>Relative measuring principle</SPN_1812_00>
+		<SPN_1812_01>Absolute measuring principle</SPN_1812_01>
+		<SPN_1812_10>Reserved</SPN_1812_10>
+		<SPN_1812_11>Not Available</SPN_1812_11>
+		<SPN_1808>Yaw Rate,0,0.00012207,-3.92,rad/s,2,4,5</SPN_1808>
+		<SPN_1809>Lateral Acceleration,0,0.000488281,-15.687,m/s#,2,6,7</SPN_1809>
+		<SPN_1810>Longitudinal Acceleration,0,0.1,-12.5,m/s#,1,8</SPN_1810>
+	</PGN61449>
+
+	<PGN61450>
+		<SPN_LIST>2,2659,132</SPN_LIST>
+		<SPN_2659>EGR Mass Flow Rate,0,0.05,0,kg/h,2,1,2</SPN_2659>
+		<SPN_132>Inlet Air Mass Flow Rate,0,0.05,0,kg/h,2,3,4</SPN_132>
+	</PGN61450>
+
+	<PGN64977>
+		<SPN_LIST>3,2804,2805,2806</SPN_LIST>
+		<SPN_2804>FMS-standard Diagnostics Supported,1,1,1,2</SPN_2804>
+		<SPN_2804_00>Diagnostics Is Not Supported</SPN_2804_00>
+		<SPN_2804_01>Diagnostics Is Supported</SPN_2804_01>
+		<SPN_2804_10>Reserved</SPN_2804_10>
+		<SPN_2804_11>Don't care</SPN_2804_11>
+		<SPN_2805>FMS-standard Requests Supported,1,1,3,4</SPN_2805>
+		<SPN_2805_00>On request mode is not supported</SPN_2805_00>
+		<SPN_2805_01>On request mode is supported</SPN_2805_01>
+		<SPN_2805_10>Reserved</SPN_2805_10>
+		<SPN_2805_11>Don't care</SPN_2805_11>
+		<SPN_2806>FMS-standard SW-version supported,0,30,0,Per byte,4,2,5</SPN_2806>
+	</PGN64977>
+		
+	<PGN64978>
+		<SPN_LIST>2,2803,2802</SPN_LIST>
+		<SPN_2803>Keep-Alive Battery Consumption,0,1,0,mAhr,2,1,2</SPN_2803>
+		<SPN_2802>Data Memory Usage,0,0.4,0,%,1,3</SPN_2802>
+	</PGN64978>
+
+	<PGN64979>
+		<SPN_LIST>4,2629,2799,2800,2801</SPN_LIST>
+		<SPN_2629>Turbocharger 1 Compressor Outlet Temperature,0,0.03125,-273,deg C,2,1,2</SPN_2629>
+		<SPN_2799>Turbocharger 2 Compressor Outlet Temperature,0,0.03125,-273,deg C,2,3,4</SPN_2799>
+		<SPN_2800>Turbocharger 3 Compressor Outlet Temperature,0,0.03125,-273,deg C,2,5,6</SPN_2800>
+		<SPN_2801>Turbocharger 4 Compressor Outlet Temperature,0,0.03125,-273,deg C,2,7,8</SPN_2801>
+	</PGN64979>
+
+	<PGN64980>
+		<SPN_LIST>1,2796</SPN_LIST>
+		<SPN_2796>Transfer Case Selector Switch,1,1,3,1,3</SPN_2796>
+		<SPN_2796_000>2 wheel</SPN_2796_000>
+		<SPN_2796_001>4 wheel</SPN_2796_001>
+		<SPN_2796_010>Neutral</SPN_2796_010>
+		<SPN_2796_011>Reserved for SAE assignment</SPN_2796_011>
+		<SPN_2796_100>Reserved for SAE assignment</SPN_2796_100>
+		<SPN_2796_101>Reserved for SAE assignment</SPN_2796_101>
+		<SPN_2796_110>Error indicator</SPN_2796_110>
+		<SPN_2796_111>Not available</SPN_2796_111>
+	</PGN64980>
+
+	<PGN64981>
+		<SPN_LIST>5,2789,2790,2791,2792,2795</SPN_LIST>
+		<SPN_2789>Calculated Turbocharger 1 Turbine Inlet Temperature,0,0.03125,-273,deg C,2,1,2</SPN_2789>
+		<SPN_2790>Calculated Turbocharger 1 Compressor Outlet Temperature,0,0.03125,-273,deg C,2,3,4</SPN_2790>
+		<SPN_2791>Exhaust Gas Recirculation (EGR) Valve Control,0,0.0025,0,%,2,5,6</SPN_2791>
+		<SPN_2792>Variable Geometry Turbocharger (VGT) Air Control Shutoff Valve,1,7,2,1,2</SPN_2792>
+		<SPN_2792_00>VGT Air Control Shutoff Valve is Off</SPN_2792_00>
+		<SPN_2792_01>VGT Air Control Shutoff Valve is On</SPN_2792_01>
+		<SPN_2792_10>Reserved</SPN_2792_10>
+		<SPN_2792_11>Not available</SPN_2792_11>
+		<SPN_2795>VGT 1 Actuator Position,0,0.4,0,%,1,8</SPN_2795>
+	</PGN64981>
+
+	<PGN64982>
+		<SPN_LIST>22,2675,2670,2665,2660,2676,2671,2666,2661,2681,2680,2688,2687,2686,2685,2692,2691,2690,2689,2696,2695,2694,2693</SPN_LIST>
+		<SPN_2675>Joystick 1 X-Axis Neutral Position Status,1,1,2,1,2</SPN_2675>
+		<SPN_2675_00>Not in Neutral Position</SPN_2675_00>
+		<SPN_2675_01>In Neutral Position</SPN_2675_01>
+		<SPN_2675_10>Error Indicator</SPN_2675_10>
+		<SPN_2675_11>Not Available</SPN_2675_11>
+		<SPN_2670>Joystick 1 X-Axis Lever Left Negative Position Status,1,1,2,3,4</SPN_2670>
+		<SPN_2670_00>Not on negative side of Neutral</SPN_2670_00>
+		<SPN_2670_01>On negative side of Neutral</SPN_2670_01>
+		<SPN_2670_10>Error Indicator</SPN_2670_10>
+		<SPN_2670_11>Not Available</SPN_2670_11>
+		<SPN_2665>Joystick 1 X-Axis Lever Right Positive Position Status,1,1,2,5,6</SPN_2665>
+		<SPN_2665_00>Not on Positive side of Neutral</SPN_2665_00>
+		<SPN_2665_01>On positive side of Neutral</SPN_2665_01>
+		<SPN_2665_10>Error Indicator</SPN_2665_10>
+		<SPN_2665_11>Not Available</SPN_2665_11>
+		<SPN_2660>Joystick 1 X-Axis Position,2,2,0.1,0,%,1,2</SPN_2660>
+		<SPN_2676>Joystick 1 Y-Axis Neutral Position Status,1,3,2,1,2</SPN_2676>
+		<SPN_2676_00>Not in Neutral Position</SPN_2676_00>
+		<SPN_2676_01>In Neutral Position</SPN_2676_01>
+		<SPN_2676_10>Error Indicator</SPN_2676_10>
+		<SPN_2676_11>Not Available</SPN_2676_11>
+		<SPN_2671>Joystick 1 Y-Axis Lever Back Negative Position Status,1,3,2,3,4</SPN_2671>
+		<SPN_2671_00>Not on negative side of Neutral</SPN_2671_00>
+		<SPN_2671_01>On negative side of Neutral</SPN_2671_01>
+		<SPN_2671_10>Error Indicator</SPN_2671_10>
+		<SPN_2671_11>Not Available</SPN_2671_11>
+		<SPN_2666>Joystick 1 Y-Axis Lever Forward Positive Position Status,1,3,2,5,6</SPN_2666>
+		<SPN_2666_00>Not on Positive side of Neutral</SPN_2666_00>
+		<SPN_2666_01>On positive side of Neutral</SPN_2666_01>
+		<SPN_2666_10>Error Indicator</SPN_2666_10>
+		<SPN_2666_11>Not Available</SPN_2666_11>
+		<SPN_2661>Joystick 1 Y-Axis Position,2,2,0.1,0,%,3,4</SPN_2661>
+		<SPN_2681>Joystick 1 Y-Axis Detent Position Status,1,5,2,5,6</SPN_2681>
+		<SPN_2681_00>Joystick 1 Y-Axis Detent Position Status,1,5,2,5,6</SPN_2681_00>
+		<SPN_2681_00>Not in the Detent Position</SPN_2681_00>
+		<SPN_2681_01>In the Detent Position</SPN_2681_01>
+		<SPN_2681_10>Error Indicator</SPN_2681_10>
+		<SPN_2681_11>Not Available</SPN_2681_11>
+		<SPN_2680>Joystick 1 X-Axis Detent Position Status,1,5,2,7,8</SPN_2680>
+		<SPN_2680_00>Not in the Detent Position</SPN_2680_00>
+		<SPN_2680_01>In the Detent Position</SPN_2680_01>
+		<SPN_2680_10>Error Indicator</SPN_2680_10>
+		<SPN_2680_11>Not Available</SPN_2680_11>
+		<SPN_2688>Joystick 1 Button 4 Pressed Status,1,6,2,1,2</SPN_2688>
+		<SPN_2688_00>Button not pressed</SPN_2688_00>
+		<SPN_2688_01>Button pressed</SPN_2688_01>
+		<SPN_2688_10>Error Indicator</SPN_2688_10>
+		<SPN_2688_11>Not Available</SPN_2688_11>
+		<SPN_2687>Joystick 1 Button 3 Pressed Status,1,6,2,3,4</SPN_2687>
+		<SPN_2687_00>Button not pressed</SPN_2687_00>
+		<SPN_2687_01>Button pressed</SPN_2687_01>
+		<SPN_2687_10>Error Indicator</SPN_2687_10>
+		<SPN_2687_11>Not Available</SPN_2687_11>
+		<SPN_2686>Joystick 1 Button 2 Pressed Status,1,6,2,5,6</SPN_2686>
+		<SPN_2686_00>Button not pressed</SPN_2686_00>
+		<SPN_2686_01>Button pressed</SPN_2686_01>
+		<SPN_2686_10>Error Indicator</SPN_2686_10>
+		<SPN_2686_11>Not Available</SPN_2686_11>
+		<SPN_2685>Joystick 1 Button 1 Pressed Status,1,6,2,7,8</SPN_2685>
+		<SPN_2685_00>Button not pressed</SPN_2685_00>
+		<SPN_2685_01>Button pressed</SPN_2685_01>
+		<SPN_2685_10>Error Indicator</SPN_2685_10>
+		<SPN_2685_11>Not Available</SPN_2685_11>
+		<SPN_2692>Joystick 1 Button 8 Pressed Status,1,7,2,1,2</SPN_2692>
+		<SPN_2692_00>Button not pressed</SPN_2692_00>
+		<SPN_2692_01>Button pressed</SPN_2692_01>
+		<SPN_2692_10>Error Indicator</SPN_2692_10>
+		<SPN_2692_11>Not Available</SPN_2692_11>
+		<SPN_2691>Joystick 1 Button 7 Pressed Status,1,7,2,3,4</SPN_2691>
+		<SPN_2691_00>Button not pressed</SPN_2691_00>
+		<SPN_2691_01>Button pressed</SPN_2691_01>
+		<SPN_2691_10>Error Indicator</SPN_2691_10>
+		<SPN_2691_11>Not Available</SPN_2691_11>
+		<SPN_2690>Joystick 1 Button 6 Pressed Status,1,7,2,5,6</SPN_2690>
+		<SPN_2690_00>Button not pressed</SPN_2690_00>
+		<SPN_2690_01>Button pressed</SPN_2690_01>
+		<SPN_2690_10>Error Indicator</SPN_2690_10>
+		<SPN_2690_11>Not Available</SPN_2690_11>
+		<SPN_2689>Joystick 1 Button 5 Pressed Status,1,7,2,7,8</SPN_2689>
+		<SPN_2689_00>Button not pressed</SPN_2689_00>
+		<SPN_2689_01>Button pressed</SPN_2689_01>
+		<SPN_2689_10>Error Indicator</SPN_2689_10>
+		<SPN_2689_11>Not Available</SPN_2689_11>
+		<SPN_2696>Joystick 1 Button 12 Pressed Status,1,8,2,1,2</SPN_2696>
+		<SPN_2696_00>Button not pressed</SPN_2696_00>
+		<SPN_2696_01>Button pressed</SPN_2696_01>
+		<SPN_2696_10>Error Indicator</SPN_2696_10>
+		<SPN_2696_11>Not Available</SPN_2696_11>
+		<SPN_2695>Joystick 1 Button 11 Pressed Status,1,8,2,3,4</SPN_2695>
+		<SPN_2695_00>Button not pressed</SPN_2695_00>
+		<SPN_2695_01>Button pressed</SPN_2695_01>
+		<SPN_2695_10>Error Indicator</SPN_2695_10>
+		<SPN_2695_11>Not Available</SPN_2695_11>
+		<SPN_2694>Joystick 1 Button 10 Pressed Status,1,8,2,5,6</SPN_2694>
+		<SPN_2694_00>Button not pressed</SPN_2694_00>
+		<SPN_2694_01>Button pressed</SPN_2694_01>
+		<SPN_2694_10>Error Indicator</SPN_2694_10>
+		<SPN_2694_11>Not Available</SPN_2694_11>
+		<SPN_2693>Joystick 1 Button 9 Pressed Status,1,8,2,7,8</SPN_2693>
+		<SPN_2693_00>Button not pressed</SPN_2693_00>
+		<SPN_2693_01>Button pressed</SPN_2693_01>
+		<SPN_2693_10>Error Indicator</SPN_2693_10>
+		<SPN_2693_11>Not Available</SPN_2693_11>
+	</PGN64982>
+   
+	<PGN64983>
+		<SPN_LIST>15,2677,2672,2667,2662,2678,2673,2668,2663,2679,2674,2669,2664,2684,2683,2682</SPN_LIST>
+		<SPN_2677>Joystick 1 Grip X-Axis Neutral Position Status,1,1,2,1,2</SPN_2677>
+		<SPN_2677_00>Not in Neutral Position</SPN_2677_00>
+		<SPN_2677_01>In Neutral Position</SPN_2677_01>
+		<SPN_2677_10>Error Indicator</SPN_2677_10>
+		<SPN_2677_11>Not Available</SPN_2677_11>
+		<SPN_2672>Joystick 1 Grip X-Axis Lever Left Negative Position Status,1,1,2,3,4</SPN_2672>
+		<SPN_2672_00>Not on negative side of Neutral</SPN_2672_00>
+		<SPN_2672_01>On negative side of Neutral</SPN_2672_01>
+		<SPN_2672_10>Error Indicator</SPN_2672_10>
+		<SPN_2672_11>Not Available</SPN_2672_11>
+		<SPN_2667>Joystick 1 Grip X-Axis Lever Right Positive Position Status,1,1,2,5,6</SPN_2667>
+		<SPN_2667_00>Not on Positive side of Neutral</SPN_2667_00>
+		<SPN_2667_01>On positive side of Neutral</SPN_2667_01>
+		<SPN_2667_10>Error Indicator</SPN_2667_10>
+		<SPN_2667_11>Not Available</SPN_2667_11>
+		<SPN_2662>Joystick 1 Grip X-Axis Position,2,2,0.1,0,%,1,2</SPN_2662>
+		<SPN_2678>Joystick 1 Grip Y-Axis Neutral Position Status,1,3,2,1,2</SPN_2678>
+		<SPN_2678_00>Not in Neutral Position</SPN_2678_00>
+		<SPN_2678_01>In Neutral Position</SPN_2678_01>
+		<SPN_2678_10>Error Indicator</SPN_2678_10>
+		<SPN_2678_11>Not Available</SPN_2678_11>
+		<SPN_2673>Joystick 1 Grip Y-Axis Lever Back Negative Position Status,1,3,2,3,4</SPN_2673>
+		<SPN_2673_00>Not on negative side of Neutral</SPN_2673_00>
+		<SPN_2673_01>On negative side of Neutral</SPN_2673_01>
+		<SPN_2673_10>Error Indicator</SPN_2673_10>
+		<SPN_2673_11>Not Available</SPN_2673_11>
+		<SPN_2668>Joystick 1 Grip Y-Axis Lever Forward Positive Position Status,1,3,2,5,6</SPN_2668>
+		<SPN_2668_00>Not on Positive side of Neutral</SPN_2668_00>
+		<SPN_2668_01>On positive side of Neutral</SPN_2668_01>
+		<SPN_2668_10>Error Indicator</SPN_2668_10>
+		<SPN_2668_11>Not Available</SPN_2668_11>
+		<SPN_2663>Joystick 1 Grip Y-Axis Position,2,2,0.1,0,%,3,4</SPN_2663>
+		<SPN_2679>Joystick 1 Theta-Axis Neutral Position Status,1,5,2,1,2</SPN_2679>
+		<SPN_2679_00>Not in Neutral Position</SPN_2679_00>
+		<SPN_2679_01>In Neutral Position</SPN_2679_01>
+		<SPN_2679_10>Error Indicator</SPN_2679_10>
+		<SPN_2679_11>Not Available</SPN_2679_11>
+		<SPN_2674>Joystick 1 Theta-Axis Counter Clockwise Negative Position Status,1,5,2,3,4</SPN_2674>
+		<SPN_2674_00>Not on negative side of Neutral</SPN_2674_00>
+		<SPN_2674_01>On negative side of Neutral</SPN_2674_01>
+		<SPN_2674_10>Error Indicator</SPN_2674_10>
+		<SPN_2674_11>Not Available</SPN_2674_11>
+		<SPN_2669>Joystick 1 Theta-Axis Clockwise Positive Position Status,1,5,2,5,6</SPN_2669>
+		<SPN_2669_00>Not on Positive side of Neutral</SPN_2669_00>
+		<SPN_2669_01>On positive side of Neutral</SPN_2669_01>
+		<SPN_2669_10>Error Indicator</SPN_2669_10>
+		<SPN_2669_11>Not Available</SPN_2669_11>
+		<SPN_2664>Joystick 1 Theta-Axis Position,2,2,0.1,0,%,5,6</SPN_2664>
+		<SPN_2684>Joystick 1 Theta-Axis Detent Position Status,1,7,2,3,4</SPN_2684>
+		<SPN_2684_00>Not in the Detent Position</SPN_2684_00>
+		<SPN_2684_01>In the Detent Position</SPN_2684_01>
+		<SPN_2684_10>Error Indicator</SPN_2684_10>
+		<SPN_2684_11>Not Available</SPN_2684_11>
+		<SPN_2683>Joystick 1 Grip Y-Axis Detent Position Status,1,7,2,5,6</SPN_2683>
+		<SPN_2683_00>Not in the Detent Position</SPN_2683_00>
+		<SPN_2683_01>In the Detent Position</SPN_2683_01>
+		<SPN_2683_10>Error Indicator</SPN_2683_10>
+		<SPN_2683_11>Not Available</SPN_2683_11>
+		<SPN_2682>Joystick 1 Grip X-Axis Detent Position Status,1,7,2,7,8</SPN_2682>
+		<SPN_2682_00>Not in the Detent Position</SPN_2682_00>
+		<SPN_2682_01>In the Detent Position</SPN_2682_01>
+		<SPN_2682_10>Error Indicator</SPN_2682_10>
+		<SPN_2682_11>Not Available</SPN_2682_11>
+	</PGN64983>
+
+	<PGN64984>
+		<SPN_LIST>22,2712,2707,2702,2697,2713,2708,2703,2698,2718,2717,2725,2724,2723,2722,2729,2728,2727,2726,2733,2732,2731,2730
+</SPN_LIST>
+		<SPN_2712>Joystick 2 X-Axis Neutral Position Status,1,1,2,1,2</SPN_2712>
+		<SPN_2712_00>Not in Neutral Position</SPN_2712_00>
+		<SPN_2712_01>In Neutral Position</SPN_2712_01>
+		<SPN_2712_10>Error Indicator</SPN_2712_10>
+		<SPN_2712_11>Not Available</SPN_2712_11>
+		<SPN_2707>Joystick 2 X-Axis Lever Left Negative Position Status,1,1,2,3,4</SPN_2707>
+		<SPN_2707_00>Not on negative side of Neutral</SPN_2707_00>
+		<SPN_2707_01>On negative side of Neutral</SPN_2707_01>
+		<SPN_2707_10>Error Indicator</SPN_2707_10>
+		<SPN_2707_11>Not Available</SPN_2707_11>
+		<SPN_2702>Joystick 2 X-Axis Lever Right Positive Position Status,1,1,2,5,6</SPN_2702>
+		<SPN_2702_00>Not on Positive side of Neutral</SPN_2702_00>
+		<SPN_2702_01>On positive side of Neutral</SPN_2702_01>
+		<SPN_2702_10>Error Indicator</SPN_2702_10>
+		<SPN_2702_11>Not Available</SPN_2702_11>
+		<SPN_2697>Joystick 2 X-Axis Position,2,2,0.1,0,%,1,2</SPN_2697>
+		<SPN_2713>Joystick 2 Y-Axis Neutral Position Status,1,3,2,1,2</SPN_2713>
+		<SPN_2713_00>Not in Neutral Position</SPN_2713_00>
+		<SPN_2713_01>In Neutral Position</SPN_2713_01>
+		<SPN_2713_10>Error Indicator</SPN_2713_10>
+		<SPN_2713_11>Not Available</SPN_2713_11>
+		<SPN_2708>Joystick 2 Y-Axis Lever Back Negative Position Status,1,3,2,3,4</SPN_2708>
+		<SPN_2708_00>Not on negative side of Neutral</SPN_2708_00>
+		<SPN_2708_01>On negative side of Neutral</SPN_2708_01>
+		<SPN_2708_10>Error Indicator</SPN_2708_10>
+		<SPN_2708_11>Not Available</SPN_2708_11>
+		<SPN_2703>Joystick 2 Y-Axis Lever Forward Positive Position Status,1,3,2,5,6</SPN_2703>
+		<SPN_2703_00>Not on Positive side of Neutral</SPN_2703_00>
+		<SPN_2703_01>On positive side of Neutral</SPN_2703_01>
+		<SPN_2703_10>Error Indicator</SPN_2703_10>
+		<SPN_2703_11>Not Available</SPN_2703_11>
+		<SPN_2698>Joystick 2 Y-Axis Position,2,2,0.1,0,%,3,4</SPN_2698>
+		<SPN_2718>Joystick 2 Y-Axis Detent Position Status,1,5,2,5,6</SPN_2718>
+		<SPN_2718_00>Not in the Detent Position</SPN_2718_00>
+		<SPN_2718_01>In the Detent Position</SPN_2718_01>
+		<SPN_2718_10>Error Indicator</SPN_2718_10>
+		<SPN_2718_11>Not Available</SPN_2718_11>
+		<SPN_2717>Joystick 2 X-Axis Detent Position Status,1,5,2,7,8</SPN_2717>
+		<SPN_2717_00>Not in the Detent Position</SPN_2717_00>
+		<SPN_2717_01>In the Detent Position</SPN_2717_01>
+		<SPN_2717_10>Error Indicator</SPN_2717_10>
+		<SPN_2717_11>Not Available</SPN_2717_11>
+		<SPN_2725>Joystick 2 Button 4 Pressed Status,1,6,2,1,2</SPN_2725>
+		<SPN_2725_00>Button not pressed</SPN_2725_00>
+		<SPN_2725_01>Button pressed</SPN_2725_01>
+		<SPN_2725_10>Error Indicator</SPN_2725_10>
+		<SPN_2725_11>Not Available</SPN_2725_11>
+		<SPN_2724>Joystick 2 Button 3 Pressed Status,1,6,2,3,4</SPN_2724>
+		<SPN_2724_00>Button not pressed</SPN_2724_00>
+		<SPN_2724_01>Button pressed</SPN_2724_01>
+		<SPN_2724_10>Error Indicator</SPN_2724_10>
+		<SPN_2724_11>Not Available</SPN_2724_11>
+		<SPN_2723>Joystick 2 Button 2 Pressed Status,1,6,2,5,6</SPN_2723>
+		<SPN_2723_00>Button not pressed</SPN_2723_00>
+		<SPN_2723_01>Button pressed</SPN_2723_01>
+		<SPN_2723_10>Error Indicator</SPN_2723_10>
+		<SPN_2723_11>Not Available</SPN_2723_11>
+		<SPN_2722>Joystick 2 Button 1 Pressed Status,1,6,2,7,8</SPN_2722>
+		<SPN_2722_00>Button not pressed</SPN_2722_00>
+		<SPN_2722_01>Button pressed</SPN_2722_01>
+		<SPN_2722_10>Error Indicator</SPN_2722_10>
+		<SPN_2722_11>Not Available</SPN_2722_11>
+		<SPN_2729>Joystick 2 Button 8 Pressed Status,1,7,2,1,2</SPN_2729>
+		<SPN_2729_00>Button not pressed</SPN_2729_00>
+		<SPN_2729_01>Button pressed</SPN_2729_01>
+		<SPN_2729_10>Error Indicator</SPN_2729_10>
+		<SPN_2729_11>Not Available</SPN_2729_11>
+		<SPN_2728>Joystick 2 Button 7 Pressed Status,1,7,2,3,4</SPN_2728>
+		<SPN_2728_00>Button not pressed</SPN_2728_00>
+		<SPN_2728_01>Button pressed</SPN_2728_01>
+		<SPN_2728_10>Error Indicator</SPN_2728_10>
+		<SPN_2728_11>Not Available</SPN_2728_11>
+		<SPN_2727>Joystick 2 Button 6 Pressed Status,1,7,2,5,6</SPN_2727>
+		<SPN_2727_00>Button not pressed</SPN_2727_00>
+		<SPN_2727_01>Button pressed</SPN_2727_01>
+		<SPN_2727_10>Error Indicator</SPN_2727_10>
+		<SPN_2727_11>Not Available</SPN_2727_11>
+		<SPN_2726>Joystick 2 Button 5 Pressed Status,1,7,2,7,8</SPN_2726>
+		<SPN_2726_00>Button not pressed</SPN_2726_00>
+		<SPN_2726_01>Button pressed</SPN_2726_01>
+		<SPN_2726_10>Error Indicator</SPN_2726_10>
+		<SPN_2726_11>Not Available</SPN_2726_11>
+		<SPN_2733>Joystick 2 Button 12 Pressed Status,1,8,2,1,2</SPN_2733>
+		<SPN_2733_00>Button not pressed</SPN_2733_00>
+		<SPN_2733_01>Button pressed</SPN_2733_01>
+		<SPN_2733_10>Error Indicator</SPN_2733_10>
+		<SPN_2733_11>Not Available</SPN_2733_11>
+		<SPN_2732>Joystick 2 Button 1 Pressed Status,1,6,2,7,8</SPN_2732>
+		<SPN_2732_00>Button not pressed</SPN_2732_00>
+		<SPN_2732_01>Button pressed</SPN_2732_01>
+		<SPN_2732_10>Error Indicator</SPN_2732_10>
+		<SPN_2732_11>Not Available</SPN_2732_11>
+		<SPN_2731>Joystick 2 Button 10 Pressed Status,1,8,2,5,6</SPN_2731>
+		<SPN_2731_00>Button not pressed</SPN_2731_00>
+		<SPN_2731_01>Button pressed</SPN_2731_01>
+		<SPN_2731_10>Error Indicator</SPN_2731_10>
+		<SPN_2731_11>Not Available</SPN_2731_11>
+		<SPN_2730>Joystick 2 Button 9 Pressed Status,1,8,2,7,8</SPN_2730>
+		<SPN_2730_00>Button not pressed</SPN_2730_00>
+		<SPN_2730_01>Button pressed</SPN_2730_01>
+		<SPN_2730_10>Error Indicator</SPN_2730_10>
+		<SPN_2730_11>Not Available</SPN_2730_11>
+	</PGN64984>
+
+	<PGN64985>
+		<SPN_LIST>15,2714,2709,2704,2699,2715,2710,2705,2700,2716,2711,2706,2701,2721,2720,2719</SPN_LIST>
+		<SPN_2714>Joystick 2 Grip X-Axis Neutral Position Status,1,1,2,1,2</SPN_2714>
+		<SPN_2714_00>Not in Neutral Position</SPN_2714_00>
+		<SPN_2714_01>In Neutral Position</SPN_2714_01>
+		<SPN_2714_10>Error Indicator</SPN_2714_10>
+		<SPN_2714_11>Not Available</SPN_2714_11>
+		<SPN_2709>Joystick 2 Grip X-Axis Lever Left Negative Position Status,1,1,2,3,4</SPN_2709>
+		<SPN_2709_00>Not on negative side of Neutral</SPN_2709_00>	
+		<SPN_2709_01>On negative side of Neutral</SPN_2709_01>
+		<SPN_2709_10>Error Indicator</SPN_2709_10>
+		<SPN_2709_11>Not Available</SPN_2709_11>
+		<SPN_2704>Joystick 2 Grip X-Axis Lever Right Positive Position Status,1,1,2,5,6</SPN_2704>
+		<SPN_2704_00>Not on Positive side of Neutral</SPN_2704_00>
+		<SPN_2704_01>On positive side of Neutral</SPN_2704_01>
+		<SPN_2704_10>Error Indicator</SPN_2704_10>
+		<SPN_2704_11>Not Available</SPN_2704_11>
+		<SPN_2699>Joystick 2 Grip X-Axis Position,2,2,0.1,0,%,1,2</SPN_2699>
+		<SPN_2715>Joystick 2 Grip Y-Axis Neutral Position Status,1,3,2,1,2</SPN_2715>
+		<SPN_2715_00>Not in Neutral Position</SPN_2715_00>
+		<SPN_2715_01>In Neutral Position</SPN_2715_01>
+		<SPN_2715_10>Error Indicator</SPN_2715_10>
+		<SPN_2715_11>Not Available</SPN_2715_11>
+		<SPN_2710>Joystick 2 Grip Y-Axis Lever Back Negative Position Status,1,3,2,3,4</SPN_2710>
+		<SPN_2710_00>Not on negative side of Neutral</SPN_2710_00>
+		<SPN_2710_01>On negative side of Neutral</SPN_2710_01>
+		<SPN_2710_10>Error Indicator</SPN_2710_10>
+		<SPN_2710_11>Not Available</SPN_2710_11>
+		<SPN_2705>Joystick 2 Grip Y-Axis Lever Forward Positive Position Status,1,3,2,5,6</SPN_2705>
+		<SPN_2705_00>Not on Positive side of Neutral</SPN_2705_00>
+		<SPN_2705_01>On positive side of Neutral</SPN_2705_01>
+		<SPN_2705_10>Error Indicator</SPN_2705_10>
+		<SPN_2705_11>Not Available</SPN_2705_11>
+		<SPN_2700>Joystick 2 Grip Y-Axis Position,2,2,0.1,0,%,3,4</SPN_2700>
+		<SPN_2716>Joystick 2 Theta-Axis Neutral Position Status,1,5,2,1,2</SPN_2716>
+		<SPN_2716_00>Not in Neutral Position</SPN_2716_00>
+		<SPN_2716_01>In Neutral Position</SPN_2716_01>
+		<SPN_2716_10>Error Indicator</SPN_2716_10>
+		<SPN_2716_11>Not Available</SPN_2716_11>
+		<SPN_2711>Joystick 2 Theta-Axis Counter Clockwise Negative Position Status,1,5,2,3,4</SPN_2711>
+		<SPN_2711_00>Not on negative side of Neutral</SPN_2711_00>
+		<SPN_2711_01>On negative side of Neutral</SPN_2711_01>
+		<SPN_2711_10>Error Indicator</SPN_2711_10>
+		<SPN_2711_11>Not Available</SPN_2711_11>
+		<SPN_2706>Joystick 2 Theta-Axis Clockwise Positive Position Status,1,5,2,5,6</SPN_2706>
+		<SPN_2706_00>Not on Positive side of Neutral</SPN_2706_00>
+		<SPN_2706_01>On positive side of Neutral</SPN_2706_01>
+		<SPN_2706_10>Error Indicator</SPN_2706_10>
+		<SPN_2706_11>Not Available</SPN_2706_11>
+		<SPN_2701>Joystick 2 Theta-Axis Position,2,2,0.1,0,%,5,6</SPN_2701>
+		<SPN_2721>Joystick 2 Theta-Axis Detent Position Status,1,7,2,3,4</SPN_2721>
+		<SPN_2721_00>Not in the Detent Position</SPN_2721_00>
+		<SPN_2721_01>In the Detent Position</SPN_2721_01>
+		<SPN_2721_10>Error Indicator</SPN_2721_10>
+		<SPN_2721_11>Not Available</SPN_2721_11>
+		<SPN_2720>Joystick 2 Grip Y-Axis Detent Position Status,1,7,2,5,6</SPN_2720>
+		<SPN_2720_00>Not in the Detent Position</SPN_2720_00>
+		<SPN_2720_01>In the Detent Position</SPN_2720_01>
+		<SPN_2720_10>Error Indicator</SPN_2720_10>
+		<SPN_2720_11>Not Available</SPN_2720_11>
+		<SPN_2719>Joystick 2 Grip X-Axis Detent Position Status,1,7,2,7,8</SPN_2719>
+		<SPN_2719_00>Not in the Detent Position</SPN_2719_00>
+		<SPN_2719_01>In the Detent Position</SPN_2719_01>
+		<SPN_2719_10>Error Indicator</SPN_2719_10>
+		<SPN_2719_11>Not Available</SPN_2719_11>
+	</PGN64985>
+
+	<PGN64987>
+		<SPN_LIST>15,2751,2746,2741,2736,2752,2747,2742,2737,2753,2748,2743,2738,2758,2757,2756</SPN_LIST>
+		<SPN_2751>Joystick 3 Grip X-Axis Neutral Position Status,1,1,2,1,2</SPN_2751>
+		<SPN_2751_00>Not on negative side of Neutral</SPN_2751_00>
+		<SPN_2751_01>On negative side of Neutral</SPN_2751_01>
+		<SPN_2751_10>Error Indicator</SPN_2751_10>
+		<SPN_2751_11>Not Available</SPN_2751_11>
+		<SPN_2746>Joystick 3 Grip X-Axis Lever Left Negative Position Status,1,1,2,3,4</SPN_2746>
+		<SPN_2746_00>Not on negative side of Neutral</SPN_2746_00>
+		<SPN_2746_01>On negative side of Neutral</SPN_2746_01>
+		<SPN_2746_10>Error Indicator</SPN_2746_10>
+		<SPN_2746_11>Not Available</SPN_2746_11>
+		<SPN_2741>Joystick 3 Grip X-Axis Lever Right Positive Position Status,1,1,2,5,6</SPN_2741>
+		<SPN_2741_00>Not on Positive side of Neutral</SPN_2741_00>
+		<SPN_2741_01>On positive side of Neutral</SPN_2741_01>
+		<SPN_2741_10>Error Indicator</SPN_2741_10>
+		<SPN_2741_11>Not Available</SPN_2741_11>
+		<SPN_2736>Joystick 3 Grip X-Axis Position,2,2,0.1,0,%,1,2</SPN_2736>
+		<SPN_2752>Joystick 3 Grip Y-Axis Neutral Position Status,1,3,2,1,2</SPN_2752>
+		<SPN_2752_00>Not in Neutral Position</SPN_2752_00>
+		<SPN_2752_01>In Neutral Position</SPN_2752_01>
+		<SPN_2752_10>Error Indicator</SPN_2752_10>
+		<SPN_2752_11>Not Available</SPN_2752_11>
+		<SPN_2747>Joystick 3 Grip Y-Axis Lever Back Negative Position Status,1,3,2,3,4</SPN_2747>
+		<SPN_2747_00>Not on negative side of Neutral</SPN_2747_00>
+		<SPN_2747_01>On negative side of Neutral</SPN_2747_01>
+		<SPN_2747_10>Error Indicator</SPN_2747_10>
+		<SPN_2747_11>Not Available</SPN_2747_11>
+		<SPN_2742>Joystick 3 Grip Y-Axis Lever Forward Positive Position Status,1,3,2,5,6</SPN_2742>
+		<SPN_2742_00>Not on Positive side of Neutral</SPN_2742_00>
+		<SPN_2742_01>On positive side of Neutral</SPN_2742_01>
+		<SPN_2742_10>Error Indicator</SPN_2742_10>
+		<SPN_2742_11>Not Available</SPN_2742_11>
+		<SPN_2737>Joystick 3 Grip Y-Axis Position,2,2,0.1,0,%,3,4</SPN_2737>
+		<SPN_2753>Joystick 3 Theta-Axis Neutral Position Status,1,5,2,1,2</SPN_2753>
+		<SPN_2753_00>Not in Neutral Position</SPN_2753_00>
+		<SPN_2753_01>In Neutral Position</SPN_2753_01>
+		<SPN_2753_10>Error Indicator</SPN_2753_10>
+		<SPN_2753_11>Not Available</SPN_2753_11>
+		<SPN_2748>Joystick 3 Theta-Axis Counter Clockwise Negative Position Status,1,5,2,3,4</SPN_2748>
+		<SPN_2748_00>Not on negative side of Neutral</SPN_2748_00>
+		<SPN_2748_01>On negative side of Neutral</SPN_2748_01>
+		<SPN_2748_10>Error Indicator</SPN_2748_10>
+		<SPN_2748_11>Not Available</SPN_2748_11>
+		<SPN_2743>Joystick 3 Theta-Axis Clockwise Positive Position Status,1,5,2,5,6</SPN_2743>
+		<SPN_2743_00>Not on Positive side of Neutral</SPN_2743_00>
+		<SPN_2743_01>On positive side of Neutral</SPN_2743_01>
+		<SPN_2743_10>Error Indicator</SPN_2743_10>
+		<SPN_2743_11>Not Available</SPN_2743_11>
+		<SPN_2738>Joystick 3 Theta-Axis Position,2,2,0.1,0,%,5,6</SPN_2738>
+		<SPN_2758>Joystick 3 Theta-Axis Detent Position Status,1,7,2,3,4</SPN_2758>
+		<SPN_2758_00>Not in the Detent Position</SPN_2758_00>
+		<SPN_2758_01>In the Detent Position</SPN_2758_01>
+		<SPN_2758_10>Error Indicato</SPN_2758_10>
+		<SPN_2758_11>Not Available</SPN_2758_11>
+		<SPN_2757>Joystick 3 Grip Y-Axis Detent Position Status,1,7,2,5,6</SPN_2757>
+		<SPN_2757_00>Not in the Detent Position</SPN_2757_00>
+		<SPN_2757_01>In the Detent Position</SPN_2757_01>
+		<SPN_2757_10>Error Indicator</SPN_2757_10>
+		<SPN_2757_11>Not Available</SPN_2757_11>
+		<SPN_2756>Joystick 3 Grip X-Axis Detent Position Status,1,7,2,7,8</SPN_2756>
+		<SPN_2756_00>Not in the Detent Position</SPN_2756_00>
+		<SPN_2756_01>In the Detent Position</SPN_2756_01>
+		<SPN_2756_10>Error Indicator</SPN_2756_10>
+		<SPN_2756_11>Not Available</SPN_2756_11>
+	</PGN64987>
+
+	<PGN64988>
+		<SPN_LIST>3,2615,2616,2617</SPN_LIST>
+		<SPN_2615>Throttle Synchronization Mode Status,1,1,4,1,4</SPN_2615>
+		<SPN_2615_0000>Not Synchronized</SPN_2615_0000>
+		<SPN_2615_0001>Synchronized Center</SPN_2615_0001>
+		<SPN_2615_0010>Synchronized Port</SPN_2615_0010>
+		<SPN_2615_0011>Synchronized Starboard</SPN_2615_0011>
+		<SPN_2615_0100>Synchronized Master</SPN_2615_0100>
+		<SPN_2615_0101>Reserved</SPN_2615_0101>
+		<SPN_2615_0110>Reserved</SPN_2615_0110>
+		<SPN_2615_0111>Reserved</SPN_2615_0111>
+		<SPN_2615_1000>Reserved</SPN_2615_1000>
+		<SPN_2615_1001>Reserved</SPN_2615_1001>
+		<SPN_2615_1010>Reserved</SPN_2615_1010>
+		<SPN_2615_1011>Reserved</SPN_2615_1011>
+		<SPN_2615_1100>Reserved</SPN_2615_1100>
+		<SPN_2615_1101>Reserved</SPN_2615_1101>
+		<SPN_2615_1110>Reserved</SPN_2615_1110>
+		<SPN_2615_1111>Take no action</SPN_2615_1111>
+		<SPN_2616>Trolling Mode Status,1,1,2,5,6</SPN_2616>
+		<SPN_2616_00>Trolling mode is OFF</SPN_2616_00>
+		<SPN_2616_01>Trolling mode is ACTIVE</SPN_2616_01>
+		<SPN_2616_10>Reserved</SPN_2616_10>
+		<SPN_2616_11>Take no action</SPN_2616_11>
+		<SPN_2617>Slow Vessel Mode Status,1,1,2,7,8</SPN_2617>
+		<SPN_2617_00>Slow vessel mode is OFF</SPN_2617_00>
+		<SPN_2617_01>Slow vessel mode is ACTIVE</SPN_2617_01>
+		<SPN_2617_10>Reserved</SPN_2617_10>
+		<SPN_2617_11>Take no action</SPN_2617_11>
+	</PGN64988>
+
+	<PGN64991>
+		<SPN_LIST>1,2612</SPN_LIST>
+		<SPN_2612>Front Wheel Drive Actuator Status,1,1,2,1,2</SPN_2612>
+		<SPN_2612_00>Front Wheel Drive Actuator not engaged</SPN_2612_00>
+		<SPN_2612_01>Front Wheel Drive Actuator engaged</SPN_2612_01>
+		<SPN_2612_10>Error</SPN_2612_10>
+		<SPN_2612_11>Not Available</SPN_2612_11>
+	</PGN64991>
+
+	<PGN64992>
+		<SPN_LIST>2,2610,2611</SPN_LIST>
+		<SPN_2610>Solar Intensity Percent,0,0.4,0,%,1,1</SPN_2610>
+		<SPN_2611>Solar Sensor Maximum,0,0.4,0,mW/cm^2,1,2</SPN_2611>
+	</PGN64992>
+
+	<PGN64993>
+		<SPN_LIST>1,2609</SPN_LIST>
+		<SPN_2609>Cab A/C Refrigerant Compressor Outlet Pressure,0,16,0,kPa,1,1</SPN_2609>
+	</PGN64993>
+
+	<PGN64994>
+		<SPN_LIST>6,2603,2604,2605,2606,2607,2608</SPN_LIST>
+		<SPN_2603>Pneumatic Supply Pressure Request,0,8,0,kpa,1,1</SPN_2603>
+		<SPN_2604>Parking and/or Trailer Air Pressure Request,0,8,0,kpa,1,2</SPN_2604>
+		<SPN_2605>Service Brake Air Pressure Request, Circuit #1,0,8,0,kpa,1,3</SPN_2605>
+		<SPN_2606>Service Brake Air Pressure Request, Circuit #2,0,8,0,kpa,1,4</SPN_2606>
+		<SPN_2607>Auxiliary Equipment Supply Pressure Request,0,8,0,kpa,1,5</SPN_2607>
+		<SPN_2608>Air Suspension Supply Pressure Request,0,8,0,kpa,1,6</SPN_2608>
+	</PGN64994>
+
+	<PGN64995>
+		<SPN_LIST>1,2601</SPN_LIST>
+		<SPN_2601>Travel Velocity Control Position,0,1,-125,%,1,1</SPN_2601>
+	</PGN64995>
+
+	<PGN64996>
+		<SPN_LIST>1,2600</SPN_LIST>
+		<SPN_2600>Payload Percentage,0,1,0,%,1,1</SPN_2600>
+	</PGN64996>
+	
+	<PGN64997>
+		<SPN_LIST>8,2588,2589,2590,2591,2592,2593,2594,2595</SPN_LIST>
+		<SPN_2588>Maximum Vehicle Speed Limit 1,0,1,0,km/hr,1,1</SPN_2588>
+		<SPN_2589>Maximum Vehicle Speed Limit 2,0,1,0,km/hr,1,2</SPN_2589>
+		<SPN_2590>Maximum Vehicle Speed Limit 3,0,1,0,km/hr,1,3</SPN_2590>
+		<SPN_2591>Maximum Vehicle Speed Limit 4,0,1,0,km/hr,1,4</SPN_2591>
+		<SPN_2592>Maximum Vehicle Speed Limit 5,0,1,0,km/hr,1,5</SPN_2592>
+		<SPN_2593>Maximum Vehicle Speed Limit 6,0,1,0,km/hr,1,6</SPN_2593>
+		<SPN_2594>Maximum Vehicle Speed Limit 7,0,1,0,km/hr,1,7</SPN_2594>
+		<SPN_2595>Applied Vehicle Speed Limit,0,1,0,km/hr,1,8</SPN_2595>
+	</PGN64997>
+
+	<PGN64998>
+		<SPN_LIST>6,2580,2581,2584,2585,2582,2583</SPN_LIST>
+		<SPN_2580>Hydraulic Brake Pressure Circuit 1,0,100,0,MPa,1,1</SPN_2580>
+		<SPN_2581>Hydraulic Brake Pressure Circuit 2,0,100,0,MPa,1,2</SPN_2581>
+		<SPN_2584>Hydraulic Brake Pressure Warning State Circuit 1,1,3,2,1,2</SPN_2584>
+		<SPN_2584_00>Pressure level sufficient</SPN_2584_00>
+		<SPN_2584_01>Pressure level below warning level</SPN_2584_01>
+		<SPN_2584_10>Error indicator</SPN_2584_10>
+		<SPN_2584_11>Not available</SPN_2584_11>
+		<SPN_2585>Hydraulic Brake Pressure Warning State Circuit 2,1,3,2,3,4</SPN_2585>
+		<SPN_2585_00>Pressure level sufficient</SPN_2585_00>
+		<SPN_2585_01>Pressure level below warning level</SPN_2585_01>
+		<SPN_2585_10>Error indicator</SPN_2585_10>
+		<SPN_2585_11>Not available</SPN_2585_11>
+		<SPN_2582>Hydraulic Brake Pressure Supply State Circuit 1,1,3,2,5,6</SPN_2582>
+		<SPN_2582_00>Supply is not reliable</SPN_2582_00>
+		<SPN_2582_01>Supply is reliable</SPN_2582_01>
+		<SPN_2582_10>Error indicator</SPN_2582_10>
+		<SPN_2582_11>Not available</SPN_2582_11>
+		<SPN_2583>Hydraulic Brake Pressure Supply State Circuit 2,1,3,2,7,8</SPN_2583>
+		<SPN_2583_00>Supply is not reliable</SPN_2583_00>
+		<SPN_2583_01>Supply is reliable</SPN_2583_01>
+		<SPN_2583_10>Error indicator</SPN_2583_10>
+		<SPN_2583_11>Not available</SPN_2583_11>
+	</PGN64998>
+
+	<PGN65031>
+		<SPN_LIST>2,2433,2434</SPN_LIST>
+		<SPN_2433>Right Manifold Exhaust Gas Temperature,0,0.03125,-273,deg C,2,1,2;</SPN_2433>
+		<SPN_2434>Left Manifold Exhaust Gas Temperature,0,0.03125,-273,deg C,2,3,4;</SPN_2434>
+	</PGN65031>
+	
+	<PGN65088>
+		<SPN_LIST>31,2404,2352,2350,2348,2388,2386,2370,2368,2392,2376,2374,2372,2384,2382,2380,2378,2390,2358,2360,2362,2364,2366,2354,2356,2398,2396,2407,2598,2402,2400,2394</SPN_LIST>
+		<SPN_2404>Running Light,1,1,2,1,2</SPN_2404>
+		<SPN_2404_00>De-activate</SPN_2404_00>
+		<SPN_2404_01>Activate</SPN_2404_01>
+		<SPN_2404_10>Fault Detected</SPN_2404_10>
+		<SPN_2404_11>Not Available</SPN_2404_11>
+		<SPN_2352>Alternate Beam Head Light Data,1,1,2,3,4</SPN_2352>
+		<SPN_2352_00>De-activate</SPN_2352_00>
+		<SPN_2352_01>Activate</SPN_2352_01>
+		<SPN_2352_10>Fault Detected</SPN_2352_10>
+		<SPN_2352_11>Not Available</SPN_2352_11>
+		<SPN_2350>Low Beam Head Light Data,1,1,2,5,6</SPN_2350>
+		<SPN_2350_00>De-activate</SPN_2350_00>
+		<SPN_2350_01>Activate</SPN_2350_01>
+		<SPN_2350_10>Fault Detected</SPN_2350_10>
+		<SPN_2350_11>Not Available</SPN_2350_11>
+		<SPN_2348>High Beam Head Light Data,1,1,2,7,8</SPN_2348>
+		<SPN_2348_00>De-activate</SPN_2348_00>
+		<SPN_2348_01>Activate</SPN_2348_01>
+		<SPN_2348_10>Fault Detected</SPN_2348_10>
+		<SPN_2348_11>Not Available</SPN_2348_11>
+		<SPN_2388>Tractor Front Fog Lights,1,2,2,1,2</SPN_2388>
+		<SPN_2388_00>De-activate</SPN_2388_00>
+		<SPN_2388_01>Activate</SPN_2388_01>
+		<SPN_2388_10>Fault Detected</SPN_2388_10>
+		<SPN_2388_11>Not Available</SPN_2388_11>
+		<SPN_2386>Rotating Beacon Light,1,2,2,3,4</SPN_2386>
+		<SPN_2386_00>De-activate</SPN_2386_00>
+		<SPN_2386_01>Activate</SPN_2386_01>
+		<SPN_2386_10>Fault Detected</SPN_2386_10>
+		<SPN_2386_11>Not Available</SPN_2386_11>
+		<SPN_2370>Right Turn Signal Lights,1,2,2,5,6</SPN_2370>
+		<SPN_2370_00>De-activate</SPN_2370_00>
+		<SPN_2370_01>Activate</SPN_2370_01>
+		<SPN_2370_10>Fault Detected</SPN_2370_10>
+		<SPN_2370_11>Not Available</SPN_2370_11>
+		<SPN_2368>Left Turn Signal Lights,1,2,2,7,8</SPN_2368>
+		<SPN_2368_00>De-activate</SPN_2368_00>
+		<SPN_2368_01>Activate</SPN_2368_01>
+		<SPN_2368_10>Fault Detected</SPN_2368_10>
+		<SPN_2368_11>Not Available</SPN_2368_11>
+		<SPN_2392>Back Up Light and Alarm Horn,1,3,2,1,2</SPN_2392>
+		<SPN_2392_00>De-activate</SPN_2392_00>
+		<SPN_2392_01>Activate</SPN_2392_01>
+		<SPN_2392_10>Fault Detected</SPN_2392_10>
+		<SPN_2392_11>Not Available</SPN_2392_11>
+		<SPN_2376>Center Stop Light,1,3,2,3,4</SPN_2376>
+		<SPN_2376_00>De-activate</SPN_2376_00>
+		<SPN_2376_01>Activate</SPN_2376_01>
+		<SPN_2376_10>Fault Detected</SPN_2376_10>
+		<SPN_2376_11>Not Available</SPN_2376_11>
+		<SPN_2374>Right Stop Light,1,3,2,5,6</SPN_2374>
+		<SPN_2374_00>De-activate</SPN_2374_00>
+		<SPN_2374_01>Activate</SPN_2374_01>
+		<SPN_2374_10>Fault Detected</SPN_2374_10>
+		<SPN_2374_11>Not Available</SPN_2374_11>
+		<SPN_2372>Left Stop Light,1,3,2,7,8</SPN_2372>
+		<SPN_2372_00>De-activate</SPN_2372_00>
+		<SPN_2372_01>Activate</SPN_2372_01>
+		<SPN_2372_10>Fault Detected</SPN_2372_10>
+		<SPN_2372_11>Not Available</SPN_2372_11>
+		<SPN_2384>Implement Clearance Light,1,4,2,1,2</SPN_2384>
+		<SPN_2384_00>De-activate</SPN_2384_00>
+		<SPN_2384_01>Activate</SPN_2384_01>
+		<SPN_2384_10>Fault Detected</SPN_2384_10>
+		<SPN_2384_11>Not Available</SPN_2384_11>
+		<SPN_2382>Tractor Clearance Light,1,4,2,3,4</SPN_2382>
+		<SPN_2382_00>De-activate</SPN_2382_00>
+		<SPN_2382_01>Activate</SPN_2382_01>
+		<SPN_2382_10>Fault Detected</SPN_2382_10>
+		<SPN_2382_11>Not Available</SPN_2382_11>
+		<SPN_2380>Implement Marker Light,1,4,2,5,6</SPN_2380>
+		<SPN_2380_00>De-activate</SPN_2380_00>
+		<SPN_2380_01>Activate</SPN_2380_01>
+		<SPN_2380_10>Fault Detected</SPN_2380_10>
+		<SPN_2380_11>Not Available</SPN_2380_11>
+		<SPN_2378>Tractor Marker Light,1,4,2,7,8</SPN_2378>
+		<SPN_2378_00>De-activate</SPN_2378_00>
+		<SPN_2378_01>Activate</SPN_2378_01>
+		<SPN_2378_10>Fault Detected</SPN_2378_10>
+		<SPN_2378_11>Not Available</SPN_2378_11>
+		<SPN_2390>Rear Fog Lights,1,5,2,1,2</SPN_2390>
+		<SPN_2390_00>De-activate</SPN_2390_00>
+		<SPN_2390_01>Activate</SPN_2390_01>
+		<SPN_2390_10>Fault Detected</SPN_2390_10>
+		<SPN_2390_11>Not Available</SPN_2390_11>
+		<SPN_2358>Tractor Underside Mounted Work Lights,1,5,2,3,4</SPN_2358>
+		<SPN_2358_00>De-activate</SPN_2358_00>
+		<SPN_2358_01>Activate</SPN_2358_01>
+		<SPN_2358_10>Fault Detected</SPN_2358_10>
+		<SPN_2358_11>Not Available</SPN_2358_11>
+		<SPN_2360>Tractor Rear Low Mounted Work Lights,1,5,2,5,6</SPN_2360>
+		<SPN_2360_00>De-activate</SPN_2360_00>
+		<SPN_2360_01>Activate</SPN_2360_01>
+		<SPN_2360_10>Fault Detected</SPN_2360_10>
+		<SPN_2360_11>Not Available</SPN_2360_11>
+		<SPN_2362>Tractor Rear High Mounted Work Lights,1,5,2,7,8</SPN_2362>
+		<SPN_2362_00>De-activate</SPN_2362_00>
+		<SPN_2362_01>Activate</SPN_2362_01>
+		<SPN_2362_10>Fault Detected</SPN_2362_10>
+		<SPN_2362_11>Not Available</SPN_2362_11>
+		<SPN_2364>Tractor Side Low Mounted Work Lights,1,6,2,1,2</SPN_2364>
+		<SPN_2364_00>De-activate</SPN_2364_00>
+		<SPN_2364_01>Activate</SPN_2364_01>
+		<SPN_2364_10>Fault Detected</SPN_2364_10>
+		<SPN_2364_11>Not Available</SPN_2364_11>
+		<SPN_2366>Tractor Side High Mounted Work Lights,1,6,2,3,4</SPN_2366>
+		<SPN_2366_00>De-activate</SPN_2366_00>
+		<SPN_2366_01>Activate</SPN_2366_01>
+		<SPN_2366_10>Fault Detected</SPN_2366_10>
+		<SPN_2366_11>Not Available</SPN_2366_11>
+		<SPN_2354>Tractor Front Low Mounted Work Lights,1,6,2,5,6</SPN_2354>
+		<SPN_2354_00>De-activate</SPN_2354_00>
+		<SPN_2354_01>Activate</SPN_2354_01>
+		<SPN_2354_10>Fault Detected</SPN_2354_10>
+		<SPN_2354_11>Not Available</SPN_2354_11>
+		<SPN_2356>Tractor Front High Mounted Work Lights,1,6,2,7,8</SPN_2356>
+		<SPN_2356_00>De-activate</SPN_2356_00>
+		<SPN_2356_01>Activate</SPN_2356_01>
+		<SPN_2356_10>Fault Detected</SPN_2356_10>
+		<SPN_2356_11>Not Available</SPN_2356_11>
+		<SPN_2398>Implement OEM Option 2 Light,1,7,2,1,2</SPN_2398>
+		<SPN_2398_00>De-activate</SPN_2398_00>
+		<SPN_2398_01>Activate</SPN_2398_01>
+		<SPN_2398_10>Fault Detected</SPN_2398_10>
+		<SPN_2398_11>Not Available</SPN_2398_11>
+		<SPN_2396>Implement OEM Option 1 Light,1,7,2,3,4</SPN_2396>
+		<SPN_2396_00>De-activate</SPN_2396_00>
+		<SPN_2396_01>Activate</SPN_2396_01>
+		<SPN_2396_10>Fault Detected</SPN_2396_10>
+		<SPN_2396_11>Not Available</SPN_2396_11>
+		<SPN_2407>Implement Right Facing Work Light,1,7,2,5,6</SPN_2407>
+		<SPN_2407_00>De-activate</SPN_2407_00>
+		<SPN_2407_01>Activate</SPN_2407_01>
+		<SPN_2407_10>Fault Detected</SPN_2407_10>
+		<SPN_2407_11>Not Available</SPN_2407_11>
+		<SPN_2598>Implement Left Facing Work Light,1,7,2,7,8</SPN_2598>
+		<SPN_2598_00>De-activate</SPN_2598_00>
+		<SPN_2598_01>Activate</SPN_2598_01>
+		<SPN_2598_10>Fault Detected</SPN_2598_10>
+		<SPN_2598_11>Not Available</SPN_2598_11>
+		<SPN_2402>Implement Right Forward Work Light,1,8,2,3,4</SPN_2402>
+		<SPN_2402_00>De-activate</SPN_2402_00>
+		<SPN_2402_01>Activate</SPN_2402_01>
+		<SPN_2402_10>Fault Detected</SPN_2402_10>
+		<SPN_2402_11>Not Available</SPN_2402_11>
+		<SPN_2400>Implement Left Forward Work Light,1,8,2,5,6</SPN_2400>
+		<SPN_2400_00>De-activate</SPN_2400_00>
+		<SPN_2400_01>Activate</SPN_2400_01>
+		<SPN_2400_10>Fault Detected</SPN_2400_10>
+		<SPN_2400_11>Not Available</SPN_2400_11>
+		<SPN_2394>Implement Rear Work Light,1,8,2,7,8</SPN_2394>
+		<SPN_2394_00>De-activate</SPN_2394_00>
+		<SPN_2394_01>Activate</SPN_2394_01>
+		<SPN_2394_10>Fault Detected</SPN_2394_10>
+		<SPN_2394_11>Not Available</SPN_2394_11>
+	</PGN65088>
+
+	<PGN65089>
+		<SPN_LIST>32,2403,2351,2349,2347,2387,2385,2369,2367,2391,2375,2373,2371,2383,2381,2379,2377,2389,2357,2359,2361,2363,2365,2353,2355,2397,2395,2406,2597,2393,2401,2399,2405</SPN_LIST>
+		<SPN_2403>Running Light command,1,1,2,1,2</SPN_2403>
+		<SPN_2403_00>De-activate</SPN_2403_00>
+		<SPN_2403_01>Activate</SPN_2403_01>
+		<SPN_2403_10>Reserved</SPN_2403_10>
+		<SPN_2403_11>Don't Care</SPN_2403_11>
+		<SPN_2351>Alternate Beam Head Light Data command,1,1,2,3,4</SPN_2351>
+		<SPN_2351_00>De-activate</SPN_2351_00>
+		<SPN_2351_01>Activate</SPN_2351_01>
+		<SPN_2351_10>Reserved</SPN_2351_10>
+		<SPN_2351_11>Don't Care</SPN_2351_11>
+		<SPN_2349>Low Beam Head Light Data command,1,1,2,5,6</SPN_2349>
+		<SPN_2349_00>De-activate</SPN_2349_00>
+		<SPN_2349_01>Activate</SPN_2349_01>
+		<SPN_2349_10>Reserved</SPN_2349_10>
+		<SPN_2349_11>Don't Care</SPN_2349_11>
+		<SPN_2347>High Beam Head Light Data command,1,1,2,7,8</SPN_2347>
+		<SPN_2347_00>De-activate</SPN_2347_00>
+		<SPN_2347_01>Activate</SPN_2347_01>
+		<SPN_2347_10>Reserved</SPN_2347_10>
+		<SPN_2347_11>Don't Care</SPN_2347_11>
+		<SPN_2387>Tractor Front Fog Lights command,1,2,2,1,2</SPN_2387>
+		<SPN_2387_00>De-activate</SPN_2387_00>
+		<SPN_2387_01>Activate</SPN_2387_01>
+		<SPN_2387_10>Reserved</SPN_2387_10>
+		<SPN_2387_11>Don't Care</SPN_2387_11>
+		<SPN_2385>Rotating Beacon Light command,1,2,2,3,4</SPN_2385>
+		<SPN_2385_00>De-activate</SPN_2385_00>
+		<SPN_2385_01>Activate</SPN_2385_01>
+		<SPN_2385_10>Reserved</SPN_2385_10>
+		<SPN_2385_11>Don't Care</SPN_2385_11>
+		<SPN_2369>Right Turn Signal Lights command,1,2,2,5,6</SPN_2369>
+		<SPN_2369_00>De-activate</SPN_2369_00>
+		<SPN_2369_01>Activate</SPN_2369_01>
+		<SPN_2369_10>Reserved</SPN_2369_10>
+		<SPN_2369_11>Don't Care</SPN_2369_11>
+		<SPN_2367>Left Turn Signal Lights command,1,2,2,7,8</SPN_2367>
+		<SPN_2367_00>De-activate</SPN_2367_00>
+		<SPN_2367_01>Activate</SPN_2367_01>
+		<SPN_2367_10>Reserved</SPN_2367_10>
+		<SPN_2367_11>Don't Care</SPN_2367_11>
+		<SPN_2391>Back Up Light and Alarm Horn command,1,3,2,1,2</SPN_2391>
+		<SPN_2391_00>De-activate</SPN_2391_00>
+		<SPN_2391_01>Activate</SPN_2391_01>
+		<SPN_2391_10>Reserved</SPN_2391_10>
+		<SPN_2391_11>Don't Care</SPN_2391_11>
+		<SPN_2375>Center Stop Light command,1,3,2,3,4</SPN_2375>
+		<SPN_2375_00>De-activate</SPN_2375_00>
+		<SPN_2375_01>Activate</SPN_2375_01>
+		<SPN_2375_10>Reserved</SPN_2375_10>
+		<SPN_2375_11>Don't Care</SPN_2375_11>
+		<SPN_2373>Right Stop Light command,1,3,2,5,6</SPN_2373>
+		<SPN_2373_00>De-activate</SPN_2373_00>
+		<SPN_2373_01>Activate</SPN_2373_01>
+		<SPN_2373_10>Reserved</SPN_2373_10>
+		<SPN_2373_11>Don't Care</SPN_2373_11>
+		<SPN_2371>Left Stop Light command,1,3,2,7,8</SPN_2371>
+		<SPN_2371_00>De-activate</SPN_2371_00>
+		<SPN_2371_01>Activate</SPN_2371_01>
+		<SPN_2371_10>Reserved</SPN_2371_10>
+		<SPN_2371_11>Don't Care</SPN_2371_11>
+		<SPN_2383>Implement Clearance Light command,1,4,2,1,2</SPN_2383>
+		<SPN_2383_00>De-activate</SPN_2383_00>
+		<SPN_2383_01>Activate</SPN_2383_01>
+		<SPN_2383_10>Reserved</SPN_2383_10>
+		<SPN_2383_11>Don't Care</SPN_2383_11>
+		<SPN_2381>Tractor Clearance Light command,1,4,2,3,4</SPN_2381>
+		<SPN_2381_00>De-activate</SPN_2381_00>
+		<SPN_2381_01>Activate</SPN_2381_01>
+		<SPN_2381_10>Reserved</SPN_2381_10>
+		<SPN_2381_11>Don't Care</SPN_2381_11>
+		<SPN_2379>Implement Marker Light command,1,4,2,5,6</SPN_2379>
+		<SPN_2379_00>De-activate</SPN_2379_00>
+		<SPN_2379_01>Activate</SPN_2379_01>
+		<SPN_2379_10>Reserved</SPN_2379_10>
+		<SPN_2379_11>Don't Care</SPN_2379_11>
+		<SPN_2377>Tractor Marker Light command,1,4,2,7,8</SPN_2377>
+		<SPN_2377_00>De-activate</SPN_2377_00>
+		<SPN_2377_01>Activate</SPN_2377_01>
+		<SPN_2377_10>Reserved</SPN_2377_10>
+		<SPN_2377_11>Don't Care</SPN_2377_11>
+		<SPN_2389>Rear Fog Lights command,1,5,2,1,2</SPN_2389>
+		<SPN_2389_00>De-activate</SPN_2389_00>
+		<SPN_2389_01>Activate</SPN_2389_01>
+		<SPN_2389_10>Reserved</SPN_2389_10>
+		<SPN_2389_11>Don't Care</SPN_2389_11>
+		<SPN_2357>Tractor Underside Mounted Work Lights command,1,5,2,3,4</SPN_2357>
+		<SPN_2357_00>De-activate</SPN_2357_00>
+		<SPN_2357_01>Activate</SPN_2357_01>
+		<SPN_2357_10>Reserved</SPN_2357_10>
+		<SPN_2357_11>Don't Care</SPN_2357_11>
+		<SPN_2359>Tractor Rear Low Mounted Work Lights command,1,5,2,5,6</SPN_2359>
+		<SPN_2359_00>De-activate</SPN_2359_00>
+		<SPN_2359_01>Activate</SPN_2359_01>
+		<SPN_2359_10>Reserved</SPN_2359_10>
+		<SPN_2359_11>Don't Care</SPN_2359_11>
+		<SPN_2361>Tractor Rear High Mounted Work Lights command,1,5,2,7,8</SPN_2361>
+		<SPN_2361_00>De-activate</SPN_2361_00>
+		<SPN_2361_01>Activate</SPN_2361_01>
+		<SPN_2361_10>Reserved</SPN_2361_10>
+		<SPN_2361_11>Don't Care</SPN_2361_11>
+		<SPN_2363>Tractor Side Low Mounted Work Lights command,1,6,2,1,2</SPN_2363>
+		<SPN_2363_00>De-activate</SPN_2363_00>
+		<SPN_2363_01>Activate</SPN_2363_01>
+		<SPN_2363_10>Reserved</SPN_2363_10>
+		<SPN_2363_11>Don't Care</SPN_2363_11>
+		<SPN_2365>Tractor Side High Mounted Work Lights command,1,6,2,3,4</SPN_2365>
+		<SPN_2365_00>De-activate</SPN_2365_00>
+		<SPN_2365_01>Activate</SPN_2365_01>
+		<SPN_2365_10>Reserved</SPN_2365_10>
+		<SPN_2365_11>Don't Care</SPN_2365_11>
+		<SPN_2353>Tractor Front Low Mounted Work Lights command,1,6,2,5,6</SPN_2353>
+		<SPN_2353_00>De-activate</SPN_2353_00>
+		<SPN_2353_01>Activate</SPN_2353_01>
+		<SPN_2353_10>Reserved</SPN_2353_10>
+		<SPN_2353_11>Don't Care</SPN_2353_11>
+		<SPN_2355>Tractor Front High Mounted Work Lights command,1,6,2,7,8</SPN_2355>
+		<SPN_2355_00>De-activate</SPN_2355_00>
+		<SPN_2355_01>Activate</SPN_2355_01>
+		<SPN_2355_10>Reserved</SPN_2355_10>
+		<SPN_2355_11>Don't Care</SPN_2355_11>
+		<SPN_2397>Implement OEM Option 2 Light command,1,7,2,1,2</SPN_2397>
+		<SPN_2397_00>De-activate</SPN_2397_00>
+		<SPN_2397_01>Activate</SPN_2397_01>
+		<SPN_2397_10>Reserved</SPN_2397_10>
+		<SPN_2397_11>Don't Care</SPN_2397_11>
+		<SPN_2395>Implement OEM Option 1 Light command,1,7,2,3,4</SPN_2395>
+		<SPN_2395_00>De-activate</SPN_2395_00>
+		<SPN_2395_01>Activate</SPN_2395_01>
+		<SPN_2395_10>Reserved</SPN_2395_10>
+		<SPN_2395_11>Don't Care</SPN_2395_11>
+		<SPN_2406>Implement Right Facing Work Light,1,7,2,5,6</SPN_2406>
+		<SPN_2406_00>De-activate</SPN_2406_00>
+		<SPN_2406_01>Activate</SPN_2406_01>
+		<SPN_2406_10>Reserved</SPN_2406_10>
+		<SPN_2406_11>Don't Care</SPN_2406_11>
+		<SPN_2597>Implement Left Facing Work Light,1,7,2,7,8</SPN_2597>
+		<SPN_2597_00>De-activate</SPN_2597_00>
+		<SPN_2597_01>Activate</SPN_2597_01>
+		<SPN_2597_10>Reserved</SPN_2597_10>
+		<SPN_2597_11>Don't Care</SPN_2597_11>
+		<SPN_2393>Lighting Data Request Command,1,8,2,1,2</SPN_2393>
+		<SPN_2393_00>De-activate</SPN_2393_00>
+		<SPN_2393_01>Activate</SPN_2393_01>
+		<SPN_2393_10>Reserved</SPN_2393_10>
+		<SPN_2393_11>Don't Care</SPN_2393_11>
+		<SPN_2401>Implement Right Forward Work Light Command,1,8,2,3,4</SPN_2401>
+		<SPN_2401_00>De-activate</SPN_2401_00>
+		<SPN_2401_01>Activate</SPN_2401_01>
+		<SPN_2401_10>Reserved</SPN_2401_10>
+		<SPN_2401_11>Don't Care</SPN_2401_11>
+		<SPN_2399>Implement Left Forward Work Light Command,1,8,2,5,6</SPN_2399>
+		<SPN_2399_00>De-activate</SPN_2399_00>
+		<SPN_2399_01>Activate</SPN_2399_01>
+		<SPN_2399_10>Reserved</SPN_2399_10>
+		<SPN_2399_11>Don't Care</SPN_2399_11>
+		<SPN_2405>Implement Rear Work Light Command,1,8,2,7,8</SPN_2405>
+		<SPN_2405_00>De-activate</SPN_2405_00>
+		<SPN_2405_01>Activate</SPN_2405_01>
+		<SPN_2405_10>Reserved</SPN_2405_10>
+		<SPN_2405_11>Don't Care</SPN_2405_11>
+	</PGN65089>
+
+	<PGN65099>
+		<SPN_LIST>1,1845</SPN_LIST>
+		<SPN_1845>Transmission Torque Limit,0,1,0,Nm,2,1,2</SPN_1845>
+	</PGN65099>
+
+	<PGN65100>
+		<SPN_LIST>8,1840,1839,1838,1837,1841,1843,1842,1844</SPN_LIST>
+		<SPN_1840>Rear Black Out Marker Select,1,1,2,1,2</SPN_1840>
+		<SPN_1840_00>Off</SPN_1840_00>
+		<SPN_1840_01>On</SPN_1840_01>
+		<SPN_1840_10>Reserved</SPN_1840_10>
+		<SPN_1840_11>Not Supported</SPN_1840_11>
+		<SPN_1839>Front Black Out Marker Lamp Select,1,1,2,3,4</SPN_1839>
+		<SPN_1839_00>Off</SPN_1839_00>
+		<SPN_1839_01>On</SPN_1839_01>
+		<SPN_1839_10>Reserved</SPN_1839_10>
+		<SPN_1839_11>Not Supported</SPN_1839_11>
+		<SPN_1838>Convoy Lamp Select,1,1,2,5,6</SPN_1838>
+		<SPN_1838_00>Off</SPN_1838_00>
+		<SPN_1838_01>On</SPN_1838_01>
+		<SPN_1838_10>Reserved</SPN_1838_10>
+		<SPN_1838_11>Not Supported</SPN_1838_11>
+		<SPN_1837>Convoy Driving Lamp Select,1,1,2,7,8</SPN_1837>
+		<SPN_1837_00>Off</SPN_1837_00>
+		<SPN_1837_01>On</SPN_1837_01>
+		<SPN_1837_10>Reserved</SPN_1837_10>
+		<SPN_1837_11>Not Supported</SPN_1837_11>
+		<SPN_1841>Black Out Brake/Stop Lamp Select,1,3,2,7,8</SPN_1841>
+		<SPN_1841_00>Off</SPN_1841_00>
+		<SPN_1841_01>On</SPN_1841_01>
+		<SPN_1841_10>Reserved</SPN_1841_10>
+		<SPN_1841_11>Not Supported</SPN_1841_11>
+		<SPN_1843>Night Vision Illuminator Select,1,4,2,1,2</SPN_1843>
+		<SPN_1843_00>Off</SPN_1843_00>
+		<SPN_1843_01>On</SPN_1843_01>
+		<SPN_1843_10>Reserved</SPN_1843_10>
+		<SPN_1843_11>Not Supported</SPN_1843_11>
+		<SPN_1842>Black Out Work Lamp Select,1,4,2,7,8</SPN_1842>
+		<SPN_1842_00>Off</SPN_1842_00>
+		<SPN_1842_01>On</SPN_1842_01>
+		<SPN_1842_10>Reserved</SPN_1842_10>
+		<SPN_1842_11>Not Supported</SPN_1842_11>
+		<SPN_1844>Operators Black Out Intensity Selection,0,0.4,0,%,1,8</SPN_1844>
+	</PGN65100>
+
+	<PGN65101>
+		<SPN_LIST>2,1834,1835</SPN_LIST>
+		<SPN_1834>Total Average Fuel Rate,0,0.05,0,L/h,2,1,2</SPN_1834>
+		<SPN_1835>Total Average Fuel Economy,0,0.001953125,0,km/L,2,3,4</SPN_1835>
+	</PGN65101>
+
+	<PGN65102>
+		<SPN_LIST>2,1821,1820</SPN_LIST>
+		<SPN_1821>Position of doors,1,1,4,1,4</SPN_1821>
+		<SPN_1821_0000>At least 1 door is open</SPN_1821_0000>
+		<SPN_1821_0001>Closing last door</SPN_1821_0001>
+		<SPN_1821_0010>All doors closed</SPN_1821_0010>
+		<SPN_1821_0011>Not defined</SPN_1821_0011>
+		<SPN_1821_0100>Not defined</SPN_1821_0100>
+		<SPN_1821_0101>Not defined</SPN_1821_0101>
+		<SPN_1821_0110>Not defined</SPN_1821_0110>
+		<SPN_1821_0111>Not defined</SPN_1821_0111>
+		<SPN_1821_1000>Not defined</SPN_1821_1000>
+		<SPN_1821_1001>Not defined</SPN_1821_1001>
+		<SPN_1821_1010>Not defined</SPN_1821_1010>
+		<SPN_1821_1011>Not defined</SPN_1821_1011>
+		<SPN_1821_1100>Not defined</SPN_1821_1100>
+		<SPN_1821_1101>Not defined</SPN_1821_1101>
+		<SPN_1821_1110>Error</SPN_1821_1110>
+		<SPN_1821_1111>Not available</SPN_1821_1111>
+		<SPN_1820>Ramp / Wheel Chair Lift Position,1,1,2,5,6</SPN_1820>
+		<SPN_1820_00>Inside bus</SPN_1820_00>
+		<SPN_1820_01>Outside bus</SPN_1820_01>
+		<SPN_1820_10>Error</SPN_1820_10>
+		<SPN_1820_11>Not available</SPN_1820_11>	
+	</PGN65102>
+
+	<PGN65103>
+		<SPN_LIST>7,1813,1814,1815,1816,1817,1818,1819</SPN_LIST>
+		<SPN_1813>VDC Information Signal,1,1,2,1,2</SPN_1813>
+		<SPN_1813_00>Off</SPN_1813_00>
+		<SPN_1813_01>On</SPN_1813_01>
+		<SPN_1813_10>Reserved</SPN_1813_10>
+		<SPN_1813_11>Don't care/Take no action</SPN_1813_11>
+		<SPN_1814>VDC Fully Operational,1,1,2,3,4</SPN_1814>
+		<SPN_1814_00>Not fully operational</SPN_1814_00>
+		<SPN_1814_01>Fully operational</SPN_1814_01>
+		<SPN_1814_10>Reserved</SPN_1814_10>
+		<SPN_1814_11>Don't care/Take no action</SPN_1814_11>
+		<SPN_1815>VDC brake light request,1,1,2,5,6</SPN_1815>
+		<SPN_1815_00>Turn brake light not on</SPN_1815_00>
+		<SPN_1815_01>Turn brake light on</SPN_1815_01>
+		<SPN_1815_10>Reserved</SPN_1815_10>
+		<SPN_1815_11>Don't care/Take no action</SPN_1815_11>
+		<SPN_1816>ROP Engine Control active,1,2,2,1,2</SPN_1816>
+		<SPN_1816_00>ROP engine control passive but installed</SPN_1816_00>
+		<SPN_1816_01>ROP engine control active</SPN_1816_01>
+		<SPN_1816_10>Reserved</SPN_1816_10>
+		<SPN_1816_11>Don't care/Take no action</SPN_1816_11>
+		<SPN_1817>ROP Brake Control active,1,2,2,3,4</SPN_1817>
+		<SPN_1817_00>ROP brake control passive but installed</SPN_1817_00>
+		<SPN_1817_01>ROP brake control active</SPN_1817_01>
+		<SPN_1817_10>Reserved</SPN_1817_10>
+		<SPN_1817_11>Don't care/Take no action</SPN_1817_11>
+		<SPN_1818>YC Engine Control active,1,2,2,5,6</SPN_1818>
+		<SPN_1818_00>YC engine control passive but installed</SPN_1818_00>
+		<SPN_1818_01>YC engine control active</SPN_1818_01>
+		<SPN_1818_10>Reserved</SPN_1818_10>
+		<SPN_1818_11>Don't care/Take no action</SPN_1818_11>
+		<SPN_1819>YC Brake Control active,1,2,2,7,8</SPN_1819>
+		<SPN_1819_00>YC brake control passive but installed</SPN_1819_00>
+		<SPN_1819_01>YC brake control active</SPN_1819_01>
+		<SPN_1819_10>Reserved</SPN_1819_10>
+		<SPN_1819_11>Don't care/Take no action</SPN_1819_11>
+	</PGN65103>
+
+	<PGN65104>
+		<SPN_LIST>2,1800,1801</SPN_LIST>
+		<SPN_1800>Battery 1 Temperature,0,1,-40,deg C,1,1</SPN_1800>
+		<SPN_1801>Battery 2 Temperature,0,1,-40,deg C,1,2</SPN_1801>
+	</PGN65104>
+
+	<PGN65105>
+		<SPN_LIST>1,1799</SPN_LIST>
+		<SPN_1799>Requested ACC Distance Mode,1,1,3,6,8</SPN_1799>
+		<SPN_1799_000>Requested ACC Distance Mode #1</SPN_1799_000>
+		<SPN_1799_001>Requested ACC Distance Mode #2</SPN_1799_001>
+		<SPN_1799_010>Requested ACC Distance Mode #3</SPN_1799_010>
+		<SPN_1799_011>Requested ACC Distance Mode #4</SPN_1799_011>
+		<SPN_1799_100>Requested ACC Distance Mode #5</SPN_1799_100>
+		<SPN_1799_101>Not defined</SPN_1799_101>
+		<SPN_1799_110>Error condition</SPN_1799_110>
+		<SPN_1799_111>Not available</SPN_1799_111>
+	</PGN65105>
+
+	<PGN65106>
+		<SPN_LIST>2,1795,2579</SPN_LIST>
+		<SPN_1795>Alternator Current (High Range/Resolution),0,0.05,-1600,A,2,1,2</SPN_1795>
+		<SPN_2579>Net Battery Current (High Range/Resolution),0,0.05,-1600,A,2,3,4</SPN_2579>
+	</PGN65106>
+
+	<PGN65107>
+		<SPN_LIST>8,1776,1777,1778,1779,1780,1781,1782,1783</SPN_LIST>
+		<SPN_1776>Low Limit Threshhold for Maximum RPM from Retarder,0,32,0,rpm,1,1</SPN_1776>
+		<SPN_1777>High Limit Threshhold for Minimum Continuous RPM from Retarder,0,32,0,rpm,1,2</SPN_1777>
+		<SPN_1778>Low Limit Threshhold for Maximum Torque from Retarder,0,1,-125,%,1,3</SPN_1778>
+		<SPN_1779>High Limit Threshhold for Minimum Continuous Torque from Retarder,0,1,-125,%,1,4</SPN_1779>
+		<SPN_1780>Maximum Continuous Retarder Speed,0,32,0,rpm,1,5</SPN_1780>
+		<SPN_1781>Minimum Continuous Retarder Speed,0,32,0,rpm,1,6</SPN_1781>
+		<SPN_1782>Maximum Continuous Retarder Torque,0,1,-125,%,1,7</SPN_1782>
+		<SPN_1783>Minimum Continuous Retarder Torque,0,1,-125,%,1,8</SPN_1783>
+	</PGN65107>
+
+	<PGN65108>
+		<SPN_LIST>8,1768,1769,1770,1771,1772,1773,1774,1775</SPN_LIST>
+		<SPN_1768>Low Limit Threshhold for Maximum RPM from Engine,0,32,0,rpm,1,1</SPN_1768>
+		<SPN_1769>High Limit Threshhold for Minimum Continuous Engine RPM,0,32,0,rpm,1,2</SPN_1769>
+		<SPN_1770>Low Limit Threshold for Maximum Torque from Engine,0,1,-125,%,1,3</SPN_1770>
+		<SPN_1771>High Limit Threshhold for Minimum Continuous Torque from Engine,0,1,-125,%,1,4</SPN_1771>
+		<SPN_1772>Maximum Continuous Engine RPM,0,32,0,rpm,1,5</SPN_1772>
+		<SPN_1773>Minimum Continuous Engine RPM,0,32,0,rpm,1,6</SPN_1773>
+		<SPN_1774>Maximum Continuous Engine Torque,0,1,-125,%,1,7</SPN_1774>
+		<SPN_1775>Minimum Continuous Engine Torque,0,1,-125,%,1,8</SPN_1775>
+	</PGN65108>
+
+	<PGN65109>
+		<SPN_LIST>1,1767</SPN_LIST>
+		<SPN_1767>Specific Heat Ratio,0,0.001,0,no unit,2,1,2</SPN_1767>
+	</PGN65109>
+
+	<PGN65110>
+		<SPN_LIST>1,1761</SPN_LIST>
+		<SPN_1761>Catalyst Tank Level,0,0.4,0,%,1,1</SPN_1761>
+	</PGN65110>
+
+	<PGN65111>
+		<SPN_LIST>6,1729,1730,1731,1833,1832,1831</SPN_LIST>
+		<SPN_1729>Damper Stiffness Front Axle,0,0.4,0,%,1,1</SPN_1729>
+		<SPN_1730>Damper Stiffness Rear Axle,0,0.4,0,%,1,2</SPN_1730>
+		<SPN_1731>Damper Stiffness Lift/Tag Axle,0,0.4,0,%,1,3</SPN_1731>
+		<SPN_1833>Electronic Shock Absorber Control Mode - Front Axle,1,4,2,1,2</SPN_1833>
+		<SPN_1833_00>Normal operation dampers passive</SPN_1833_00>
+		<SPN_1833_01>Normal operation dampers active</SPN_1833_01>
+		<SPN_1833_10>Error</SPN_1833_10>
+		<SPN_1833_11>Not available</SPN_1833_11>
+		<SPN_1832>Electronic Shock Absorber Control Mode - Rear Axle,1,4,2,3,4</SPN_1832>
+		<SPN_1832_00>Normal operation dampers passive</SPN_1832_00>
+		<SPN_1832_01>Normal operation dampers active</SPN_1832_01>
+		<SPN_1832_10>Error</SPN_1832_10>
+		<SPN_1832_11>Not available</SPN_1832_11>
+		<SPN_1831>Electronic Shock Absorber Control Mode - Lift/Tag Axle,1,4,2,5,6</SPN_1831>
+		<SPN_1831_00>Normal operation dampers passive</SPN_1831_00>
+		<SPN_1831_01>Normal operation dampers active</SPN_1831_01>
+		<SPN_1831_10>Error</SPN_1831_10>
+		<SPN_1831_11>Not available</SPN_1831_11>
+	</PGN65111>
+
+	<PGN65112>
+		<SPN_LIST>4,1725,1726,1727,1728</SPN_LIST>
+		<SPN_1725>Bellow Pressure Front Axle Left,0,0.1,0,kPa,2,1,2</SPN_1725>
+		<SPN_1726>Bellow Pressure Front Axle Right,0,0.1,0,kPa,2,3,4</SPN_1726>
+		<SPN_1727>Bellow Pressure Rear Axle Left,0,0.1,0,kPa,2,5,6</SPN_1727>
+		<SPN_1728>Bellow Pressure Rear Axle Right,0,0.1,0,kPa,2,7,8</SPN_1728>
+	</PGN65112>
+
+	<PGN65113>
+		<SPN_LIST>4,1721,1722,1723,1724</SPN_LIST>
+		<SPN_1721>Relative Pressure Front Axle Left,0,0.1,-3200,mm,2,1,2</SPN_1721>
+		<SPN_1722>Relative Pressure Front Axle Right,0,0.1,-3200,mm,2,3,4</SPN_1722>
+		<SPN_1723>Relative Pressure Rear Axle Left,0,0.1,-3200,mm,2,5,6</SPN_1723>
+		<SPN_1724>Relative Pressure Rear Axle Right,0,0.1,-3200,mm,2,7,8</SPN_1724>
+	</PGN65113>
+
+	<PGN65114>
+		<SPN_LIST>22,1734,1733,1738,1754,1737,1736,1740,1755,1739,1756,1742,1741,1746,1745,1744,1743,1824,1823,1822,1826,1825,1827</SPN_LIST>
+		<SPN_1734>Nominal Level Front Axle,1,1,4,1,4</SPN_1734>
+		<SPN_1734_0000>Level not specified</SPN_1734_0000>
+		<SPN_1734_0001>Normal Level 1</SPN_1734_0001>
+		<SPN_1734_0010>Normal Level 2</SPN_1734_0010>
+		<SPN_1734_0011>Normal Level 3</SPN_1734_0011>
+		<SPN_1734_0100>Preset Level</SPN_1734_0100>
+		<SPN_1734_0101>Customer Level</SPN_1734_0101>
+		<SPN_1734_0110>Upper Level</SPN_1734_0110>
+		<SPN_1734_0111>Lower Level</SPN_1734_0111>
+		<SPN_1734_1000>Not defined</SPN_1734_1000>
+		<SPN_1734_1001>Not defined</SPN_1734_1001>
+		<SPN_1734_1010>Not defined</SPN_1734_1010>
+		<SPN_1734_1011>Not defined</SPN_1734_1011>
+		<SPN_1734_1100>Not defined</SPN_1734_1100>
+		<SPN_1734_1101>Not defined</SPN_1734_1101>
+		<SPN_1734_1110>Error</SPN_1734_1110>
+		<SPN_1734_1111>Not available</SPN_1734_1111>
+		<SPN_1733>Nominal Level Rear Axle,1,1,4,5,8</SPN_1733>
+		<SPN_1733_0000>Level not specified</SPN_1733_0000>
+		<SPN_1733_0001>Normal Level 1</SPN_1733_0001>
+		<SPN_1733_0010>Normal Level 2</SPN_1733_0010>
+		<SPN_1733_0011>Normal Level 3</SPN_1733_0011>
+		<SPN_1733_0100>Preset Level</SPN_1733_0100>
+		<SPN_1733_0101>Customer Level</SPN_1733_0101>
+		<SPN_1733_0110>Upper Level</SPN_1733_0110>
+		<SPN_1733_0111>Lower Level</SPN_1733_0111>
+		<SPN_1733_1000>Not defined</SPN_1733_1000>
+		<SPN_1733_1001>Not defined</SPN_1733_1001>
+		<SPN_1733_1010>Not defined</SPN_1733_1010>
+		<SPN_1733_1011>Not defined</SPN_1733_1011>
+		<SPN_1733_1100>Not defined</SPN_1733_1100>
+		<SPN_1733_1101>Not defined</SPN_1733_1101>
+		<SPN_1733_1110>Error</SPN_1733_1110>
+		<SPN_1733_1111>Not available</SPN_1733_1111>
+		<SPN_1738>Below Nominal Level Front Axle,1,2,2,1,2</SPN_1738>
+		<SPN_1738_00>Not below</SPN_1738_00>
+		<SPN_1738_01>Below</SPN_1738_01>
+		<SPN_1738_10>Error</SPN_1738_10>
+		<SPN_1738_11>Not available</SPN_1738_11>
+		<SPN_1754>Below Nominal Level Rear Axle,1,2,2,3,4</SPN_1754>
+		<SPN_1754_00>Not below</SPN_1754_00>
+		<SPN_1754_01>Below</SPN_1754_01>
+		<SPN_1754_10>Error</SPN_1754_10>
+		<SPN_1754_11>Not available</SPN_1754_11>
+		<SPN_1737>Above Nominal Level Front Axle,1,2,2,5,6</SPN_1737>
+		<SPN_1737_00>Not above</SPN_1737_00>
+		<SPN_1737_01>Above</SPN_1737_01>
+		<SPN_1737_10>Error</SPN_1737_10>
+		<SPN_1737_11>Not available</SPN_1737_11>
+		<SPN_1736>Above Nominal Level Rear Axle,1,2,2,7,8</SPN_1736>
+		<SPN_1736_00>Not above</SPN_1736_00>
+		<SPN_1736_01>Above</SPN_1736_01>
+		<SPN_1736_10>Error</SPN_1736_10>
+		<SPN_1736_11>Not available</SPN_1736_11>
+		<SPN_1740>Lowering Control Mode Front Axle,1,3,2,1,2</SPN_1740>
+		<SPN_1740_00>Lowering not active</SPN_1740_00>
+		<SPN_1740_01>Lowering active</SPN_1740_01>
+		<SPN_1740_10>Error</SPN_1740_10>
+		<SPN_1740_11>Not available</SPN_1740_11>
+		<SPN_1755>Lowering Control Mode Rear Axle,1,3,2,3,4</SPN_1755>
+		<SPN_1755_00>Lowering not active</SPN_1755_00>
+		<SPN_1755_01>Lowering active</SPN_1755_01>
+		<SPN_1755_10>Error</SPN_1755_10>
+		<SPN_1755_11>Not available</SPN_1755_11>
+		<SPN_1739>Lifting Control Mode Front Axle,1,3,2,5,6</SPN_1739>
+		<SPN_1739_00>Lifting not active</SPN_1739_00>
+		<SPN_1739_01>Lifting active</SPN_1739_01>
+		<SPN_1739_10>Error</SPN_1739_10>
+		<SPN_1739_11>Not available</SPN_1739_11>
+		<SPN_1756>Lifting Control Mode Rear Axle,1,3,2,7,8</SPN_1756>
+		<SPN_1756_00>Lifting not active</SPN_1756_00>
+		<SPN_1756_01>Lifting active</SPN_1756_01>
+		<SPN_1756_10>Error</SPN_1756_10>
+		<SPN_1756_11>Not available</SPN_1756_11>
+		<SPN_1742>Kneeling Information,1,4,4,1,4</SPN_1742>
+		<SPN_1742_0000>Not active</SPN_1742_0000>
+		<SPN_1742_0001>Lowering active</SPN_1742_0001>
+		<SPN_1742_0010>Kneeling level reached</SPN_1742_0010>
+		<SPN_1742_0011>Lifting active</SPN_1742_0011>
+		<SPN_1742_0100>Kneeling aborted</SPN_1742_0100>
+		<SPN_1742_0101>Not defined</SPN_1742_0101>
+		<SPN_1742_0110>Not defined</SPN_1742_0110>
+		<SPN_1742_0111>Not defined</SPN_1742_0111>
+		<SPN_1742_1000>Not defined</SPN_1742_1000>
+		<SPN_1742_1001>Not defined</SPN_1742_1001>
+		<SPN_1742_1010>Not defined</SPN_1742_1010>
+		<SPN_1742_1011>Not defined</SPN_1742_1011>
+		<SPN_1742_1100>Not defined</SPN_1742_1100>
+		<SPN_1742_1101>Not defined</SPN_1742_1101>
+		<SPN_1742_1110>Error</SPN_1742_1110>
+		<SPN_1742_1111>Not available</SPN_1742_1111>
+		<SPN_1741>Level Control Mode,1,4,4,5,8</SPN_1741>
+		<SPN_1741_0000>Normal operation</SPN_1741_0000>
+		<SPN_1741_0001>Traction help</SPN_1741_0001>
+		<SPN_1741_0010>Load fixing</SPN_1741_0010>
+		<SPN_1741_0011>Pressure ratio 1</SPN_1741_0011>
+		<SPN_1741_0100>Pressure ratio 2</SPN_1741_0100>
+		<SPN_1741_0101>Optimum traction 1</SPN_1741_0101>
+		<SPN_1741_0110>Optimum traction 2</SPN_1741_0110>
+		<SPN_1741_0111>Not defined</SPN_1741_0111>
+		<SPN_1741_1000>Not defined</SPN_1741_1000>
+		<SPN_1741_1001>Not defined</SPN_1741_1001>
+		<SPN_1741_1010>Not defined</SPN_1741_1010>
+		<SPN_1741_1011>Not defined</SPN_1741_1011>
+		<SPN_1741_1100>Not defined</SPN_1741_1100>
+		<SPN_1741_1101>Not defined</SPN_1741_1101>
+		<SPN_1741_1110>Error</SPN_1741_1110>
+		<SPN_1741_1111>Not available</SPN_1741_1111>
+		<SPN_1746>Security Device,1,5,2,1,2</SPN_1746>
+		<SPN_1746_00>Not active</SPN_1746_00>
+		<SPN_1746_01>Active</SPN_1746_01>
+		<SPN_1746_10>Error</SPN_1746_10>
+		<SPN_1746_11>Not available</SPN_1746_11>
+		<SPN_1745>Vehicle Motion Inhibit,1,5,2,3,4</SPN_1745>
+		<SPN_1745_00>Vehicle may be moved</SPN_1745_00>
+		<SPN_1745_01>Vehicle motion is inhibited</SPN_1745_01>
+		<SPN_1745_10>Error</SPN_1745_10>
+		<SPN_1745_11>Not available</SPN_1745_11>
+		<SPN_1744>Door Release,1,5,2,5,6</SPN_1744>
+		<SPN_1744_00>Doors may not be opened</SPN_1744_00>
+		<SPN_1744_01>Doors may be opened</SPN_1744_01>
+		<SPN_1744_10>Error</SPN_1744_10>
+		<SPN_1744_11>Not available</SPN_1744_11>
+		<SPN_1743>Lift Axle 1 Position,1,5,2,7,8</SPN_1743>
+		<SPN_1743_00>Lift axle position down/tag axle laden</SPN_1743_00>
+		<SPN_1743_01>Lift axle position up/tag axle unladen</SPN_1743_01>
+		<SPN_1743_10>Error</SPN_1743_10>
+		<SPN_1743_11>Not available</SPN_1743_11>
+		<SPN_1824>Front Axle in Bumper Range,1,6,2,1,2</SPN_1824>
+		<SPN_1824_00>Actual level out of bumper range</SPN_1824_00>
+		<SPN_1824_01>Actual level within bumper range</SPN_1824_01>
+		<SPN_1824_10>Error</SPN_1824_10>
+		<SPN_1824_11>Not available</SPN_1824_11>
+		<SPN_1823>Rear Axle in Bumper Range,1,6,2,3,4</SPN_1823>
+		<SPN_1823_00>Actual level out of bumper range</SPN_1823_00>
+		<SPN_1823_01>Actual level within bumper range</SPN_1823_01>
+		<SPN_1823_10>Error</SPN_1823_10>
+		<SPN_1823_11>Not available</SPN_1823_11>
+		<SPN_1822>Lift Axle 2 Position,1,6,2,7,8</SPN_1822>
+		<SPN_1822_00>Lift axle position down/tag axle laden</SPN_1822_00>
+		<SPN_1822_01>Lift axle position up/tag axle unladen</SPN_1822_01>
+		<SPN_1822_10>Error</SPN_1822_10>
+		<SPN_1822_11>Not available</SPN_1822_11>
+		<SPN_1826>Suspension Remote Control 1,7,2,1,2</SPN_1826>
+		<SPN_1826_00>Not active</SPN_1826_00>
+		<SPN_1826_01>Active</SPN_1826_01>
+		<SPN_1826_10>Error</SPN_1826_10>
+		<SPN_1826_11>Not available</SPN_1826_11>
+		<SPN_1825>Suspension Remote Control 2,1,7,2,3,4</SPN_1825>
+		<SPN_1825_00>Not active</SPN_1825_00>
+		<SPN_1825_01>Active</SPN_1825_01>
+		<SPN_1825_10>Error</SPN_1825_10>
+		<SPN_1825_11>Not available</SPN_1825_11>
+		<SPN_1827>Suspension Control Refusal Information,1,8,4,1,4</SPN_1827>
+		<SPN_1827_0000>Actual request not refused</SPN_1827_0000>
+		<SPN_1827_0001>Axle load limit reached</SPN_1827_0001>
+		<SPN_1827_0010>Would exceed axle load limit</SPN_1827_0010>
+		<SPN_1827_0011>Bogie differential not locked</SPN_1827_0011>
+		<SPN_1827_0100>Above speed limit</SPN_1827_0100>
+		<SPN_1827_0101>Below speed limit</SPN_1827_0101>
+		<SPN_1827_0110>Not defined</SPN_1827_0110>
+		<SPN_1827_0111>Not defined</SPN_1827_0111>
+		<SPN_1827_1000>Not defined</SPN_1827_1000>
+		<SPN_1827_1001>Not defined</SPN_1827_1001>
+		<SPN_1827_1010>Not defined</SPN_1827_1010>
+		<SPN_1827_1011>Not defined</SPN_1827_1011>
+		<SPN_1827_1100>Not defined</SPN_1827_1100>
+		<SPN_1827_1101>Not defined</SPN_1827_1101>
+		<SPN_1827_1110>Error</SPN_1827_1110>
+		<SPN_1827_1111>Not available</SPN_1827_1111>
+	</PGN65114>
+	
+	<PGN65115>
+		<SPN_LIST>3,1711,1710,1702</SPN_LIST>
+		<SPN_1711>Lane Tracking Status Right Side,1,1,2,1,2</SPN_1711>
+		<SPN_1711_00>Not Tracking left side</SPN_1711_00>
+		<SPN_1711_01>Tracking leftt side</SPN_1711_01>
+		<SPN_1711_10>Reserved</SPN_1711_10>
+		<SPN_1711_11>Don't Care/take no action</SPN_1711_11>
+		<SPN_1710>Lane Tracking Status Left Side,1,1,2,3,4</SPN_1710>
+		<SPN_1710_00>Not Tracking Right side</SPN_1710_00>
+		<SPN_1710_01>Tracking Right side</SPN_1710_01>
+		<SPN_1710_10>Reserved</SPN_1710_10>
+		<SPN_1710_11>Don't Care/take no action</SPN_1710_11>
+		<SPN_1702>Lane Departure Indication Enable Status,1,1,2,5,6</SPN_1702>
+		<SPN_1702_00>Lane Departure indication disabled</SPN_1702_00>
+		<SPN_1702_01>Lane Departure Indication enabled</SPN_1702_01>
+		<SPN_1702_10>Reserved</SPN_1702_10>
+		<SPN_1702_11>Not Used</SPN_1702_11>
+	</PGN65115>
+
+	<PGN65126>
+		<SPN_LIST>1,1681</SPN_LIST>
+		<SPN_1681>Battery Main Switch Hold State,1,1,2,1,2</SPN_1681>
+		<SPN_1681_00>Battery main switch not held</SPN_1681_00>
+		<SPN_1681_01>Battery main switch held</SPN_1681_01>
+		<SPN_1681_10>Reserved</SPN_1681_10>
+		<SPN_1681_11>Don't care/take no action</SPN_1681_11>
+	</PGN65126>
+
+	<PGN65127>
+		<SPN_LIST>1,1690</SPN_LIST>
+		<SPN_1690>Auxiliary Heater Maximum Output Power,0,2,0,W,2,1,2</SPN_1690>
+	</PGN65127>
+
+	<PGN65128>
+		<SPN_LIST>4,1638,1713,1857,2602</SPN_LIST>
+		<SPN_1638>Hydraulic Temperature,0,1,-40,deg C,1,1</SPN_1638>
+		<SPN_1713>Hydraulic Oil Filter Restriction Switch,1,2,2,1,2</SPN_1713>
+		<SPN_1713_00>No restriction</SPN_1713_00>
+		<SPN_1713_01>Restriction exists on oil fitler</SPN_1713_01>
+		<SPN_1713_10>Error</SPN_1713_10>
+		<SPN_1713_11>Not Available</SPN_1713_11>
+		<SPN_1857>Winch Oil Pressure Switch,1,2,2,3,4</SPN_1857>
+		<SPN_1857_00>NOT OK- Oil pressure is too low</SPN_1857_00>
+		<SPN_1857_01>OK - Oil pressure is above minimum</SPN_1857_01>
+		<SPN_1857_10>Error - Switch state cannot be determined</SPN_1857_10>
+		<SPN_1857_11>Not Available</SPN_1857_11>
+		<SPN_2602>Hydraulic Oil Level,0,0.4,0,%,1,3</SPN_2602>
+	</PGN65128>
+
+	<PGN65129>
+		<SPN_LIST>2,1636,1637</SPN_LIST>
+		<SPN_1636>Intake Manifold 1 Air Temperature (High Resolution),0,0.03125,-273,deg C,2,1,2</SPN_1636>
+		<SPN_1637>Engine Coolant Temperature (High Resolution),0,0.03125,-273,deg C,2,3,4</SPN_1637>
+	</PGN65129>
+
+	<PGN65130>
+		<SPN_LIST>3,1380,1381,1382</SPN_LIST>
+		<SPN_1380>Engine Oil Level Remote Reservoir,0,0.4,0,%,1,1</SPN_1380>
+		<SPN_1381>Fuel Supply Pump Inlet Pressure,0,2,0,kPa,1,2</SPN_1381>
+		<SPN_1382>Fuel Filter (suction side) Differential Pressure,0,2,0,kPa,1,3</SPN_1382>
+	</PGN65130>
+
+	<PGN65131>
+		<SPN_LIST>2,1625,1626</SPN_LIST>
+		<SPN_1625>Driver 1 identification,3,0,Per byte,2,1,2</SPN_1625>
+		<SPN_1626>Driver 2 identification,3,0,Per byte,2,3,4</SPN_1626>
+	</PGN65131>
+
+	<PGN65132>
+		<SPN_LIST>14,1612,1613,1611,1617,1615,1614,1618,1616,1622,1621,1620,1619,1623,1624</SPN_LIST>
+		<SPN_1612>Driver 1 working state,1,1,3,1,3</SPN_1612>
+		<SPN_1612_000>Rest - sleeping</SPN_1612_000>
+		<SPN_1612_001>Driver available ' short break</SPN_1612_001>
+		<SPN_1612_010>Work ' loading, unloading, working in an office</SPN_1612_010>
+		<SPN_1612_011>Drive ' behind wheel</SPN_1612_011>
+		<SPN_1612_100>Reserved</SPN_1612_100>
+		<SPN_1612_101>Reserved</SPN_1612_101>
+		<SPN_1612_110>Error</SPN_1612_110>
+		<SPN_1612_111>Not available</SPN_1612_111>
+		<SPN_1613>Driver 2 working state,1,1,3,4,6</SPN_1613>
+		<SPN_1613_000>Rest - sleeping</SPN_1613_000>
+		<SPN_1613_001>Driver available ' short break</SPN_1613_001>
+		<SPN_1613_010>Work ' loading, unloading, working in an office</SPN_1613_010>
+		<SPN_1613_011>Drive ' behind wheel</SPN_1613_011>
+		<SPN_1613_100>Reserved</SPN_1613_100>
+		<SPN_1613_101>Reserved</SPN_1613_101>
+		<SPN_1613_110>Error</SPN_1613_110>
+		<SPN_1613_111>Not available</SPN_1613_111>
+		<SPN_1611>Drive recognize,1,1,1,7,8</SPN_1611>
+		<SPN_1611_00>Vehicle motion not detected</SPN_1611_00>
+		<SPN_1611_01>Vehicle motion detected</SPN_1611_01>
+		<SPN_1611_10>Not available</SPN_1611_10>
+		<SPN_1611_11>Not available</SPN_1611_11>
+		<SPN_1617>Driver 1 Time Related States,1,2,4,1,4</SPN_1617>
+		<SPN_1617_0000>Normal/No limits reached</SPN_1617_0000>
+		<SPN_1617_0001>Limit #1 ' 15 min before 4 1⁄2h</SPN_1617_0001>
+		<SPN_1617_0010>Limit #2 ' 4 1⁄2 h reached</SPN_1617_0010>
+		<SPN_1617_0011>Limit #3 ' 15 min before 9h</SPN_1617_0011>
+		<SPN_1617_0100>Limit #4 ' 9 h reached</SPN_1617_0100>
+		<SPN_1617_0101>Limit #5 ' 15 min before 16h</SPN_1617_0101>
+		<SPN_1617_0110>Limit #6 ' 16 h reached</SPN_1617_0110>
+		<SPN_1617_0111>Reserved</SPN_1617_0111>
+		<SPN_1617_1000>Reserved</SPN_1617_1000>
+		<SPN_1617_1001>Reserved</SPN_1617_1001>
+		<SPN_1617_1010>Reserved</SPN_1617_1010>
+		<SPN_1617_1011>Reserved</SPN_1617_1011>
+		<SPN_1617_1100>Reserved</SPN_1617_1100>
+		<SPN_1617_1101>Other</SPN_1617_1101>
+		<SPN_1617_1110>Error</SPN_1617_1110>
+		<SPN_1617_1111>Not available</SPN_1617_1111>
+		<SPN_1615>Driver card,1,2,2,5,6</SPN_1615>
+		<SPN_1615_00>Driver card not present 1</SPN_1615_00>
+		<SPN_1615_01>Driver card present 1</SPN_1615_01>
+		<SPN_1615_10>Not available</SPN_1615_10>
+		<SPN_1615_11>Not available</SPN_1615_11>
+		<SPN_1614>Overspeed,1,2,2,7,8</SPN_1614>
+		<SPN_1614_00>No overspeed</SPN_1614_00>
+		<SPN_1614_01>Overspeed</SPN_1614_01>
+		<SPN_1614_10>Not available</SPN_1614_10>
+		<SPN_1614_11>Not available</SPN_1614_11>
+		<SPN_1618>Driver 2 Time Related States,1,3,4,1,4</SPN_1618>
+		<SPN_1618_0000>Normal/No limits reached</SPN_1618_0000>
+		<SPN_1618_0001>Limit #1 ' 15 min before 4 1⁄2h</SPN_1618_0001>
+		<SPN_1618_0010>Limit #2 ' 4 1⁄2 h reached</SPN_1618_0010>
+		<SPN_1618_0011>Limit #3 ' 15 min before 9h</SPN_1618_0011>
+		<SPN_1618_0100>Limit #4 ' 9 h reached</SPN_1618_0100>
+		<SPN_1618_0101>Limit #5 ' 15 min before 16h</SPN_1618_0101>
+		<SPN_1618_0110>Limit #6 ' 16 h reached</SPN_1618_0110>
+		<SPN_1618_0111>Reserved</SPN_1618_0111>
+		<SPN_1618_1000>Reserved</SPN_1618_1000>
+		<SPN_1618_1001>Reserved</SPN_1618_1001>
+		<SPN_1618_1010>Reserved</SPN_1618_1010>
+		<SPN_1618_1011>Reserved</SPN_1618_1011>
+		<SPN_1618_1100>Reserved</SPN_1618_1100>
+		<SPN_1618_1101>Other</SPN_1618_1101>
+		<SPN_1618_1110>Error</SPN_1618_1110>
+		<SPN_1618_1111>Not available</SPN_1618_1111>
+		<SPN_1616>Driver card,1,3,2,5,6</SPN_1616>
+		<SPN_1616_00>Driver card not present 2</SPN_1616_00>
+		<SPN_1616_01>Driver card present 2</SPN_1616_01>
+		<SPN_1616_10>Not available</SPN_1616_10>
+		<SPN_1616_11>Not available</SPN_1616_11>
+		<SPN_1622>System event,1,4,2,1,2</SPN_1622>
+		<SPN_1622_00>No tachograph event</SPN_1622_00>
+		<SPN_1622_01>Tachograph event</SPN_1622_01>
+		<SPN_1622_10>Not available</SPN_1622_10>
+		<SPN_1622_11>Not available</SPN_1622_11>
+		<SPN_1621>Handling information,1,4,2,3,4</SPN_1621>
+		<SPN_1621_00>No handling information</SPN_1621_00>
+		<SPN_1621_01>Handling information</SPN_1621_01>
+		<SPN_1621_10>Not available</SPN_1621_10>
+		<SPN_1621_11>Not available</SPN_1621_11>
+		<SPN_1620>Tachograph performance,1,4,2,5,6</SPN_1620>
+		<SPN_1620_00>Normal performance</SPN_1620_00>
+		<SPN_1620_01>Performance analysis</SPN_1620_01>
+		<SPN_1620_10>Not available</SPN_1620_10>
+		<SPN_1620_11>Not available</SPN_1620_11>
+		<SPN_1619>Direction indicator,1,4,2,7,8</SPN_1619>
+		<SPN_1619_00>Forward</SPN_1619_00>
+		<SPN_1619_01>Reverse</SPN_1619_01>
+		<SPN_1619_10>Not available</SPN_1619_10>
+		<SPN_1619_11>Not available</SPN_1619_11>
+		<SPN_1623>Tachograph output shaft speed,0,0.125,0,rpm,2,5,6</SPN_1623>
+		<SPN_1624>Tachograph vehicle speed,0,0.00390625,0,km/h,2,7,8</SPN_1624>
+	</PGN65132>
+
+	<PGN65133>
+		<SPN_LIST>8,1687,1688,1689,1677,1676,1678,1679,1680</SPN_LIST>
+		<SPN_1687>Auxiliary Heater Output Coolant Temperature,0,1,-40,deg C,1,1</SPN_1687>
+		<SPN_1688>Auxiliary Heater Input Air Temperature,0,1,-40,deg C,1,2</SPN_1688>
+		<SPN_1689>Auxiliary Heater Output Power Percent,0,0.4,0,%,1,3</SPN_1689>
+		<SPN_1677>Auxiliary Heater Mode,1,4,4,1,4</SPN_1677>
+		<SPN_1677_0000>Heater not active</SPN_1677_0000>
+		<SPN_1677_0001>Off due to ADR per European Regulations for Transport of hazardous materials</SPN_1677_0001>
+		<SPN_1677_0010>Economy mode</SPN_1677_0010>
+		<SPN_1677_0011>Normal mode</SPN_1677_0011>
+		<SPN_1677_0100>Not defined</SPN_1677_0100>
+		<SPN_1677_0101>Not defined</SPN_1677_0101>
+		<SPN_1677_0110>Not defined</SPN_1677_0110>
+		<SPN_1677_0111>Not defined</SPN_1677_0111>
+		<SPN_1677_1000>Not defined</SPN_1677_1000>
+		<SPN_1677_1001>Not defined</SPN_1677_1001>
+		<SPN_1677_1010>Not defined</SPN_1677_1010>
+		<SPN_1677_1011>Not defined</SPN_1677_1011>
+		<SPN_1677_1100>Not defined</SPN_1677_1100>
+		<SPN_1677_1101>Not defined</SPN_1677_1101>
+		<SPN_1677_1110>Error</SPN_1677_1110>
+		<SPN_1677_1111>Not available</SPN_1677_1111>
+		<SPN_1676>Auxilary Heater Water Pump Status,1,5,2,1,2</SPN_1676>
+		<SPN_1676_00>Water Pump is not running</SPN_1676_00>
+		<SPN_1676_01>Water Pump is running</SPN_1676_01>
+		<SPN_1676_10>Reserved</SPN_1676_10>
+		<SPN_1676_11>Not available</SPN_1676_11>
+		<SPN_1678>Cab Ventilation,1,5,2,3,4</SPN_1678>
+		<SPN_1678_00>Cab not ventilated</SPN_1678_00>
+		<SPN_1678_01>Cab is ventilated</SPN_1678_01>
+		<SPN_1678_10>Reserved</SPN_1678_10>
+		<SPN_1678_11>Not available</SPN_1678_11>
+		<SPN_1679>Engine Heating Zone,1,5,2,5,6</SPN_1679>
+		<SPN_1679_00>Engine heating zone off</SPN_1679_00>
+		<SPN_1679_01>Engine heating zone on</SPN_1679_01>
+		<SPN_1679_10>Reserved</SPN_1679_10>
+		<SPN_1679_11>Not available</SPN_1679_11>
+		<SPN_1680>Cab Heating Zone,1,5,2,7,8</SPN_1680>
+		<SPN_1680_00>Cab heating zone off</SPN_1680_00>
+		<SPN_1680_01>Cab heating zone on</SPN_1680_01>
+		<SPN_1680_10>Reserved</SPN_1680_10>
+		<SPN_1680_11>Not available</SPN_1680_11>
+	</PGN65133>
+
+	<PGN65134>
+		<SPN_LIST>4,1592,1593,1594,1595</SPN_LIST>
+		<SPN_1592>Front Axle, Left Wheel Speed,0,0.003937008,0,km/h,2,1,2</SPN_1592>
+		<SPN_1593>Front axle, right wheel speed,0,0.003937008,0,km/h,2,3,4</SPN_1593>
+		<SPN_1594>Rear axle, left wheel speed,0,0.003937008,0,km/h,2,5,6</SPN_1594>
+		<SPN_1595>Rear axle, right wheel speed,0,0.003937008,0,km/h,2,7,8</SPN_1595>
+	</PGN65134>
+		
+	<PGN65135>
+		<SPN_LIST>9,1586,1587,1588,1590,1589,1591,1798,1797,1796</SPN_LIST>
+		<SPN_1586>Speed of forward vehicle,0,1,0,km/h,1,1</SPN_1586>
+		<SPN_1587>Distance to forward vehicle,0,1,0,m,1,2</SPN_1587>
+		<SPN_1588>Adaptive Cruise Control Set Speed,0,1,0,km/h,1,3</SPN_1588>
+		<SPN_1590>Adaptive Cruise Control Mode,1,4,3,1,3</SPN_1590>
+		<SPN_1590_000>Off</SPN_1590_000>
+		<SPN_1590_001>Speed control active</SPN_1590_001>
+		<SPN_1590_010>Distance control active</SPN_1590_010>
+		<SPN_1590_011>Overtake mode</SPN_1590_011>
+		<SPN_1590_100>Hold mode</SPN_1590_100>
+		<SPN_1590_101>Finish mode</SPN_1590_101>
+		<SPN_1590_110>Disabled or error condition</SPN_1590_110>
+		<SPN_1590_111>Not available/not valid</SPN_1590_111>
+		<SPN_1589>Adaptive cruise control set distance mode,1,4,3,4,6</SPN_1589>
+		<SPN_1589_000>ACC Distance mode #1 (largest distance)</SPN_1589_000>
+		<SPN_1589_001>ACC Distance mode #2</SPN_1589_001>
+		<SPN_1589_010>ACC Distance mode #3</SPN_1589_010>
+		<SPN_1589_011>ACC Distance mode #4</SPN_1589_011>
+		<SPN_1589_100>Distance mode #5 (shortest distance)</SPN_1589_100>
+		<SPN_1589_101>Conventional cruise control mode</SPN_1589_101>
+		<SPN_1589_110>Error condition</SPN_1589_110>
+		<SPN_1589_111>Not available/not valid</SPN_1589_111>
+		<SPN_1591>Road curvature,0,0.0078125,-250,km^-1,2,5,6</SPN_1591>
+		<SPN_1798>ACC Target Detected,1,7,2,1,2</SPN_1798>
+		<SPN_1798_00>No targets detected</SPN_1798_00>
+		<SPN_1798_01>Target detected</SPN_1798_01>
+		<SPN_1798_10>Reserved</SPN_1798_10>
+		<SPN_1798_11>Take no action</SPN_1798_11>
+		<SPN_1797>ACC System Shutoff Warning,1,7,2,3,4</SPN_1797>
+		<SPN_1797_00>ACC SSOW Not Active</SPN_1797_00>
+		<SPN_1797_01>ACC SSOW Active</SPN_1797_01>
+		<SPN_1797_10>Reserved</SPN_1797_10>
+		<SPN_1797_11>Take no action</SPN_1797_11>
+		<SPN_1796>ACC Distance Alert Signal,1,7,2,5,6</SPN_1796>
+		<SPN_1796_00>ACC DAS Not Active</SPN_1796_00>
+		<SPN_1796_01>ACC DAS Active</SPN_1796_01>
+		<SPN_1796_10>Reserved</SPN_1796_10>
+		<SPN_1796_11>Take no action</SPN_1796_11>
+	</PGN65135>
+
+	<PGN65136>
+		<SPN_LIST>2,1585,1760</SPN_LIST>
+		<SPN_1585>Powered Vehicle Weight,0,10,0,kg,2,1,2</SPN_1585>
+		<SPN_1760>Gross Combination Vehicle Weight,0,10,0,kg,2,3,4</SPN_1760>
+	</PGN65136>
+
+	<PGN65137>
+		<SPN_LIST>5,1579,1580,1581,1582,1583</SPN_LIST>
+		<SPN_1579>Laser Tracer Target Deviation,0,0.1,-3200,mm,2,1,2</SPN_1579>
+		<SPN_1580>Laser Tracer Vertical Distance,0,0.1,0,mm,2,3,4</SPN_1580>
+		<SPN_1581>Laser Tracer Horizontal Deviation,0,1,0,%,1,5</SPN_1581>
+		<SPN_1582>LED Display Data #2,1,6,8,1,8</SPN_1582>
+		<SPN_1582_00000001>On-grade 'A' LED on</SPN_1582_00000001>
+		<SPN_1582_00000010>On-grade 'B' LED on</SPN_1582_00000010>
+		<SPN_1582_00000100>On-grade 'C' LED on</SPN_1582_00000100>
+		<SPN_1582_00001000>Up LED on</SPN_1582_00001000>
+		<SPN_1582_00010000>Down LED on</SPN_1582_00010000>
+		<SPN_1582_00100000>Left LED on</SPN_1582_00100000>
+		<SPN_1582_01000000>Right LED on</SPN_1582_01000000>
+		<SPN_1582_01000000></SPN_1582_01000000>
+		<SPN_1583>Laser Tracer Information,1,7,8,1,8</SPN_1583>
+		<SPN_1583_00000001>Laser power is on</SPN_1583_00000001>
+		<SPN_1583_00000010>Laser is ready</SPN_1583_00000010>
+		<SPN_1583_00000100>Valid target (1 = yes)</SPN_1583_00000100>
+		<SPN_1583_00001000>Previous pass (1 = yes)</SPN_1583_00001000>
+		<SPN_1583_00010000>Stringline (1 = yes)</SPN_1583_00010000>
+		<SPN_1583_00100000>Curb (1 = yes)</SPN_1583_00100000>
+		<SPN_1583_01000000></SPN_1583_01000000>
+		<SPN_1583_01000000></SPN_1583_01000000>
+	</PGN65137>
+
+	<PGN65138>
+		<SPN_LIST>2,1577,1578</SPN_LIST>
+		<SPN_1577>Blade Duration and Direction,0,0.1,-3,276.8,sec,2,1,2</SPN_1577>
+		<SPN_1578>Blade Control Mode,1,3,8,1,8</SPN_1578>
+		<SPN_1582_00000000>Manual mode</SPN_1582_00000000>
+		<SPN_1582_00000001>Automatic mode</SPN_1582_00000001>
+		<SPN_1582_00000010>Inactive automatic mode</SPN_1582_00000010>
+	</PGN65138>
+
+	<PGN65139>
+		<SPN_LIST>1,1576</SPN_LIST>
+		<SPN_1576>Mast Position,0,0.1,-3200,mm,2,1,2</SPN_1576>
+	</PGN65139>
+
+	<PGN65140>
+		<SPN_LIST>2,1575,1759</SPN_LIST>
+		<SPN_1575>Modify Set Point,0,0.1,-3200,mm,2,1,2</SPN_1575>
+		<SPN_1759>Blade Height Set Point - High Resolution,0,100,209.7152,m,4,3,6</SPN_1759>
+	</PGN65140>
+
+	<PGN65141>
+		<SPN_LIST>4,1574,2576,2793,2794</SPN_LIST>
+		<SPN_1574>Laser Strike Vertical Deviation,0,0.1,-3200,mm,2,1,2</SPN_1574>
+		<SPN_2576>Laser Receiver Type,0,1,0,no unit,1,3</SPN_2576>
+		<SPN_2793>Laser Strike Data Latency,0,51.2,0,s,2,4,5</SPN_2793>
+		<SPN_2794>Absolute Laser Strike Position,0,0.1,0,mm,2,6,7</SPN_2794>
+	</PGN65141>
+
+	<PGN65142>
+		<SPN_LIST>5,1573,1805,1806,2578,2577</SPN_LIST>
+		<SPN_1573>LED Display Data #1,1,1,8,1,8</SPN_1573>
+		<SPN_1573_00000010>High Coarse LED on</SPN_1573_00000010>
+		<SPN_1573_00000100>High Fine LED on</SPN_1573_00000100>
+		<SPN_1573_00001000>On-grade LED on</SPN_1573_00001000>
+		<SPN_1573_00010000>Low Fine LED on</SPN_1573_00010000>
+		<SPN_1573_00100000>Low Coarse LED on</SPN_1573_00100000>
+		<SPN_1805>LED Display Mode Control,1,2,4,1,4</SPN_1805>
+		<SPN_1805_0000>Center On-Grade Display Mode 1(5 CHANNEL)</SPN_1805_0000>
+		<SPN_1805_0001>Offset On-Grade Display Mode</SPN_1805_0001>
+		<SPN_1805_0010>Center On-Grade Display Mode 2(7 CHANNEL)</SPN_1805_0010>
+		<SPN_1805_0011>Reserved</SPN_1805_0011>
+		<SPN_1805_0100>Reserved</SPN_1805_0100>
+		<SPN_1805_0101>Reserved</SPN_1805_0101>
+		<SPN_1805_0110>Reserved</SPN_1805_0110>
+		<SPN_1805_0111>Reserved</SPN_1805_0111>
+		<SPN_1805_1000>Reserved</SPN_1805_1000>
+		<SPN_1805_1001>Reserved</SPN_1805_1001>
+		<SPN_1805_1010>Reserved</SPN_1805_1010>
+		<SPN_1805_1011>Reserved</SPN_1805_1011>
+		<SPN_1805_1100>Reserved</SPN_1805_1100>
+		<SPN_1805_1101>Reserved</SPN_1805_1101>
+		<SPN_1805_1110>Reserved</SPN_1805_1110>
+		<SPN_1805_1111>Not Available or Not Applicable</SPN_1805_1111>
+		<SPN_1806>LED Display Deadband Control,1,2,4,5,8</SPN_1806>
+		<SPN_1806_0000>+/- 4.5 mm (0.015 feet, 0.18 inches)</SPN_1806_0000>
+		<SPN_1806_0001>+/- 12 mm (0.040 feet, 0.45 inches)</SPN_1806_0001>
+		<SPN_1806_0010>+/- 24 mm (0.080 feet, 0.96 inches)</SPN_1806_0010>
+		<SPN_1806_0011>+/- 5 mm (0.017 feet, 0.2 inches)</SPN_1806_0011>
+		<SPN_1806_0100>+/- 1 mm (0.003 feet, 0.04 inches)</SPN_1806_0100>
+		<SPN_1806_0101>Reserved</SPN_1806_0101>
+		<SPN_1806_0110>Reserved</SPN_1806_0110>
+		<SPN_1806_0111>Reserved</SPN_1806_0111>
+		<SPN_1806_1000>Reserved</SPN_1806_1000>
+		<SPN_1806_1001>Reserved</SPN_1806_1001>
+		<SPN_1806_1010>Reserved</SPN_1806_1010>
+		<SPN_1806_1011>Reserved</SPN_1806_1011>
+		<SPN_1806_1100>Reserved</SPN_1806_1100>
+		<SPN_1806_1101>Reserved</SPN_1806_1101>
+		<SPN_1806_1110>Reserved</SPN_1806_1110>
+		<SPN_1806_1111>Not Available or Not Applicable</SPN_1806_1111>
+		<SPN_2578>LED Pattern Control,1,3,4,1,4</SPN_2578>
+		<SPN_2578_0000>5 Channel</SPN_2578_0000>
+		<SPN_2578_0001>Offset</SPN_2578_0001>
+		<SPN_2578_0010>7 Channel</SPN_2578_0010>
+		<SPN_2578_0011>Reserved</SPN_2578_0011>
+		<SPN_2578_0100>Reserved</SPN_2578_0100>
+		<SPN_2578_0101>Reserved</SPN_2578_0101>
+		<SPN_2578_0110>Reserved</SPN_2578_0110>
+		<SPN_2578_0111>Reserved</SPN_2578_0111>
+		<SPN_2578_1000>Reserved</SPN_2578_1000>
+		<SPN_2578_1001>Reserved</SPN_2578_1001>
+		<SPN_2578_1010>Reserved</SPN_2578_1010>
+		<SPN_2578_1011>Reserved</SPN_2578_1011>
+		<SPN_2578_1100>Reserved</SPN_2578_1100>
+		<SPN_2578_1101>Reserved</SPN_2578_1101>
+		<SPN_2578_1110>Reserved</SPN_2578_1110>
+		<SPN_2578_1111>Not Available</SPN_2578_1111>
+		<SPN_2577>Display Deadbands,1,3,4,5,8</SPN_2577>
+		<SPN_2577_0000>Narrow = +/- 4.5mm</SPN_2577_0000>
+		<SPN_2577_0001>Standard = +/- 12mm</SPN_2577_0001>
+		<SPN_2577_0010>Wide = +/- 24mm</SPN_2577_0010>
+		<SPN_2577_0011>Reserved</SPN_2577_0011>
+		<SPN_2577_0100>Reserved</SPN_2577_0100>
+		<SPN_2577_0101>Reserved</SPN_2577_0101>
+		<SPN_2577_0110>Reserved</SPN_2577_0110>
+		<SPN_2577_0111>Reserved</SPN_2577_0111>
+		<SPN_2577_1000>Reserved</SPN_2577_1000>
+		<SPN_2577_1001>Reserved</SPN_2577_1001>
+		<SPN_2577_1010>Reserved</SPN_2577_1010>
+		<SPN_2577_1011>Reserved</SPN_2577_1011>
+		<SPN_2577_1100>Reserved</SPN_2577_1100>
+		<SPN_2577_1101>Reserved</SPN_2577_1101>
+		<SPN_2577_1110>Reserved</SPN_2577_1110>
+		<SPN_2577_1111>Not Available</SPN_2577_1111>
+	</PGN65142>
+
+	<PGN65143>
+		<SPN_LIST>3,136,137,138</SPN_LIST>
+		<SPN_136>Auxiliary Vacuum Pressure Reading,0,0.5,0,kPa,2,1,2</SPN_136>
+		<SPN_137>Auxiliary Gage Pressure Reading 1,0,0.5,0,kPa,2,3,4</SPN_137>
+		<SPN_138>Auxiliary Absolute Pressure Reading,0,0.5,0,kPa,2,5,6</SPN_138>
+	</PGN65143>
+
+	<PGN65144>
+		<SPN_LIST>11,39,1466,1467,1468,1469,1470,1471,1472,1473,1474,1475</SPN_LIST>
+		<SPN_39>Tire Pressure Check Interval,0,1,0,mins,1,1</SPN_39>
+		<SPN_1466>Steer Channel Mode,1,2,4,1,4</SPN_1466>
+		<SPN_1466_0000>Maintain</SPN_1466_0000>
+		<SPN_1466_0001>Inflate</SPN_1466_0001>
+		<SPN_1466_0010>Deflate</SPN_1466_0010>
+		<SPN_1466_0011>Confirm</SPN_1466_0011>
+		<SPN_1466_0100>Inflate Wait</SPN_1466_0100>
+		<SPN_1466_0101>Deflate Wait</SPN_1466_0101>
+		<SPN_1466_0110>Pressure Check</SPN_1466_0110>
+		<SPN_1466_0111>Reserved</SPN_1466_0111>
+		<SPN_1466_1000>Reserved</SPN_1466_1000>
+		<SPN_1466_1001>Reserved</SPN_1466_1001>
+		<SPN_1466_1010>Reserved</SPN_1466_1010>
+		<SPN_1466_1011>Reserved</SPN_1466_1011>
+		<SPN_1466_1100>Reserved</SPN_1466_1100>
+		<SPN_1466_1101>Reserved</SPN_1466_1101>
+		<SPN_1466_1110>Error Condition</SPN_1466_1110>
+		<SPN_1466_1111>Not Available</SPN_1466_1111>
+		<SPN_1467>Trailer/tag Channel Mode,1,3,4,1,4</SPN_1467>
+		<SPN_1467_0000>Maintain</SPN_1467_0000>
+		<SPN_1467_0001>Inflate</SPN_1467_0001>
+		<SPN_1467_0010>Deflate</SPN_1467_0010>
+		<SPN_1467_0011>Confirm</SPN_1467_0011>
+		<SPN_1467_0100>Inflate Wait</SPN_1467_0100>
+		<SPN_1467_0101>Deflate Wait</SPN_1467_0101>
+		<SPN_1467_0110>Pressure Check</SPN_1467_0110>
+		<SPN_1467_0111>Reserved</SPN_1467_0111>
+		<SPN_1467_1000>Reserved</SPN_1467_1000>
+		<SPN_1467_1001>Reserved</SPN_1467_1001>
+		<SPN_1467_1010>Reserved</SPN_1467_1010>
+		<SPN_1467_1011>Reserved</SPN_1467_1011>
+		<SPN_1467_1100>Reserved</SPN_1467_1100>
+		<SPN_1467_1101>Reserved</SPN_1467_1101>
+		<SPN_1467_1110>Error Condition</SPN_1467_1110>
+		<SPN_1467_1111>Not Available</SPN_1467_1111>
+		<SPN_1468>Drive Channel Mode,1,3,4,5,8</SPN_1468>
+		<SPN_1468_0000>Maintain</SPN_1468_0000>
+		<SPN_1468_0001>Inflate</SPN_1468_0001>
+		<SPN_1468_0010>Deflate</SPN_1468_0010>
+		<SPN_1468_0011>Confirm</SPN_1468_0011>
+		<SPN_1468_0100>Inflate Wait</SPN_1468_0100>
+		<SPN_1468_0101>Deflate Wait</SPN_1468_0101>
+		<SPN_1468_0110>Pressure Check</SPN_1468_0110>
+		<SPN_1468_0111>Reserved</SPN_1468_0111>
+		<SPN_1468_1000>Reserved</SPN_1468_1000>
+		<SPN_1468_1001>Reserved</SPN_1468_1001>
+		<SPN_1468_1010>Reserved</SPN_1468_1010>
+		<SPN_1468_1011>Reserved</SPN_1468_1011>
+		<SPN_1468_1100>Reserved</SPN_1468_1100>
+		<SPN_1468_1101>Reserved</SPN_1468_1101>
+		<SPN_1468_1110>Error Condition</SPN_1468_1110>
+		<SPN_1468_1111>Not Available</SPN_1468_1111>
+		<SPN_1469>PCU Drive Solenoid Status,1,4,2,1,2</SPN_1469>
+		<SPN_1469_00>Off</SPN_1469_00>
+		<SPN_1469_01>On</SPN_1469_01>
+		<SPN_1469_10>Not Available</SPN_1469_10>
+		<SPN_1469_11>Not Available</SPN_1469_11>
+		<SPN_1470>PCU Steer Solenoid Status,1,4,2,3,4</SPN_1470>
+		<SPN_1470_00>Off</SPN_1470_00>
+		<SPN_1470_01>On</SPN_1470_01>
+		<SPN_1470_10>Not Available</SPN_1470_10>
+		<SPN_1470_11>Not Available</SPN_1470_11>
+		<SPN_1471>Tire Pressure Supply Switch Status,1,4,2,5,6</SPN_1471>
+		<SPN_1471_00>Off</SPN_1471_00>
+		<SPN_1471_01>On</SPN_1471_01>
+		<SPN_1471_10>Not Available</SPN_1471_10>
+		<SPN_1471_11>Not Available</SPN_1471_11>
+		<SPN_1472>PCU Deflate Solenoid Status,1,5,2,1,2</SPN_1472>
+		<SPN_1472_00>Off</SPN_1472_00>
+		<SPN_1472_01>On</SPN_1472_01>
+		<SPN_1472_10>Not Available</SPN_1472_10>
+		<SPN_1472_11>Not Available</SPN_1472_11>
+		<SPN_1473>PCU Control Solenoid Status,1,5,2,3,4</SPN_1473>
+		<SPN_1473_00>Off</SPN_1473_00>
+		<SPN_1473_01>On</SPN_1473_01>
+		<SPN_1473_10>Not Available</SPN_1473_10>
+		<SPN_1473_11>Not Available</SPN_1473_11>
+		<SPN_1474>PCU Supply Solenoid Status,1,5,2,5,6</SPN_1474>
+		<SPN_1474_00>Off</SPN_1474_00>
+		<SPN_1474_01>On</SPN_1474_01>
+		<SPN_1474_10>Not Available</SPN_1474_10>
+		<SPN_1474_11>Not Available</SPN_1474_11>
+		<SPN_1475>PCU Trailer, Tag or Push Solenoid Status,1,5,2,7,8</SPN_1475>
+		<SPN_1475_00>Off</SPN_1475_00>
+		<SPN_1475_01>On</SPN_1475_01>
+		<SPN_1475_10>Not Available</SPN_1475_10>
+		<SPN_1475_11>Not Available</SPN_1475_11>
+	</PGN65144>
+
+	<PGN65145>
+		<SPN_LIST>3,141,142,143</SPN_LIST>
+		<SPN_141>Trailer, Tag Or Push Channel Tire Pressure Target,0,0.5,0,kPa,2,1,2</SPN_141>
+		<SPN_142>Drive Channel Tire Pressure Target,0,0.5,0,kPa,2,3,4</SPN_142>
+		<SPN_143>Steer Channel Tire Pressure Target,0,0.5,0,kPa,2,5,6</SPN_143>
+	</PGN65145>
+
+	<PGN65146>
+		<SPN_LIST>3,144,145,146</SPN_LIST>
+		<SPN_144>Trailer, Tag Or Push Channel Tire Pressure,0,0.5,0,kPa,2,1,2</SPN_144>
+		<SPN_145>Drive Channel Tire Pressure,0,0.5,0,kPa,2,3,4</SPN_145>
+		<SPN_146>Steel Channel Tire Pressure,0,0.5,0,kPa,2,5,6</SPN_146>
+	</PGN65146>
+
+	<PGN65147>
+		<SPN_LIST>4,1444,1445,1446,1447</SPN_LIST>
+		<SPN_1444>Cylinder 1 Combustion Time,0,0.01,0,ms,2,1,2</SPN_1444>
+		<SPN_1445>Cylinder 2 Combustion Time,0,0.01,0,ms,2,3,4</SPN_1445>
+		<SPN_1446>Cylinder 3 Combustion Time,0,0.01,0,ms,2,5,6</SPN_1446>
+		<SPN_1447>Cylinder 4 Combustion Time,0,0.01,0,ms,2,7,8</SPN_1447>
+	</PGN65147>
+
+	<PGN65148>
+		<SPN_LIST>4,1448,1449,1450,1451</SPN_LIST>
+		<SPN_1448>Cylinder 5 Combustion Time,0,0.01,0,ms,2,1,2</SPN_1448>
+		<SPN_1449>Cylinder 6 Combustion Time,0,0.01,0,ms,2,3,4</SPN_1449>
+		<SPN_1450>Cylinder 7 Combustion Time,0,0.01,0,ms,2,5,6</SPN_1450>
+		<SPN_1451>Cylinder 8 Combustion Time,0,0.01,0,ms,2,7,8</SPN_1451>
+	</PGN65148>
+
+	<PGN65149>
+		<SPN_LIST>4,1452,1453,1454,1455</SPN_LIST>
+		<SPN_1452>Cylinder 9 Combustion Time,0,0.01,0,ms,2,1,2</SPN_1452>
+		<SPN_1453>Cylinder 10 Combustion Time,0,0.01,0,ms,2,3,4</SPN_1453>
+		<SPN_1454>Cylinder 11 Combustion Time,0,0.01,0,ms,2,5,6</SPN_1454>
+		<SPN_1455>Cylinder 12 Combustion Time,0,0.01,0,ms,2,7,8</SPN_1455>
+	</PGN65149>
+
+	<PGN65150>
+		<SPN_LIST>4,1456,1457,1458,1459</SPN_LIST>
+		<SPN_1456>Cylinder 13 Combustion Time,0,0.01,0,ms,2,1,2</SPN_1456>
+		<SPN_1457>Cylinder 14 Combustion Time,0,0.01,0,ms,2,3,4</SPN_1457>
+		<SPN_1458>Cylinder 15 Combustion Time,0,0.01,0,ms,2,5,6</SPN_1458>
+		<SPN_1459>Cylinder 16 Combustion Time,0,0.01,0,ms,2,7,8</SPN_1459>
+	</PGN65150>
+
+	<PGN65151>
+		<SPN_LIST>4,1460,1461,1462,1463</SPN_LIST>
+		<SPN_1460>Cylinder 17 Combustion Time,0,0.01,0,ms,2,1,2</SPN_1460>
+		<SPN_1461>Cylinder 18 Combustion Time,0,0.01,0,ms,2,3,4</SPN_1461>
+		<SPN_1462>Cylinder 19 Combustion Time,0,0.01,0,ms,2,5,6</SPN_1462>
+		<SPN_1463>Cylinder 20 Combustion Time,0,0.01,0,ms,2,7,8</SPN_1463>
+	</PGN65151>
+
+	<PGN65152>
+		<SPN_LIST>2,1464,1465</SPN_LIST>
+		<SPN_1464>Desired Combustion Time,0,0.01,0,ms,2,1,2</SPN_1464>
+		<SPN_1465>Average Engine Combustion Time,0,0.01,0,ms,2,3,4</SPN_1465>
+	</PGN65152>
+
+	<PGN65153>
+		<SPN_LIST>6,1440,1441,1442,1443,1765,1766</SPN_LIST>
+		<SPN_1440>Fuel Flow Rate 1,0,0.1,0,m^3/h,2,1,2</SPN_1440>
+		<SPN_1441>Fuel Flow Rate 2,0,0.1,0,m^3/h,2,3,4</SPN_1441>
+		<SPN_1442>Fuel Valve 1 Position,0,0.4,0,%,1,5</SPN_1442>
+		<SPN_1443>Fuel Valve 2 Position,0,0.4,0,%,1,6</SPN_1443>
+		<SPN_1765>Requested Fuel Valve 1 Position,0,0.4,0,%,1,7</SPN_1765>
+		<SPN_1766>Requested Fuel Valve 2 Position,0,0.4,0,%,1,8</SPN_1766>
+	</PGN65153>
+	
+	<PGN65154>
+		<SPN_LIST>4,1413,1414,1415,1416</SPN_LIST>
+		<SPN_1413>Cylinder 1 Ignition Timing,0,0.0078125,-200,deg,2,1,2</SPN_1413>
+		<SPN_1414>Cylinder 2 Ignition Timing,0,0.0078125,-200,deg,2,3,4</SPN_1414>
+		<SPN_1415>Cylinder 3 Ignition Timing,0,0.0078125,-200,deg,2,5,6</SPN_1415>
+		<SPN_1416>Cylinder 4 Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1416>
+	</PGN65154>
+
+	<PGN65155>
+		<SPN_LIST>4,1417,1418,1419,1420</SPN_LIST>
+		<SPN_1417>Cylinder 5 Ignition Timing,0,0.0078125,-200,deg,2,1,2</SPN_1417>
+		<SPN_1418>Cylinder 6 Ignition Timing,0,0.0078125,-200,deg,2,3,4</SPN_1418>
+		<SPN_1419>Cylinder 7 Ignition Timing,0,0.0078125,-200,deg,2,5,6</SPN_1419>
+		<SPN_1420>Cylinder 8 Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1420>
+	</PGN65155>
+
+	<PGN65156>
+		<SPN_LIST>4,1421,1422,1423,1424</SPN_LIST>
+		<SPN_1421>Cylinder 9 Ignition Timing,0,0.0078125,-200,deg,2,1,2</SPN_1421>
+		<SPN_1422>Cylinder 10 Ignition Timing,0,0.0078125,-200,deg,2,3,4</SPN_1422>
+		<SPN_1423>Cylinder 11 Ignition Timing,0,0.0078125,-200,deg,2,5,6</SPN_1423>
+		<SPN_1424>Cylinder 12 Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1424>
+	</PGN65156>
+
+	<PGN65157>
+		<SPN_LIST>4,1425,1426,1427,1428</SPN_LIST>
+		<SPN_1425>Cylinder 13 Ignition Timing,0,0.0078125,-200,deg,2,1,2</SPN_1425>
+		<SPN_1426>Cylinder 14 Ignition Timing,0,0.0078125,-200,deg,2,3,4</SPN_1426>
+		<SPN_1427>Cylinder 15 Ignition Timing,0,0.0078125,-200,deg,2,5,6</SPN_1427>
+		<SPN_1428>Cylinder 16 Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1428>
+	</PGN65157>
+
+	<PGN65158>
+		<SPN_LIST>4,1429,1430,1431,1432</SPN_LIST>
+		<SPN_1429>Cylinder 17 Ignition Timing,0,0.0078125,-200,deg,2,1,2</SPN_1429>
+		<SPN_1430>Cylinder 18 Ignition Timing,0,0.0078125,-200,deg,2,3,4</SPN_1430>
+		<SPN_1431>Cylinder 19 Ignition Timing,0,0.0078125,-200,deg,2,5,6</SPN_1431>
+		<SPN_1432>Cylinder 20 Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1432>
+	</PGN65158>
+
+	<PGN65159>
+		<SPN_LIST>4,1433,1434,1435,1436</SPN_LIST>
+		<SPN_1433>Desired Ignition Timing #1,0,0.0078125,-200,deg,2,1,2</SPN_1433>
+		<SPN_1434>Desired Ignition Timing #2,0,0.0078125,-200,deg,2,3,4</SPN_1434>
+		<SPN_1435>Desired Ignition Timing #3,0,0.0078125,-200,deg,2,5,6</SPN_1435>
+		<SPN_1436>Actual Ignition Timing,0,0.0078125,-200,deg,2,7,8</SPN_1436>
+	</PGN65159>
+
+	<PGN65160>
+		<SPN_LIST>8,1393,1394,1395,1396,1397,1398,1399,1400</SPN_LIST>
+		<SPN_1393>Cylinder 1 Ignition Transformer Secondary Output,0,1,-125,%,1,1</SPN_1393>
+		<SPN_1394>Cylinder 2 Ignition Transformer Secondary Output,0,1,-125,%,1,2</SPN_1394>
+		<SPN_1395>Cylinder 3 Ignition Transformer Secondary Output,0,1,-125,%,1,3</SPN_1395>
+		<SPN_1396>Cylinder 4 Ignition Transformer Secondary Output,0,1,-125,%,1,4</SPN_1396>
+		<SPN_1397>Cylinder 5 Ignition Transformer Secondary Output,0,1,-125,%,1,5</SPN_1397>
+		<SPN_1398>Cylinder 6 Ignition Transformer Secondary Output,0,1,-125,%,1,6</SPN_1398>
+		<SPN_1399>Cylinder 7 Ignition Transformer Secondary Output,0,1,-125,%,1,7</SPN_1399>
+		<SPN_1400>Cylinder 8 Ignition Transformer Secondary Output,0,1,-125,%,1,8</SPN_1400>
+	</PGN65160>
+
+	<PGN65161>
+		<SPN_LIST>8,1401,1402,1403,1404,1405,1406,1407,1408</SPN_LIST>
+		<SPN_1401>Cylinder 9 Ignition Transformer Secondary Output,0,1,-125,%,1,1</SPN_1401>
+		<SPN_1402>Cylinder 10 Ignition Transformer Secondary Output,0,1,-125,%,1,2</SPN_1402>
+		<SPN_1403>Cylinder 11 Ignition Transformer Secondary Output,0,1,-125,%,1,3</SPN_1403>
+		<SPN_1404>Cylinder 12 Ignition Transformer Secondary Output,0,1,-125,%,1,4</SPN_1404>
+		<SPN_1405>Cylinder 13 Ignition Transformer Secondary Output,0,1,-125,%,1,5</SPN_1405>
+		<SPN_1406>Cylinder 14 Ignition Transformer Secondary Output,0,1,-125,%,1,6</SPN_1406>
+		<SPN_1407>Cylinder 15 Ignition Transformer Secondary Output,0,1,-125,%,1,7</SPN_1407>
+		<SPN_1408>Cylinder 16 Ignition Transformer Secondary Output,0,1,-125,%,1,8</SPN_1408>
+	</PGN65161>
+	
+	<PGN65162>
+		<SPN_LIST>4,1409,1410,1411,1412</SPN_LIST>
+		<SPN_1409>Cylinder 17 Ignition Transformer Secondary Output,0,1,-125,%,1,1</SPN_1409>
+		<SPN_1410>Cylinder 18 Ignition Transformer Secondary Output,0,1,-125,%,1,2</SPN_1410>
+		<SPN_1411>Cylinder 19 Ignition Transformer Secondary Output,0,1,-125,%,1,3</SPN_1411>
+		<SPN_1412>Cylinder 20 Ignition Transformer Secondary Output,0,1,-125,%,1,4</SPN_1412>
+	</PGN65162>
+
+	<PGN65163>
+		<SPN_LIST>3,1390,1391,1392</SPN_LIST>
+		<SPN_1390>Absolute Fuel Valve Inlet Pressure,0,0.1,0,kPa,2,1,2</SPN_1390>
+		<SPN_1391>Outlet to Inlet Fuel Valve Differential Pressure,0,0.1,0,kPa,2,3,4</SPN_1391>
+		<SPN_1392>Air to Fuel Differential Pressure,0,0.1,0,kPa,2,5,6</SPN_1392>
+	</PGN65163>
+
+	<PGN65164>
+		<SPN_LIST>4,441,442,1387,1388</SPN_LIST>
+		<SPN_441>Auxiliary Temperature 1,0,1,-40,deg C,1,1</SPN_441>
+		<SPN_442>Auxiliary Temperature 2,0,1,-40,deg C,1,2</SPN_442>
+		<SPN_1387>Auxiliary Pressure #1,0,16,0,kPa,1,3</SPN_1387>
+		<SPN_1388>Auxiliary Pressure #2,0,16,0,kPa,1,4</SPN_1388>
+	</PGN65164>
+
+	<PGN65165>
+		<SPN_LIST>1,444</SPN_LIST>
+		<SPN_444>Battery 2 Potential (Voltage),0,0.05,0,V,2,1,2</SPN_444>
+	</PGN65165>
+
+	<PGN65166>
+		<SPN_LIST>2,1379,1350</SPN_LIST>
+		<SPN_1379>Service Component Identification,0,1,0,ID,1,1</SPN_1379>
+		<SPN_1350>Time Since Last Service,0,1,-32,127,hr,2,2,3</SPN_1350>
+	</PGN65166>
+
+	<PGN65167>
+		<SPN_LIST>1,1320</SPN_LIST>
+		<SPN_1320>Externally Supplied Air Pressure,0,0.5,0,kPa,2,1,2</SPN_1320>
+	</PGN65167>
+
+	<PGN65168>
+		<SPN_LIST>19,1246,1247,1248,1249,1250,1251,1252,1253,1254,1632,1255,1256,1257,1258,1259,1260,1261,1262,1263</SPN_LIST>
+		<SPN_1246>Number of Torque History Records,0,1,0,records,1,1</SPN_1246>
+		<SPN_1247>Engine Power,0,0.5,0,KW,2,2,3</SPN_1247>
+		<SPN_1248>Peak Engine Torque 1,0,1,0,Nm,2,4,5</SPN_1248>
+		<SPN_1249>Peak Engine Torque 2,0,1,0,Nm2,7,8</SPN_1249>
+		<SPN_1250>Calibration Record Start Month,0,1,0,months,1,8</SPN_1250>
+		<SPN_1251>Calibration Record Start Day,0,0.25,0,days,1,9</SPN_1251>
+		<SPN_1252>Calibration Record Start Year,0,1,1985,years,1,10</SPN_1252>
+		<SPN_1253>Calibration Record Duration Time,0,0.05,0,hr,4,11,14</SPN_1253>
+		<SPN_1254>Torque Limiting Feature Status,1,15,2,1,2</SPN_1254>
+		<SPN_1254_00>Disabled</SPN_1254_00>
+		<SPN_1254_01>Enabled</SPN_1254_01>
+		<SPN_1254_10>Not Available</SPN_1254_10>
+		<SPN_1254_11>Not Available</SPN_1254_11>
+		<SPN_1632>Torque Limit Feature,1,15,3,3,5</SPN_1632>
+		<SPN_1632_000>Reserved</SPN_1632_000>
+		<SPN_1632_001>Highest torque rating</SPN_1632_001>
+		<SPN_1632_010>First torque rating</SPN_1632_010>
+		<SPN_1632_011>Previous torque rating (rating prior to the current rating)</SPN_1632_011>
+		<SPN_1632_100>Current torque rating</SPN_1632_100>
+		<SPN_1632_101>Reserved</SPN_1632_101>
+		<SPN_1632_110>Reserved</SPN_1632_110>
+		<SPN_1632_111>Not available</SPN_1632_111>
+		<SPN_1255>Transmission Gear Ratio 1,0,0.01,0,no unit,2,16,17</SPN_1255>
+		<SPN_1256>Engine Torque Limit 1 Transmission,0,1,0,Nm,2,18,19</SPN_1256>
+		<SPN_1257>Transmission Gear Ratio 2,0,0.01,0,no unit,2,20,21</SPN_1257>
+		<SPN_1258>Engine Torque Limit 2 Transmission,0,1,0,Nm,2,22,23</SPN_1258>
+		<SPN_1259>Transmission Gear Ratio 3,0,0.01,0,No unit,2,24,25</SPN_1259>
+		<SPN_1260>Engine Torque Limit 3 Transmission,0,1,0,Nm,2,26,27</SPN_1260>
+		<SPN_1261>Engine Torque Limit 4 Transmission,0,1,0,Nm,2,28,29</SPN_1261>
+		<SPN_1262>Engine Torque Limit 5 Switch,0,1,0,Nm,2,30,31</SPN_1262>
+		<SPN_1263>Engine Torque Limit 6 Axle Input,0,2,0,Nm,2,32,33</SPN_1263>
+	</PGN65168>
+
+	<PGN65169>
+		<SPN_LIST>2,1239,1240</SPN_LIST>
+		<SPN_1239>Fuel Leakage 1,1,1,2,1,2</SPN_1239>
+		<SPN_1239_00>No leakage detected</SPN_1239_00>
+		<SPN_1239_01>Leakage detected</SPN_1239_01>
+		<SPN_1239_10>Not Available</SPN_1239_10>
+		<SPN_1239_11>Not Available</SPN_1239_11>
+		<SPN_1240>Fuel Leakage 2,1,1,2,3,4</SPN_1240>
+		<SPN_1240_00>No leakage detected</SPN_1240_00>
+		<SPN_1240_01>Leakage detected</SPN_1240_01>
+		<SPN_1240_10>Not Available</SPN_1240_10>
+		<SPN_1240_11>Not Available</SPN_1240_11>
+	</PGN65169>
+
+	<PGN65170>
+		<SPN_LIST>5,1208,1209,1210,1241,1242</SPN_LIST>
+		<SPN_1208>Pre-filter Oil Pressure,0,4,0,kPa,1,1</SPN_1208>
+		<SPN_1209>Exhaust Gas Pressure,0,0.0078125,-250,kPa,2,2,3</SPN_1209>
+		<SPN_1210>Fuel Rack Position,0,0.4,0,%,1,4</SPN_1210>
+		<SPN_1241>Mass Flow (Gaseous),0,0.05,0,kg/h,2,5,6</SPN_1241>
+		<SPN_1242>Instantaneous Estimated Brake Power,0,0.5,0,kW,2,7,8</SPN_1242>
+	</PGN65170>
+	
+	<PGN65171>
+		<SPN_LIST>3,1204,1205,1206</SPN_LIST>
+		<SPN_1204>Electrical Load,0,0.5,0,kW,2,1,2</SPN_1204>
+		<SPN_1205>Safety Wire Status,1,3,2,1,2</SPN_1205>
+		<SPN_1205_00>Safety wire has not been activated</SPN_1205_00>
+		<SPN_1205_01>Safety wire has been activated</SPN_1205_01>
+		<SPN_1205_10>Not Available</SPN_1205_10>
+		<SPN_1205_11>Not Available</SPN_1205_11>
+		<SPN_1206>Turning Gear Engaged,1,3,2,3,4</SPN_1206>
+		<SPN_1206_00>Turning gear is not engaged</SPN_1206_00>
+		<SPN_1206_01>Turning gear is engaged</SPN_1206_01>
+v		<SPN_1206_10>Not Available</SPN_1206_10>
+		<SPN_1206_11>Not Available</SPN_1206_11>
+	</PGN65171>
+
+	<PGN65172>
+		<SPN_LIST>3,1203,1212,2435</SPN_LIST>
+		<SPN_1203>Engine Auxiliary Coolant Pressure,0,4,0,kPa,1,1</SPN_1203>
+		<SPN_1212>Engine Auxiliary Coolant Temperature,0,1,-40,deg C,1,2</SPN_1212>
+		<SPN_2435>Sea Water Pump Outlet Pressure,0,2,0,kPa,1,3</SPN_2435>
+	</PGN65172>
+
+	<PGN65173>
+		<SPN_LIST>1,1193</SPN_LIST>
+		<SPN_1193>Engine Operation Time Since Rebuild,0,1,0,s,4,1,4</SPN_1193>
+	</PGN65173>
+
+	<PGN65174>
+		<SPN_LIST>5,1188,1189,1190,1191,1192</SPN_LIST>
+		<SPN_1188>Urbocharger 1 Wastegate Drive,0,0.4,0,%,1,1</SPN_1188>
+		<SPN_1189>Urbocharger 2 Wastegate Drive,0,0.4,0,%,1,2</SPN_1189>
+		<SPN_1190>Urbocharger 3 Wastegate Drive,0,0.4,0,%,1,3</SPN_1190>
+		<SPN_1191>Urbocharger 3 Wastegate Drive,0,0.4,0,%,1,4</SPN_1191>
+		<SPN_1192>Turbocharger Wastegate Actuator Control Air Pressure,0,4,0,kPa,1,5</SPN_1192>
+	</PGN65174>
+
+	<PGN65175>
+		<SPN_LIST>4,1184,1185,1186,1187</SPN_LIST>
+		<SPN_1184>Turbocharger 1 Turbine Outlet Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1184>
+		<SPN_1185>Turbocharger 2 Turbine Outlet Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1185>
+		<SPN_1186>Turbocharger 3 Turbine Outlet Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1186>
+		<SPN_1187>Turbocharger 4 Turbine Outlet Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1187>
+	</PGN65175>
+
+	<PGN65176>
+		<SPN_LIST>4,1180,1181,1182,1183</SPN_LIST>
+		<SPN_1180>Turbocharger 1 Turbine inlet Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1180>
+		<SPN_1181>Turbocharger 2 Turbine inlet Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1181>
+		<SPN_1182>Turbocharger 3 Turbine inlet Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1182>
+		<SPN_1183>Turbocharger 4 Turbine inlet Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1183>
+	</PGN65176>
+
+	<PGN65177>
+		<SPN_LIST>4,1176,1177,1178,1179</SPN_LIST>
+		<SPN_1176>Turbocharger 1 Compressor Inlet Pressure,0,0.0078125,-250,kPa,2,1,2</SPN_1176>
+		<SPN_1177>Turbocharger 2 Compressor Inlet Pressure,0,0.0078125,-250,kPa,2,3,4</SPN_1177>
+		<SPN_1178>Turbocharger 3 Compressor Inlet Pressure,0,0.0078125,-250,kPa,2,5,6</SPN_1178>
+		<SPN_1179>Turbocharger 4 Compressor Inlet Pressure,0,0.0078125,-250,kPa,2,7,8</SPN_1179>
+	</PGN65177>
+
+	<PGN65178>
+		<SPN_LIST>4,1172,1173,1174,1175</SPN_LIST>
+		<SPN_1172>Turbocharger 1 Compressor inlet Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1172>
+		<SPN_1173>Turbocharger 2 Compressor inlet Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1173>
+		<SPN_1174>Turbocharger 3 Compressor inlet Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1174>
+		<SPN_1175>Turbocharger 4 Compressor inlet Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1175>
+	</PGN65178>
+
+	<PGN65179>
+		<SPN_LIST>4,1168,1169,1170,1171</SPN_LIST>
+		<SPN_1168>Turbocharger Lube Oil Pressure 2,0,4,0,kPa,1,1</SPN_1168>
+		<SPN_1169>Turbocharger 2 Speed,0,4,0,rpm,2,2,3</SPN_1169>
+		<SPN_1170>Turbocharger 3 Speed,0,4,0,rpm,2,4,5</SPN_1170>
+		<SPN_1171>Turbocharger 4 Speed,0,4,0,rpm,2,6,7</SPN_1171>
+	</PGN65179>
+
+	<PGN65180>
+		<SPN_LIST>3,1165,1166,1167</SPN_LIST>
+		<SPN_1165>Main Bearing 9 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1165>
+		<SPN_1166>Main Bearing 10 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1166>
+		<SPN_1167>Main Bearing 11 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1167>
+	</PGN65180>
+
+	<PGN65181>
+		<SPN_LIST>4,1161,1162,1163,1164</SPN_LIST>
+		<SPN_1161>Main Bearing 5 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1161>
+		<SPN_1162>Main Bearing 6 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1162>
+		<SPN_1163>Main Bearing 7 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1163>
+		<SPN_1164>Main Bearing 8 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1164>
+	</PGN65181>
+
+	<PGN65182>
+		<SPN_LIST>4,1157,1158,1159,1160</SPN_LIST>
+		<SPN_1157>Main Bearing 1 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1157>
+		<SPN_1158>Main Bearing 2 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1158>
+		<SPN_1159>Main Bearing 3 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1159>
+		<SPN_1160>Main Bearing 4 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1160>
+	</PGN65182>
+
+	<PGN65183>
+		<SPN_LIST>4,1153,1154,1155,1156</SPN_LIST>
+		<SPN_1153>Exhaust Gas Port 17 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1153>
+		<SPN_1154>Exhaust Gas Port 18 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1154>
+		<SPN_1155>Exhaust Gas Port 19 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1155>
+		<SPN_1156>Exhaust Gas Port 20 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1156>
+	</PGN65183>
+
+	<PGN65184>
+		<SPN_LIST>4,1149,1150,1151,1152</SPN_LIST>
+		<SPN_1149>Exhaust Gas Port 13 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1149>
+		<SPN_1150>Exhaust Gas Port 14 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1150>
+		<SPN_1151>Exhaust Gas Port 15 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1151>
+		<SPN_1152>Exhaust Gas Port 16 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1152>
+	</PGN65184>
+
+	<PGN65185>
+		<SPN_LIST>4,1145,1146,1147,1148</SPN_LIST>
+		<SPN_1145>Exhaust Gas Port 9 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1145>
+		<SPN_1146>Exhaust Gas Port 10 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1146>
+		<SPN_1147>Exhaust Gas Port 11 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1147>
+		<SPN_1148>Exhaust Gas Port 12 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1148>
+	</PGN65185>
+
+	<PGN65186>
+		<SPN_LIST>4,1141,1142,1143,1144</SPN_LIST>
+		<SPN_1141>Exhaust Gas Port 5 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1141>
+		<SPN_1142>Exhaust Gas Port 6 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1142>
+		<SPN_1143>Exhaust Gas Port 7 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1143>
+		<SPN_1144>Exhaust Gas Port 8 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1144>
+	</PGN65186>
+
+	<PGN65187>
+		<SPN_LIST>4,1137,1138,1139,1140</SPN_LIST>
+		<SPN_1137>Exhaust Gas Port 1 Temperature,0,0.03125,-273,deg C,2,1,2</SPN_1137>
+		<SPN_1138>Exhaust Gas Port 2 Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1138>
+		<SPN_1139>Exhaust Gas Port 3 Temperature,0,0.03125,-273,deg C,2,5,6</SPN_1139>
+		<SPN_1140>Exhaust Gas Port 4 Temperature,0,0.03125,-273,deg C,2,7,8</SPN_1140>
+	</PGN65187>
+
+	<PGN65188>
+		<SPN_LIST>4,1135,1136,411,412</SPN_LIST>
+		<SPN_1135>Engine Oil Temperature 2,0,0.03125,-273,deg C,2,1,2</SPN_1135>
+		<SPN_1136>Engine ECU Temperature,0,0.03125,-273,deg C,2,3,4</SPN_1136>
+		<SPN_411>Exhaust Gas Recirculation Differential Pressure,0,0.0078125,-250,kPa,2,5,6</SPN_411>
+		<SPN_412>Exhaust Gas Recirculation Temperature,0,0.03125,-273,deg C,2,7,8</SPN_412>
+	</PGN65188>
+
+	<PGN65189>
+		<SPN_LIST>5,1131,1132,1133,1802,1803</SPN_LIST>
+		<SPN_1131>Intake Manifold 2 Temperature,0,1,-40,deg C,1,1</SPN_1131>
+		<SPN_1132>Intake Manifold 3 Temperature,0,1,-40,deg C,1,2</SPN_1132>
+		<SPN_1133>Intake Manifold 4 Temperature,0,1,-40,deg C,1,3</SPN_1133>
+		<SPN_1802>Intake Manifold 5 Temperature,0,1,-40,deg C,1,4</SPN_1802>
+		<SPN_1803>Intake Manifold 6 Temperature,0,1,-40,deg C,1,5</SPN_1803>
+	</PGN65189>
+
+	<PGN65190>
+		<SPN_LIST>4,1127,1128,1129,1130</SPN_LIST>
+		<SPN_1127>Turbocharger 1 Boost Pressure,0,0.125,0,kPa,2,1,2</SPN_1127>
+		<SPN_1128>Turbocharger 2 Boost Pressure,0,0.125,0,kPa,2,3,4</SPN_1128>
+		<SPN_1129>Turbocharger 3 Boost Pressure,0,0.125,0,kPa,2,5,6</SPN_1129>
+		<SPN_1130>Turbocharger 4 Boost Pressure,0,0.125,0,kPa,2,7,8</SPN_1130>
+	</PGN65190>
+
+	<PGN65191>
+		<SPN_LIST>5,1122,1123,1124,1125,1126</SPN_LIST>
+		<SPN_1122>Alternator Bearing 1 Temperature,0,1,-40,deg C,1,1</SPN_1122>
+		<SPN_1123>Alternator Bearing 2 Temperature,0,1,-40,deg C,1,2</SPN_1123>
+		<SPN_1124>Alternator Winding 1 Temperature,0,1,-40,deg C,1,3</SPN_1124>
+		<SPN_1125>Alternator Winding 2 Temperature,0,1,-40,deg C,1,4</SPN_1125>
+		<SPN_1126>Alternator Winding 3 Temperature,0,1,-40,deg C,1,5</SPN_1126>
+	</PGN65191>
+
+	<PGN65192>
+		<SPN_LIST>1,1120</SPN_LIST>
+		<SPN_1120>Articulation Angle,0,1,-125,deg,1,1</SPN_1120>
+	</PGN65192>
+
+	<PGN65193>
+		<SPN_LIST>5,1117,1118,1119,1695,1696</SPN_LIST>
+		<SPN_1117>Desired Rated Exhaust Oxygen,0,0.0025,0,%,2,1,2</SPN_1117>
+		<SPN_1118>Desired Exhaust Oxygen,0,0.0025,0,%,2,3,4</SPN_1118>
+		<SPN_1119>Actual Exhaust Oxygen,0,0.0025,0,%,2,5,6</SPN_1119>
+		<SPN_1695>Exhaust Gas Oxygen Sensor Fueling Correction,0,1,-125,%,1,7</SPN_1695>
+		<SPN_1696>Exhaust Gas Oxygen Sensor Closed Loop Operation,1,8,2,7,8</SPN_1696>
+		<SPN_1696_00>Command to disable function</SPN_1696_00>
+		<SPN_1696_01>Command to enable function</SPN_1696_01>
+		<SPN_1696_10>Reserved</SPN_1696_10>
+		<SPN_1696_11>Don't Care/take no action</SPN_1696_11>
+	</PGN65193>
+
+	<PGN65194>
+		<SPN_LIST>4,1116,1692,1693,1694</SPN_LIST>
+		<SPN_1116>Gaseous Fuel Correction Factor,0,1,0,%,1,1</SPN_1116>
+		<SPN_1692>Desired Absolute Intake Manifold Pressure (Turbo Boost Limit),0,0.1,0,kPa,2,2,3</SPN_1692>
+		<SPN_1693>Wastegate Valve Position,0,0.4,0,%,1,4</SPN_1693>
+		<SPN_1694>Gas Mass Flow Sensor Fueling Correction,0,1,-125,%,1,5</SPN_1694>
+	</PGN65194>
+
+	<PGN65195>
+		<SPN_LIST>3,1113,1115,1114</SPN_LIST>
+		<SPN_1113>Recommended Gear,0,1,-125,gears,1,1</SPN_1113>
+		<SPN_1115>Highest Possible Gear,0,1,-125,gears,1,2</SPN_1115>
+		<SPN_1114>Lowest Possible Gear,0,1,-125,gears,1,3</SPN_1114>
+	</PGN65195>
+
+	<PGN65196>
+		<SPN_LIST>8,1099,1100,1101,1102,1103,1104,1105,1106</SPN_LIST>
+		<SPN_1099>Brake Lining Remaining, Front Axle, Left Wheel,0,0.4,0,%,1,1</SPN_1099>
+		<SPN_1100>Brake Lining Remaining, Front Axle, Right Wheel,0,0.4,0,%,1,2</SPN_1100>
+		<SPN_1101>Brake Lining Remaining, Rear Axle #1, Left Wheel,0,0.4,0,%,1,3</SPN_1101>
+		<SPN_1102>Brake Lining Remaining, Rear Axle #1, Right Wheel,0,0.4,0,%,1,4</SPN_1102>
+		<SPN_1103>Brake Lining Remaining, Rear Axle #2, Left Wheel,0,0.4,0,%,1,5</SPN_1103>
+		<SPN_1104>Brake Lining Remaining, Rear Axle #2, Right Wheel,0,0.4,0,%,1,6</SPN_1104>
+		<SPN_1105>Brake Lining Remaining, Rear Axle #3, Left Wheel,0,0.4,0,%,1,7</SPN_1105>
+		<SPN_1106>Brake Lining Remaining, Rear Axle #3, Right Wheel,0,0.4,0,%,1,8</SPN_1106>
+	</PGN65196>
+
+	<PGN65197>
+		<SPN_LIST>8,1091,1092,1093,1094,1095,1096,1097,1098</SPN_LIST>
+		<SPN_1091>Brake Application Pressure High Range, Front Axle, Left Wheel,0,5,0,kPa,1,1</SPN_1091>
+		<SPN_1092>Brake Application Pressure High Range, Front Axle, Right Wheel,0,5,0,kPa,1,2</SPN_1092>
+		<SPN_1093>Brake Application Pressure High Range, Rear Axle #1, Left Wheel,0,5,0,kPa,1,3</SPN_1093>
+		<SPN_1094>Brake Application Pressure High Range, Rear Axle #1, Right Wheel,0,5,0,kPa,1,4</SPN_1094>
+		<SPN_1095>Brake Application Pressure High Range, Rear Axle #2, Left Wheel,0,5,0,kPa,1,5</SPN_1095>
+		<SPN_1096>Brake Application Pressure High Range, Rear Axle #2, Right Wheel,0,5,0,kPa,1,6</SPN_1096>
+		<SPN_1097>Brake Application Pressure High Range, Rear Axle #3, Left Wheel,0,5,0,kPa,1,7</SPN_1097>
+		<SPN_1098>Brake Application Pressure High Range, Rear Axle #3, Right Wheel,0,5,0,kPa,1,8</SPN_1098>
+	</PGN65197>
+
+	<PGN65198>
+		<SPN_LIST>6,46,1086,1087,1088,1089,1090</SPN_LIST>
+		<SPN_46>Pneumatic Supply Pressure,0,8,0,kPa,1,1</SPN_46>
+		<SPN_1086>Parking and/or Trailer Air Pressure,0,8,0,kPa,1,2</SPN_1086>
+		<SPN_1087>Service Brake Air Pressure Circuit #1,0,8,0,kPa,1,3</SPN_1087>
+		<SPN_1088>Service Brake Air Pressure Circuit #2,0,8,0,kPa,1,4</SPN_1088>
+		<SPN_1089>Auxiliary Equipment Supply Pressure,0,8,0,kPa,1,5</SPN_1089>
+		<SPN_1090>Air Suspension Supply Pressure,0,8,0,kPa,1,6</SPN_1090>
+	</PGN65198>
+
+	<PGN65199>
+		<SPN_LIST>2,1039,1040</SPN_LIST>
+		<SPN_1039>Trip Fuel (Gaseous),0,0.5,0,kg,4,1,4</SPN_1039>
+		<SPN_1040>Total Fuel Used (Gaseous),0,0.5,0,kg,4,5,8</SPN_1040>
+	</PGN65199>
+
+	<PGN65200>
+		<SPN_LIST>5,1034,1035,1036,1037,1038</SPN_LIST>
+		<SPN_1034>Trip Cruise Time,0,0.05,0,hr,4,1,4</SPN_1034>
+		<SPN_1035>Trip PTO Time,0,0.05,0,hr,4,5,8</SPN_1035>
+		<SPN_1036>Trip Engine Running Time,0,0.05,0,hr,4,9,12</SPN_1036>
+		<SPN_1037>Trip Idle Time,0,0.05,0,hr,4,13,16</SPN_1037>
+		<SPN_1038>Trip Air Compressor On Time,0,0.05,0,hr,4,17,20</SPN_1038>
+	</PGN65200>
+
+	<PGN65201>
+		<SPN_LIST>2,1032,1033</SPN_LIST>
+		<SPN_1032>Total ECU Distance,0,0.125,0,km,4,1,4</SPN_1032>
+		<SPN_1033>Total ECU Run Time,0,0.05,0,hr,4,5,8</SPN_1033>
+	</PGN65201>
+
+	<PGN65202>
+		<SPN_LIST>3,1030,1031,1389</SPN_LIST>
+		<SPN_1030>Total Engine PTO Fuel Used (Gaseous),0,0.5,0,kg,4,1,4</SPN_1030>
+		<SPN_1031>Trip Average Fuel Rate (Gaseous),0,0.05,0,kg/hr,2,5,6</SPN_1031>
+		<SPN_1389>Fuel Specific Gravity,0,0.0001,0,/bit,2,7,8</SPN_1389>
+	</PGN65202>
+
+	<PGN65203>
+		<SPN_LIST>2,1028,1029</SPN_LIST>
+		<SPN_1028>Total Engine PTO Fuel Used,0,0.5,0,L,4,1,4</SPN_1028>
+		<SPN_1029>Trip Average Fuel Rate,0,0.05,0,L/hr,2,5,6</SPN_1029>
+	</PGN65203>
+
+	<PGN65204>
+		<SPN_LIST>4,1024,1025,1026,1027</SPN_LIST>
+		<SPN_1024>Trip Time in VSL,0,0.05,0,hr,4,1,4</SPN_1024>
+		<SPN_1025>Trip Time in Top Gear,0,0.05,0,hr,4,5,8</SPN_1025>
+		<SPN_1026>Trip Time in Gear Down,0,0.05,0,hr,4,9,12</SPN_1026>
+		<SPN_1027>Trip Time in Derate by Engine,0,0.05,0,hr,4,13,16</SPN_1027>
+	</PGN65204>
+
+	<PGN65205>
+		<SPN_LIST>4,1020,1021,1022,1023</SPN_LIST>
+		<SPN_1020>Trip Number of Hot Shutdowns,0,1,0,counts,2,1,2</SPN_1020>
+		<SPN_1021>Trip Number of Idle Shutdowns,0,1,0,counts,2,3,4</SPN_1021>
+		<SPN_1022>Trip Number of Idle Shutdown Overrides,0,1,0,counts,2,5,6</SPN_1022>
+		<SPN_1023>Trip Sudden Decelerations,0,1,0,counts,2,7,8</SPN_1023>
+	</PGN65205>
+
+	<PGN65206>
+		<SPN_LIST>2,1018,1019</SPN_LIST>
+		<SPN_1018>Trip Maximum Vehicle Speed,0,0.00390625,0,km/hr,2,1,2</SPN_1018>
+		<SPN_1019>Trip Cruise Distance,0,0.125,0,km,4,3,6</SPN_1019>
+	</PGN65206>
+
+	<PGN65207>
+		<SPN_LIST>5,1013,1014,1015,1016,1017</SPN_LIST>
+		<SPN_1013>Trip Maximum Engine Speed,0,0.125,0,rpm,2,1,2</SPN_1013>
+		<SPN_1014>Trip Average Engine Speed,0,0.125,0,rpm,2,3,4</SPN_1014>
+		<SPN_1015>Trip Drive Average Load Factor,0,0.4,0,%,1,5</SPN_1015>
+		<SPN_1016>Total Drive Average Load Factor,0,0.4,0,%,1,6</SPN_1016>
+		<SPN_1017>Total Engine Cruise Time,0,0.05,0,hr,4,7,10</SPN_1017>
+	</PGN65207>
+
+	<PGN65208>
+		<SPN_LIST>6,1007,1008,1009,1010,1011,1012</SPN_LIST>
+		<SPN_1007>Trip Drive Fuel Used (Gaseous),0,0.5,0,kg,4,1,4</SPN_1007>
+		<SPN_1008>Trip PTO Moving Fuel Used (Gaseous),0,0.5,0,kg,4,5,8</SPN_1008>
+		<SPN_1009>Trip PTO Non-moving Fuel Used (Gaseous),0,0.5,0,kg,4,9,12</SPN_1009>
+		<SPN_1010>Trip Vehicle Idle Fuel Used (Gaseous),0,0.5,0,kg,4,13,16</SPN_1010>
+		<SPN_1011>Trip Cruise Fuel Used (Gaseous),0,0.5,0,kg,4,17,20</SPN_1011>
+		<SPN_1012>Trip Drive Fuel Economy (Gaseous),0,0.001953125,0,km/kg,2,21,22</SPN_1012>
+	</PGN65208>
+
+	<PGN65209>
+		<SPN_LIST>6,1001,1002,1003,1004,1005,1006</SPN_LIST>
+		<SPN_1001>Trip Drive Fuel Used,0,0.5,0,L,4,1,4</SPN_1001>
+		<SPN_1002>Trip PTO Moving Fuel Used,0,0.5,0,L,4,5,8</SPN_1002>
+		<SPN_1003>Trip PTO Non-moving Fuel Used,0,0.5,0,L,4,9,12</SPN_1003>
+		<SPN_1004>Trip Vehicle Idle Fuel Used,0,0.5,0,L,4,13,16</SPN_1004>
+		<SPN_1005>Trip Cruise Fuel Used,0,0.5,0,L,4,17,20</SPN_1005>
+		<SPN_1006>Trip Drive Fuel Economy,0,0.001953125,0,km/L,2,21,22</SPN_1006>
+	</PGN65209>
+
+	<PGN65210>
+		<SPN_LIST>3,998,999,1000</SPN_LIST>
+		<SPN_998>Trip Distance on VSL,0,0.125,0,km,4,1,4</SPN_998>
+		<SPN_999>Trip Gear Down Distance,0,0.125,0,km,4,5,8</SPN_999>
+		<SPN_1000>Trip Distance in Top Gear,0,0.125,0,km,4,9,12</SPN_1000>
+	</PGN65210>
+
+	<PGN65211>
+		<SPN_LIST>4,994,995,996,997</SPN_LIST>
+		<SPN_994>Trip Fan On Time,0,0.05,0,hr,4,1,4</SPN_994>
+		<SPN_995>Trip Fan On Time Due to the Engine System,0,0.05,0,hr,4,5,8</SPN_995>
+		<SPN_996>Trip Fan On Time Due to a Manual Switch,0,0.05,0,hr,4,9,12</SPN_996>
+		<SPN_997>Trip Fan On Time Due to the A/C System,0,0.05,0,hr,4,13,16</SPN_997>
+	</PGN65211>
+
+	<PGN65212>
+		<SPN_LIST>4,990,991,992,993</SPN_LIST>
+		<SPN_990>Total Compression Brake Distance,0,0.125,0,km,4,1,4</SPN_990>
+		<SPN_991>Trip Compression Brake Distance,0,0.125,0,km,4,5,8</SPN_991>
+		<SPN_992>Trip Service Brake Distance,0,0.125,0,km,4,9,12</SPN_992>
+		<SPN_993>Trip Service Brake Applications,0,1,0,appl,4,13,16</SPN_993>
+	</PGN65212>
+
+	<PGN65213>
+		<SPN_LIST>3,975,977,1639</SPN_LIST>
+		<SPN_975>Estimated Percent Fan Speed,0,0.4,0,%,1,1</SPN_975>
+		<SPN_977>Fan Drive State,1,2,4,1,4</SPN_977>
+		<SPN_977_0000>Fan off</SPN_977_0000>
+		<SPN_977_0001>Engine system'General</SPN_977_0001>
+		<SPN_977_0010>Excessive engine air temperature</SPN_977_0010>
+		<SPN_977_0011>Excessive engine oil temperature</SPN_977_0011>
+		<SPN_977_0100>Excessive engine coolant temperature</SPN_977_0100>
+		<SPN_977_0101>Excessive transmission oil temperature</SPN_977_0101>
+		<SPN_977_0110>Excessive hydraulic oil temperature</SPN_977_0110>
+		<SPN_977_0111>Default OperationVehicle Application Layer - J1939-71 (through December 2001) - p. 110</SPN_977_0111>
+		<SPN_977_1000>Not defined</SPN_977_1000>
+		<SPN_977_1001>Manual control</SPN_977_1001>
+		<SPN_977_1010>Transmission retarder</SPN_977_1010>
+		<SPN_977_1011>A/C system</SPN_977_1011>
+		<SPN_977_1100>Timer</SPN_977_1100>
+		<SPN_977_1101>Engine brake</SPN_977_1101>
+		<SPN_977_1110>Other</SPN_977_1110>
+		<SPN_977_1111>Not Available</SPN_977_1111>
+		<SPN_1639>Fan Speed,0,0.125,0,rpm,2,3,4</SPN_1639>
+	</PGN65213>
+
+	<PGN65214>
+		<SPN_LIST>2,166,189</SPN_LIST>
+		<SPN_166>Rated Engine Power,0,0.5,0,kW,2,1,2</SPN_166>
+		<SPN_189>Rated Engine Speed,0,0.125,0,rpm,2,3,4</SPN_189>
+	</PGN65214>
+
+	<PGN65215>
+		<SPN_LIST>7,904,905,906,907,908,909,910</SPN_LIST>
+		<SPN_904>Front Axle Speed,0,0.00390625,0,km/h,2,1,2</SPN_904>
+		<SPN_905>Relative Speed; Front Axle, Left Wheel,0,0.0625,-7.8125,km/h,1,3</SPN_905>
+		<SPN_906>Relative Speed; Front Axle, Right Wheel,0,0.0625,-7.8125,km/h,1,4</SPN_906>
+		<SPN_907>Relative Speed; Rear Axle #1, Left Wheel,0,0.0625,-7.8125,km/h,1,5</SPN_907>
+		<SPN_908>Relative Speed; Rear Axle #1, Right Wheel,0,0.0625,-7.8125,km/h,1,6</SPN_908>
+		<SPN_909>Relative Speed; Rear Axle #2, Left Wheel,0,0.0625,-7.8125,km/h,1,7</SPN_909>
+		<SPN_910>Relative Speed; Rear Axle #2, Right Wheel,0,0.0625,-7.8125,km/h,1,8</SPN_910>
+	</PGN65215>
+
+	<PGN65216>
+		<SPN_LIST>6,911,912,913,914,915,916</SPN_LIST>
+		<SPN_911>Service Component Identification,0,1,0,ID,1,1</SPN_911>
+		<SPN_912>Service Distance,0,1,0,ID,1,4</SPN_912>
+		<SPN_913>Service Component Identification,0,1,0,ID,1,6</SPN_913>
+		<SPN_914>Service Delay/Calendar Time Based,0,5,-160635,km,2,2,3</SPN_914>
+		<SPN_915>Service Component Identification,0,1,-125,weeks,1,5</SPN_915>
+		<SPN_916>Service Delay/Operational Time Based,0,1,-32,127,hr,2,7,8</SPN_916>
+	</PGN65216>
+
+	<PGN65217>
+		<SPN_LIST>2,917,918</SPN_LIST>
+		<SPN_917>High Resolution Total Vehicle Distance,0,5,0,km,4,1,4</SPN_917>
+		<SPN_918>High Resolution Trip Distance,0,5,0,km,4,5,8</SPN_918>
+	</PGN65217>
+
+	<PGN65218>
+		<SPN_LIST>1,748</SPN_LIST>
+		<SPN_748>Transmission Output Retarder,1,1,2,1,2</SPN_748>
+		<SPN_748_00>Off</SPN_748_00>
+		<SPN_748_01>On</SPN_748_01>
+		<SPN_748_10>Not available</SPN_748_10>
+		<SPN_748_11>Not available</SPN_748_11>
+	</PGN65218>
+
+	<PGN65219>
+		<SPN_LIST>5,778,779,767,604,903</SPN_LIST>
+		<SPN_778>Transmission High Range Sense Switch,1,1,2,1,2</SPN_778>
+		<SPN_778_00>Off</SPN_778_00>
+		<SPN_778_01>On</SPN_778_01>
+		<SPN_778_10>Not available</SPN_778_10>
+		<SPN_778_11>Not available</SPN_778_11>
+		<SPN_779>Transmission Low Range Sense Switch,1,1,2,3,4</SPN_779>
+		<SPN_779_00>Off</SPN_779_00>
+		<SPN_779_01>On</SPN_779_01>
+		<SPN_779_10>Not available</SPN_779_10>
+		<SPN_779_11>Not available</SPN_779_11>
+		<SPN_767>Transmission Reverse Direction Switch,1,2,2,1,2</SPN_767>
+		<SPN_767_00>Off</SPN_767_00>
+		<SPN_767_01>On</SPN_767_01>
+		<SPN_767_10>Not available</SPN_767_10>
+		<SPN_767_11>Not available</SPN_767_11>
+		<SPN_604>Transmission Neutral Switch,1,2,2,3,4</SPN_604>
+		<SPN_604_00>Off</SPN_604_00>
+		<SPN_604_01>On</SPN_604_01>
+		<SPN_604_10>Not available</SPN_604_10>
+		<SPN_604_11>Not available</SPN_604_11>
+		<SPN_903>Transmission Forward Direction Switch,1,2,2,5,6</SPN_903>
+		<SPN_903_00>Off</SPN_903_00>
+		<SPN_903_01>On</SPN_903_01>
+		<SPN_903_10>Not available</SPN_903_10>
+		<SPN_903_11>Not available</SPN_903_11>
+	</PGN65219>
+
+	<PGN65221>
+		<SPN_LIST>2,53,54</SPN_LIST>
+		<SPN_53>Transmission Synchronizer Clutch Value,0,0.4,0,%,1,1</SPN_53>
+		<SPN_54>Transmission Synchronizer Brake Value,0,0.4,0,%,1,2</SPN_54>
+	</PGN65221>
+
+	<PGN65223>
+		<SPN_LIST>17,59,60,780,781,782,772,773,783,784,768,769,770,771,788,740,786,787</SPN_LIST>
+		<SPN_59>Shift Finger Gear Position,0,0.4,0,%,1,1</SPN_59>
+		<SPN_60>Shift Finger Rail Position,0,0.4,0,%,1,2</SPN_60>
+		<SPN_780>Shift Finger Neutral Indicator,1,3,2,1,2</SPN_780>
+		<SPN_780_00>Off</SPN_780_00>
+		<SPN_780_01>On</SPN_780_01>
+		<SPN_780_10>Not available</SPN_780_10>
+		<SPN_780_11>Not available</SPN_780_11>
+		<SPN_781>Shift Finger Engagement Indicator,1,3,2,3,4</SPN_781>
+		<SPN_781_00>Off</SPN_781_00>
+		<SPN_781_01>On</SPN_781_01>
+		<SPN_781_10>Not available</SPN_781_10>
+		<SPN_781_11>Not available</SPN_781_11>
+		<SPN_782>Shift Finger Center Rail Indicator,1,3,2,5,6</SPN_782>
+		<SPN_782_00>Off</SPN_782_00>
+		<SPN_782_01>On</SPN_782_01>
+		<SPN_782_10>Not available</SPN_782_10>
+		<SPN_782_11>Not available</SPN_782_11>
+		<SPN_772>Shift Finger Rail Actuator 1,1,4,2,1,2</SPN_772>
+		<SPN_772_00>Off</SPN_772_00>
+		<SPN_772_01>On</SPN_772_01>
+		<SPN_772_10>Not available</SPN_772_10>
+		<SPN_772_11>Not available</SPN_772_11>
+		<SPN_773>Shift Finger Gear Actuator 1,1,4,2,3,4</SPN_773>
+		<SPN_773_00>Off</SPN_773_00>
+		<SPN_773_01>On</SPN_773_01>
+		<SPN_773_10>Not available</SPN_773_10>
+		<SPN_773_11>Not available</SPN_773_11>
+		<SPN_783>Shift Finger Rail Actuator 2,1,4,2,5,6</SPN_783>
+		<SPN_783_00>Off</SPN_783_00>
+		<SPN_783_01>On</SPN_783_01>
+		<SPN_783_10>Not available</SPN_783_10>
+		<SPN_783_11>Not available</SPN_783_11>
+		<SPN_784>Shift Finger Gear Actuator 2,1,4,2,7,8</SPN_784>
+		<SPN_784_00>Off</SPN_784_00>
+		<SPN_784_01>On</SPN_784_01>
+		<SPN_784_10>Not available</SPN_784_10>
+		<SPN_784_11>Not available</SPN_784_11>
+		<SPN_768>Range High Actuator,1,5,2,1,2</SPN_768>
+		<SPN_768_00>Off</SPN_768_00>
+		<SPN_768_01>On</SPN_768_01>
+		<SPN_768_10>Not available</SPN_768_10>
+		<SPN_768_11>Not available</SPN_768_11>
+		<SPN_769>Range Low Actuator,1,5,2,3,4</SPN_769>
+		<SPN_769_00>Off</SPN_769_00>
+		<SPN_769_01>On</SPN_769_01>
+		<SPN_769_10>Not available</SPN_769_10>
+		<SPN_769_11>Not available</SPN_769_11>
+		<SPN_770>Splitter Direct Actuator,1,5,2,5,6</SPN_770>
+		<SPN_770_00>Off</SPN_770_00>
+		<SPN_770_01>On</SPN_770_01>
+		<SPN_770_10>Not available</SPN_770_10>
+		<SPN_770_11>Not available</SPN_770_11>
+		<SPN_771>Splitter Indirect Actuator,1,5,2,7,8</SPN_771>
+		<SPN_771_00>Off</SPN_771_00>
+		<SPN_771_01>On</SPN_771_01>
+		<SPN_771_10>Not available</SPN_771_10>
+		<SPN_771_11>Not available</SPN_771_11>
+		<SPN_788>Clutch Actuator,1,6,2,1,2</SPN_788>
+		<SPN_788_00>Off</SPN_788_00>
+		<SPN_788_01>On</SPN_788_01>
+		<SPN_788_10>Not available</SPN_788_10>
+		<SPN_788_11>Not available</SPN_788_11>
+		<SPN_740>Lockup Clutch Actuator,1,6,2,3,4</SPN_740>
+		<SPN_740_00>Off</SPN_740_00>
+		<SPN_740_01>On</SPN_740_01>
+		<SPN_740_10>Not available</SPN_740_10>
+		<SPN_740_11>Not available</SPN_740_11>
+		<SPN_786>Defuel Actuator,1,6,2,5,6</SPN_786>
+		<SPN_786_00>Off</SPN_786_00>
+		<SPN_786_01>On</SPN_786_01>
+		<SPN_786_10>Not available</SPN_786_10>
+		<SPN_786_11>Not available</SPN_786_11>
+		<SPN_787>Inertia Brake Actuator,1,6,2,7,8</SPN_787>
+		<SPN_787_00>Off</SPN_787_00>
+		<SPN_787_01>On</SPN_787_01>
+		<SPN_787_10>Not available</SPN_787_10>
+		<SPN_787_11>Not available</SPN_787_11>
+	</PGN65223>
+
+	<PGN65237>
+		<SPN_LIST>1,589</SPN_LIST>
+		<SPN_589>Alternator Speed,0,0.5,0,rpm,2,1,2</SPN_589>
+	</PGN65237>
+
+	<PGN65241>
+		<SPN_LIST>18,704,703,702,701,708,707,706,705,712,711,710,709,716,715,714,713,1083,1084</SPN_LIST>
+		<SPN_704>Auxiliary I/O #04,1,1,2,1,2</SPN_704>
+		<SPN_704_00>Auxiliary channel off</SPN_704_00>
+		<SPN_704_01>Auxiliary channel on</SPN_704_01>
+		<SPN_704_10>Not available</SPN_704_10>
+		<SPN_704_11>Not available</SPN_704_11>
+		<SPN_703>Auxiliary I/O #03,1,1,2,3,4</SPN_703>
+		<SPN_703_00>Auxiliary channel off</SPN_703_00>
+		<SPN_703_01>Auxiliary channel on</SPN_703_01>
+		<SPN_703_10>Not available</SPN_703_10>
+		<SPN_703_11>Not available</SPN_703_11>
+		<SPN_702>Auxiliary I/O #02,1,1,2,5,6</SPN_702>
+		<SPN_702_00>Auxiliary channel off</SPN_702_00>
+		<SPN_702_01>Auxiliary channel on</SPN_702_01>
+		<SPN_702_10>Not available</SPN_702_10>
+		<SPN_702_11>Not available</SPN_702_11>
+		<SPN_701>Auxiliary I/O #01,1,1,2,7,8</SPN_701>
+		<SPN_701_00>Auxiliary channel off</SPN_701_00>
+		<SPN_701_01>Auxiliary channel on</SPN_701_01>
+		<SPN_701_10>Not available</SPN_701_10>
+		<SPN_701_11>Not available</SPN_701_11>
+		<SPN_708>Auxiliary I/O #08,1,2,2,1,2</SPN_708>
+		<SPN_708_00>Auxiliary channel off</SPN_708_00>
+		<SPN_708_01>Auxiliary channel on</SPN_708_01>
+		<SPN_708_10>Not available</SPN_708_10>
+		<SPN_708_11>Not available</SPN_708_11>
+		<SPN_707>Auxiliary I/O #07,1,2,2,3,4</SPN_707>
+		<SPN_707_00>Auxiliary channel off</SPN_707_00>
+		<SPN_707_01>Auxiliary channel on</SPN_707_01>
+		<SPN_707_10>Not available</SPN_707_10>
+		<SPN_707_11>Not available</SPN_707_11>
+		<SPN_706>Auxiliary I/O #06,1,2,2,5,6</SPN_706>
+		<SPN_706_00>Auxiliary channel off</SPN_706_00>
+		<SPN_706_01>Auxiliary channel on</SPN_706_01>
+		<SPN_706_10>Not available</SPN_706_10>
+		<SPN_706_11>Not available</SPN_706_11>
+		<SPN_705>Auxiliary I/O #05,1,2,2,7,8</SPN_705>
+		<SPN_705_00>Auxiliary channel off</SPN_705_00>
+		<SPN_705_01>Auxiliary channel on</SPN_705_01>
+		<SPN_705_10>Not available</SPN_705_10>
+		<SPN_705_11>Not available</SPN_705_11>
+		<SPN_712>Auxiliary I/O #12,1,3,2,1,2</SPN_712>
+		<SPN_712_00>Auxiliary channel off</SPN_712_00>
+		<SPN_712_01>Auxiliary channel on</SPN_712_01>
+		<SPN_712_10>Not available</SPN_712_10>
+		<SPN_712_11>Not available</SPN_712_11>
+		<SPN_711>Auxiliary I/O #11,1,3,2,3,4</SPN_711>
+		<SPN_711_00>Auxiliary channel off</SPN_711_00>
+		<SPN_711_01>Auxiliary channel on</SPN_711_01>
+		<SPN_711_10>Not available</SPN_711_10>
+		<SPN_711_11>Not available</SPN_711_11>
+		<SPN_710>Auxiliary I/O #10,1,3,2,5,6</SPN_710>
+		<SPN_710_00>Auxiliary channel off</SPN_710_00>
+		<SPN_710_01>Auxiliary channel on</SPN_710_01>
+		<SPN_710_10>Not available</SPN_710_10>
+		<SPN_710_11>Not available</SPN_710_11>
+		<SPN_709>Auxiliary I/O #09,1,3,2,7,8</SPN_709>
+		<SPN_709_00>Auxiliary channel off</SPN_709_00>
+		<SPN_709_01>Auxiliary channel on</SPN_709_01>
+		<SPN_709_10>Not available</SPN_709_10>
+		<SPN_709_11>Not available</SPN_709_11>
+		<SPN_716>Auxiliary I/O #16,1,4,2,1,2</SPN_716>
+		<SPN_716_00>Auxiliary channel off</SPN_716_00>
+		<SPN_716_01>Auxiliary channel on</SPN_716_01>
+		<SPN_716_10>Not available</SPN_716_10>
+		<SPN_716_11>Not available</SPN_716_11>
+		<SPN_715>Auxiliary I/O #15,1,4,2,3,4</SPN_715>
+		<SPN_715_00>Auxiliary channel off</SPN_715_00>
+		<SPN_715_01>Auxiliary channel on</SPN_715_01>
+		<SPN_715_10>Not available</SPN_715_10>
+		<SPN_715_11>Not available</SPN_715_11>
+		<SPN_714>Auxiliary I/O #14,1,4,2,5,6</SPN_714>
+		<SPN_714_00>Auxiliary channel off</SPN_714_00>
+		<SPN_714_01>Auxiliary channel on</SPN_714_01>
+		<SPN_714_10>Not available</SPN_714_10>
+		<SPN_714_11>Not available</SPN_714_11>
+		<SPN_713>Auxiliary I/O #13,1,4,2,7,8</SPN_713>
+		<SPN_713_00>Auxiliary channel off</SPN_713_00>
+		<SPN_713_01>Auxiliary channel on</SPN_713_01>
+		<SPN_713_10>Not available</SPN_713_10>
+		<SPN_713_11>Not available</SPN_713_11>
+		<SPN_1083>Auxiliary I/O Channel #1,0,1,0,counts,2,5,6</SPN_1083>
+		<SPN_1084>Auxiliary I/O Channel #2,0,1,0,counts,2,7,8</SPN_1084>
+	</PGN65241>
+
+	<PGN65242>
+		<SPN_LIST>2,965,234</SPN_LIST>
+		<SPN_965>Number of Software Identification Fields,0,1,1</SPN_965>
+		<SPN_234>Software Identification,3,0,per byte,2</SPN_234>
+	</PGN65242>
+
+	<PGN65243>
+		<SPN_LIST>4,164,157,156,1349</SPN_LIST>
+		<SPN_164>Injection Control Pressure,0,0.00390625,0,Mpa,2,1,2</SPN_164>
+		<SPN_157>Injector Metering Rail 1 Pressure,0,0.00390625,0,Mpa,2,3,4</SPN_157>
+		<SPN_156>Injector Timing Rail 1 Pressure,0,0.00390625,0,Mpa,2,5,6</SPN_156>
+		<SPN_1349>Injector Metering Rail 2 Pressure,0,0.00390625,0,Mpa,2,7,8</SPN_1349>
+	</PGN65243>
+
+	<PGN65244>
+		<SPN_LIST>2,236,235</SPN_LIST>
+		<SPN_236>Total Idle Fuel Used,0,0.5,0,L,4,1,4</SPN_236>
+		<SPN_235>Total Idle Hours,0,0.5,0,L,4,5,8</SPN_235>
+	</PGN65244>
+
+	<PGN65245>
+		<SPN_LIST>3,104,103,1665</SPN_LIST>
+		<SPN_104>Turbocharger Lube Oil Pressure 1,0,4,0,kPa,1,1</SPN_104>
+		<SPN_103>Turbocharger 1 Speed,0,4,0,rpm,2,2,3</SPN_103>
+		<SPN_1665>Turbo Oil Level Switch,1,4,2,1,2</SPN_1665>
+		<SPN_1665_00>No oil present at turbocharger</SPN_1665_00>
+		<SPN_1665_01>Oil present at turbocharger</SPN_1665_01>
+		<SPN_1665_10>Error</SPN_1665_10>
+		<SPN_1665_11>Not available</SPN_1665_11>
+	</PGN65245>
+
+	<PGN65246>
+		<SPN_LIST>1,82</SPN_LIST>
+		<SPN_82>Air Start Pressure,0,4,0,kPa,1,1</SPN_82>
+	</PGN65246>
+
+	<PGN65247>
+		<SPN_LIST>3,514,515,519</SPN_LIST>
+		<SPN_514>Nominal Friction - Percent Torque,0,1,-125,%,1,1</SPN_514>
+		<SPN_515>Engine's Desired Operating Speed,0,0.125,0,rpm,2,2,3</SPN_515>
+		<SPN_519>Engine's Desired Operating Speed Asymmetry Adjustment,0,1,0,no unit,1,4</SPN_519>
+	</PGN65247>
+
+	<PGN65248>
+		<SPN_LIST>2,244,245</SPN_LIST>
+		<SPN_244>Trip Distance,0,0.125,0,km,4,1,4</SPN_244>
+		<SPN_245>Total Vehicle Distance,0,0.125,0,km,4,5,8</SPN_245>
+	</PGN65248>
+
+	<PGN65249>
+		<SPN_LIST>14,901,902,557,546,551,548,552,549,553,550,554,547,556,555</SPN_LIST>
+		<SPN_901>01.1 4 bits Retarder Type,1,1,4,1,4</SPN_901>
+		<SPN_901_0000>Electric/Magnetic</SPN_901_0000>
+		<SPN_901_0001>Hydrolic</SPN_901_0001>
+		<SPN_901_0010>cooled friction</SPN_901_0010>
+		<SPN_901_0011>Compressed Release(engine Retarder)</SPN_901_0011>
+		<SPN_901_0100>Exhaust</SPN_901_0100>
+		<SPN_901_0101>Not Defined</SPN_901_0101>
+		<SPN_901_0110>Not Defined</SPN_901_0110>
+		<SPN_901_0111>Not Defined</SPN_901_0111>
+		<SPN_901_1000>Not defined</SPN_901_1000>
+		<SPN_901_1001>Not Defined</SPN_901_1001>
+		<SPN_901_1010>Not Defined</SPN_901_1010>
+		<SPN_901_1011>Not Defined</SPN_901_1011>
+		<SPN_901_1100>Not Defined</SPN_901_1100>
+		<SPN_901_1101>Not Defined</SPN_901_1101>
+		<SPN_901_1110>Other</SPN_901_1110>
+		<SPN_901_1111>Not Available</SPN_901_1111>
+		<SPN_902>01.5 4 bits Retarder Location,1,1,4,5,8</SPN_902>
+		<SPN_902_0000>Engine compression release break(engine rpm)-primary</SPN_902_0000>
+		<SPN_902_0001>Engine exhaust brake(exhaust pressure)-primary</SPN_902_0001>
+		<SPN_902_0010>Transmission input(engine rpm)-primary</SPN_902_0010>
+		<SPN_902_0011>Transmission output(output shaft rpm)-secondary</SPN_902_0011>
+		<SPN_902_0100>Driveline output(output shaft rpm)-secondary</SPN_902_0100>
+		<SPN_902_0101>Trailer(vehicle speed)</SPN_902_0101>
+		<SPN_902_0110>Not Defined</SPN_902_0110>
+		<SPN_902_0111>Not Defined</SPN_902_0111>
+		<SPN_902_1000>Not defined</SPN_902_1000>
+		<SPN_902_1001>Not Defined</SPN_902_1001>
+		<SPN_902_1010>Not Defined</SPN_902_1010>
+		<SPN_902_1011>Not Defined</SPN_902_1011>
+		<SPN_902_1100>Not Defined</SPN_902_1100>
+		<SPN_902_1101>Not Defined</SPN_902_1101>
+		<SPN_902_1110>Other</SPN_902_1110>
+		<SPN_902_1111>Not Available</SPN_902_1111>
+		<SPN_557>Retarder Control Method (Retarder Configuration),0,1,0,steps,1,2</SPN_557>
+		<SPN_546>Retarder Speed At Idle, Point 1 (Retarder Configuration),0,0.125,0,rpm,2,3,4</SPN_546>
+		<SPN_551>Percent Torque At Idle, Point 1 (Retarder Configuration),0,1,-125,%,1,5</SPN_551>
+		<SPN_548>Maximum Retarder Speed, Point 2 (Retarder Configuration),0,0.125,0,rpm,2,6,7</SPN_548>
+		<SPN_552>Percent Torque At Maximum Speed, Point 2 (Retarder Configuration),0,1,-125,%,1,8</SPN_552>
+		<SPN_549>Retarder Speed At Point 3 (Retarder Configuration),0,0.125,0,rpm,2,9,10</SPN_549>
+		<SPN_553>Percent Torque At Point 3 (Retarder Configuration),0,1,-125,%,1,11</SPN_553>
+		<SPN_550>Retarder Speed At Point 4 (Retarder Configuration),0,0.125,0,rpm,2,12,13</SPN_550>
+		<SPN_554>Percent Torque At Point 4 (Retarder Configuration),0,1,-125,%,1,14</SPN_554>
+		<SPN_547>Retarder Speed At Peak Torque, Point 5 (Retarder Configuration),0,0.125,0,rpm,2,15,16</SPN_547>
+		<SPN_556>Reference Retarder Torque (Retarder Configuration),0,1,0,Nm,2,17,18</SPN_556>
+		<SPN_555>Percent Torque At Peak Torque, Point 5 (Retarder Configuration),0,1,-125,%,1,19</SPN_555>
+	</PGN65249>
+
+	<PGN65250>
+		<SPN_LIST>3,958,957,581</SPN_LIST>
+		<SPN_958>Number of Reverse Gear Ratios,0,1,0,no unit,1,1</SPN_958>
+		<SPN_957>Number of Forward Gear Ratios,0,1,0,no unit,1,2</SPN_957>
+		<SPN_581>Transmission Gear Ratio,0,0.001,0,no unit,2,3,4</SPN_581>
+	</PGN65250>
+
+	<PGN65251>
+		<SPN_LIST>22,188,539,528,540,529,541,530,542,531,543,532,545,544,533,534,535,536,537,538,1712,1794,1846</SPN_LIST>
+		<SPN_188>Engine Speed At Idle, Point 1 (Engine Configuration),0,0.125,0,rpm,2,1,2</SPN_188>
+		<SPN_539>Percent Torque At Idle, Point 1 (Engine Configuration),0,1,-125,%,1,3</SPN_539>
+		<SPN_528>Engine Speed At Point 2 (Engine Configuration),0,0.125,0,rpm,2,4,5</SPN_528>
+		<SPN_540>Percent Torque At Point 2 (Engine Configuration),0,1,-125,%,1,6</SPN_540>
+		<SPN_529>Engine Speed At Point 3 (Engine Configuration),0,0.125,0,rpm,2,7,8</SPN_529>
+		<SPN_541>Percent Torque At Point 3 (Engine Configuration),0,1,-125,%,1,9</SPN_541>
+		<SPN_530>Engine Speed At Point 4 (Engine Configuration),0,0.125,0,rpm,2,10,11</SPN_530>
+		<SPN_542>Percent Torque At Point 4 (Engine Configuration),0,1,-125,%,1,12</SPN_542>
+		<SPN_531>Engine Speed At Point 5 (Engine Configuration),0,0.125,0,rpm,2,13,14</SPN_531>
+		<SPN_543>Percent Torque At Point 5 (Engine Configuration),0,1,-125,%,1,15</SPN_543>
+		<SPN_532>Engine Speed At High Idle, Point 6 (Engine Configuration),0,0.125,0,rpm,2,16,17</SPN_532>
+		<SPN_545>Gain (Kp) Of The Endspeed Governor (Engine Configuration),0,0.00078125,0,%/rpm,2,18,19</SPN_545>
+		<SPN_544>Reference Engine Torque (Engine Configuration),0,1,0,Nm,2,20,21</SPN_544>
+		<SPN_533>Maximum Momentary Engine Override Speed, Point 7 (Engine Configuration),0,0.125,0,rpm,2,22,23</SPN_533>
+		<SPN_534>Maximum Momentary Override Time Limit (Engine Configuration),0,0.1,0,s,1,24</SPN_534>
+		<SPN_535>Requested Speed Control Range Lower Limit (Engine Configuration),0,10,0,rpm,1,25</SPN_535>
+		<SPN_536>Requested Speed Control Range Upper Limit (Engine Configuration),0,10,0,rpm,1,26</SPN_536>
+		<SPN_537>Requested Torque Control Range Lower Limit (Engine Configuration),0,1,-125,%,1,27</SPN_537>
+		<SPN_538>Requested Torque Control Range Upper Limit (Engine Configuration),0,1,-125,%,1,28</SPN_538>
+		<SPN_1712>Extended Range Requested Speed Control Range Upper Limit (Engine configuration),0,0.125,0,rpm,2,29,30</SPN_1712>
+		<SPN_1794>Engine Moment of Inertia,0,0.004,0,kg-m^2,2,31,32</SPN_1794>
+		<SPN_1846>Default Engine Torque Limit,0,1,0,Nm,2,33,34</SPN_1846>
+	</PGN65251>
+
+	<PGN65252>
+		<SPN_LIST>14,593,594,592,590,591,985,875,605,1081,1110,1109,1108,1107,1111</SPN_LIST>
+		<SPN_593>Idle Shutdown has Shutdown Engine,1,1,2,1,2</SPN_593>
+		<SPN_593_00>No</SPN_593_00>
+		<SPN_593_01>Yes</SPN_593_01>
+		<SPN_593_10>Not available</SPN_593_10>
+		<SPN_593_11>Not available</SPN_593_11>
+		<SPN_594>Idle Shutdown Driver Alert Mode,1,1,2,3,4</SPN_594>
+		<SPN_594_00>Inactive</SPN_594_00>
+		<SPN_594_01>Active</SPN_594_01>
+		<SPN_594_10>Not available</SPN_594_10>
+		<SPN_594_11>Not available</SPN_594_11>
+		<SPN_592>Idle Shutdown Timer Override,1,1,2,5,6</SPN_592>
+		<SPN_592_00>Inactive</SPN_592_00>
+		<SPN_592_01>Active</SPN_592_01>
+		<SPN_592_10>Not available</SPN_592_10>
+		<SPN_592_11>Not available</SPN_592_11>
+		<SPN_590>Idle Shutdown Timer State,1,1,2,7,8</SPN_590>
+		<SPN_590_00>Inactive</SPN_590_00>
+		<SPN_590_01>Active</SPN_590_01>
+		<SPN_590_10>Not available</SPN_590_10>
+		<SPN_590_11>Not available</SPN_590_11>
+		<SPN_591>Idle Shutdown Timer Function,1,2,2,7,8</SPN_591>
+		<SPN_591_00>Disabled in calibration</SPN_591_00>
+		<SPN_591_01>Enabled in calibration</SPN_591_01>
+		<SPN_591_10>Not available</SPN_591_10>
+		<SPN_591_11>Not available</SPN_591_11>
+		<SPN_985>A/C High Pressure Fan Switch,1,3,2,1,2</SPN_985>
+		<SPN_985_00>Pressure normal</SPN_985_00>
+		<SPN_985_01>Pressure high, fan may be engaged</SPN_985_01>
+		<SPN_985_10>Not available</SPN_985_10>
+		<SPN_985_11>Not available</SPN_985_11>
+		<SPN_875>Refrigerant Low Pressure Switch,1,3,2,3,4</SPN_875>
+		<SPN_875_00>Pressure normal</SPN_875_00>
+		<SPN_875_01>Pressure too low, compressor clutch may be disengaged</SPN_875_01>
+		<SPN_875_10>Not available</SPN_875_10>
+		<SPN_875_11>Not available</SPN_875_11>
+		<SPN_605>Refrigerant High Pressure Switch,1,3,2,5,6</SPN_605>
+		<SPN_605_00>Pressure normal</SPN_605_00>
+		<SPN_605_01>Pressure too high, compressor clutch may be disengaged</SPN_605_01>
+		<SPN_605_10>Not available</SPN_605_10>
+		<SPN_605_11>Not available</SPN_605_11>
+		<SPN_1081>Wait to Start Lamp,1,4,2,1,2</SPN_1081>	
+		<SPN_1081_00>Off</SPN_1081_00>
+		<SPN_1081_01>On</SPN_1081_01>
+		<SPN_1081_10>Not available</SPN_1081_10>
+		<SPN_1081_11>Not available</SPN_1081_11>
+		<SPN_1110>Engine Protection System has Shutdown Engine,1,5,2,1,2</SPN_1110>
+		<SPN_1110_00>No</SPN_1110_00>
+		<SPN_1110_01>Yes</SPN_1110_01>
+		<SPN_1110_10>Not available</SPN_1110_10>
+		<SPN_1110_11>Not available</SPN_1110_11>
+		<SPN_1109>Engine Protection System Approaching Shutdown,1,5,2,3,4</SPN_1109>
+		<SPN_1109_00>Not approaching</SPN_1109_00>
+		<SPN_1109_01>Approaching</SPN_1109_01>
+		<SPN_1109_10>Not available</SPN_1109_10>
+		<SPN_1109_11>Not available</SPN_1109_11>
+		<SPN_1108>Engine Protection System Timer Override,1,5,2,5,6</SPN_1108>
+		<SPN_1108_00>Inactive</SPN_1108_00>
+		<SPN_1108_01>Active</SPN_1108_01>
+		<SPN_1108_10>Not available</SPN_1108_10>
+		<SPN_1108_11>Not available</SPN_1108_11>
+		<SPN_1107>Engine Protection System Timer State,1,5,2,7,8</SPN_1107>
+		<SPN_1107_00>Inactive</SPN_1107_00>
+		<SPN_1107_01>Active</SPN_1107_01>
+		<SPN_1107_10>Not available</SPN_1107_10>
+		<SPN_1107_11>Not available</SPN_1107_11>
+		<SPN_1111>Engine Protection System Configuration,1,6,2,7,8</SPN_1111>
+		<SPN_1111_00>Disabled in calibration</SPN_1111_00>
+		<SPN_1111_01>Enabled in calibration</SPN_1111_01>
+		<SPN_1111_10>Not available</SPN_1111_10>
+		<SPN_1111_11>Not available</SPN_1111_11>
+	</PGN65252>
+
+	<PGN65253>
+		<SPN_LIST>2,247,249</SPN_LIST>
+		<SPN_247>Total Engine Hours,0,0.05,0,Hrs,4,1,4</SPN_247>
+		<SPN_249>Total Engine Revolutions,0,0.05,0,Hrs,4,5,8</SPN_249>
+	</PGN65253>
+
+	<PGN65254>
+		<SPN_LIST>8,959,960,961,962,963,964,1601,1602</SPN_LIST>
+		<SPN_959>Seconds,0,0.25,0,s,1,1</SPN_959>
+		<SPN_960>Minutes,0,1,0,mins,1,2</SPN_960>
+		<SPN_961>Hours,0,1,0,hrs,1,3</SPN_961>
+		<SPN_962>Month,0,0.25,0,days,1,4</SPN_962>
+		<SPN_963>Day,0,1,0,months,1,5</SPN_963>
+		<SPN_964>Year,0,1,1985,years,1,6</SPN_964>
+		<SPN_1601>Local minute offset,0,1,-125,mins,1,7</SPN_1601>
+		<SPN_1602>Local hour offset,0,1,-125,hrs,1,8</SPN_1602>
+	</PGN65254>
+
+	<PGN65255>
+		<SPN_LIST>2,246,248</SPN_LIST>
+		<SPN_246>Total Vehicle Hours,0,0.05,0,Hrs,4,1,4</SPN_246>
+		<SPN_248>Total Power Takeoff Hours,0,0.05,0,Hrs,4,5,8</SPN_248>
+	</PGN65255>
+
+	<PGN65256>
+		<SPN_LIST>4,165,517,583,580</SPN_LIST>
+		<SPN_165>Compass Bearing,0,0.0078125,0,Deg,2,1,2</SPN_165>
+		<SPN_517>Navigation-Based Vehicle Speed,0,0.00390625,0,km/h,2,3,4</SPN_517>
+		<SPN_583>Pitch,0,0.0078125,-200,Deg,2,5,6</SPN_583>
+		<SPN_580>Altitude,0,0.125,-2500,m,2,7,8</SPN_580>
+	</PGN65256>
+
+	<PGN65257>
+		<SPN_LIST>2,182,250</SPN_LIST>
+		<SPN_182>Trip Fuel,0,0.5,0,L,4,1,4</SPN_182>
+		<SPN_250>Total Fuel Used,0,0.5,0,L,4,5,8</SPN_250>
+	</PGN65257>
+
+	<PGN65258>
+		<SPN_LIST>4,928,582,180,181</SPN_LIST>
+		<SPN_928>Axle Location,0,(exception)</SPN_928>
+		<SPN_582>Axle Weight,0,0.5,0,kg,2,2,3</SPN_582>
+		<SPN_180>Trailer Weight,0,2,0,kg,2,4,5</SPN_180>
+		<SPN_181>Cargo Weight,0,2,0,kg,2,6,7</SPN_181>
+	</PGN65258>
+
+	<PGN65259>
+		<SPN_LIST>4,586,587,588,233</SPN_LIST>
+		<SPN_586>Make,3,0,per byte</SPN_586>
+		<SPN_587>Model,3,0,per byte</SPN_587>
+		<SPN_588>Serial Number,3,0,per byte</SPN_588>
+		<SPN_233>Unit Number (Power Unit),3,0,per byte</SPN_233>
+	</PGN65259>
+
+	<PGN65260>
+		<SPN_LIST>1,237</SPN_LIST>
+		<SPN_237>Vehicle Identification Number,3,0,per byte,1</SPN_237>
+	</PGN65260>
+
+	<PGN65261>
+		<SPN_LIST>3,74,87,88</SPN_LIST>
+		<SPN_74>Maximum Vehicle Speed Limit,0,1,0,km/hr,1,1</SPN_74>
+		<SPN_87>Cruise Control High Set Limit Speed,0,1,0,km/hr,1,2</SPN_87>
+		<SPN_88>Cruise Control Low Set Limit Speed,0,1,0,km/hr,1,3</SPN_88>
+	</PGN65261>
+
+	<PGN65262>
+		<SPN_LIST>6,110,174,175,176,52,1134</SPN_LIST>
+		<SPN_110>Engine Coolant Temperature,0,1,-40,degC,1,1</SPN_110>
+		<SPN_174>Fuel Temperature,0,1,-40,degC,1,2</SPN_174>
+		<SPN_175>Engine Oil Temperature 1,0,0.03125,-273,degC,2,3,4</SPN_175>
+		<SPN_176>Turbo Oil Temperature,0,0.03125,-273,degC,2,5,6</SPN_176>
+		<SPN_52>Engine Intercooler Temperature,0,1,-40,degC,1,7</SPN_52>
+		<SPN_1134>Engine Intercooler Thermostat Opening,0,0.4,0,%,1,8</SPN_1134>
+	</PGN65262>
+
+	<PGN65263>
+		<SPN_LIST>7,94,22,98,100,101,109,111</SPN_LIST>
+		<SPN_94>Fuel Delivery Pressure,0,4,0,kpa,1,1</SPN_94>
+		<SPN_22>Extended Crankcase Blow-by Pressure,0,0.05,0,kpa,1,2</SPN_22>
+		<SPN_98>Engine Oil Level,0,0.4,0,%,1,3</SPN_98>
+		<SPN_100>Engine Oil Pressure,0,4,0,kpa,1,4</SPN_100>
+		<SPN_101>Crankcase Pressure,0,0.0078125,0,kpa,2,5,6</SPN_101>
+		<SPN_109>Coolant Pressure,0,2,0,kpa,1,7</SPN_109>
+		<SPN_111>Coolant Level,0,0.4,0,%,1,8</SPN_111>
+	</PGN65263>
+
+	<PGN65264>
+		<SPN_LIST>10,90,186,187,980,979,978,984,983,982,981</SPN_LIST>
+		<SPN_90>Power Takeoff Oil Temperature,0,1,-40,deg C,1,1</SPN_90>
+		<SPN_186>Power Takeoff Speed,0,0.125,0,rpm,2,2,3</SPN_186>
+		<SPN_187>Power Takeoff Set Speed,0,0.125,0,rpm,2,4,5</SPN_187>
+		<SPN_980>PTO Enable Switch,1,6,2,1,2</SPN_980>
+		<SPN_980_00>Off</SPN_980_00>
+		<SPN_980_01>On</SPN_980_01>
+		<SPN_980_10>Not available</SPN_980_10>
+		<SPN_980_11>Not available</SPN_980_11>
+		<SPN_979>Remote PTO Preprogrammed Speed Control Switch,1,6,2,3,4</SPN_979>
+		<SPN_979_00>Off</SPN_979_00>
+		<SPN_979_01>On</SPN_979_01>
+		<SPN_979_10>Not available</SPN_979_10>
+		<SPN_979_11>Not available</SPN_979_11>
+		<SPN_978>Remote PTO Variable Speed Control Switch,1,6,2,5,6</SPN_978>
+		<SPN_978_00>Off</SPN_978_00>
+		<SPN_978_01>On</SPN_978_01>
+		<SPN_978_10>Not available</SPN_978_10>
+		<SPN_978_11>Not available</SPN_978_11>
+		<SPN_984>PTO Set Switch,1,7,2,1,2</SPN_984>
+		<SPN_984_00>Off</SPN_984_00>
+		<SPN_984_01>On</SPN_984_01>
+		<SPN_984_10>Not available</SPN_984_10>
+		<SPN_984_11>Not available</SPN_984_11>
+		<SPN_983>PTO Coast/Decelerate Switch,1,7,2,3,4</SPN_983>
+		<SPN_983_00>Off</SPN_983_00>
+		<SPN_983_01>On</SPN_983_01>
+		<SPN_983_10>Not available</SPN_983_10>
+		<SPN_983_11>Not available</SPN_983_11>
+		<SPN_982>PTO Resume Switch,1,7,2,5,6</SPN_982>
+		<SPN_982_00>Off</SPN_982_00>
+		<SPN_982_01>On</SPN_982_01>
+		<SPN_982_10>Not available</SPN_982_10>
+		<SPN_982_11>Not available</SPN_982_11>
+		<SPN_981>PTO Accelerate Switch,1,7,2,7,8</SPN_981>
+		<SPN_981_00>Off</SPN_981_00>
+		<SPN_981_01>On</SPN_981_01>
+		<SPN_981_10>Not available</SPN_981_10>
+		<SPN_981_11>Not available</SPN_981_11>
+	</PGN65264>
+
+	<PGN65265>
+		<SPN_LIST>19,69,70,1633,84,595,596,597,598,599,600,601,602,86,976,527,968,967,966,1237</SPN_LIST>
+		<SPN_69>Two Speed Axle Switch,1,1,2,1,2</SPN_69>
+		<SPN_69_00>Low speed range</SPN_69_00>
+		<SPN_69_01>High speed range</SPN_69_01>
+		<SPN_69_10>Not available</SPN_69_10>
+		<SPN_69_11>Not available</SPN_69_11>
+		<SPN_70>Parking Brake Switch,1,1,2,3,4</SPN_70>
+		<SPN_70_00>Parking brake not set</SPN_70_00>
+		<SPN_70_01>Parking brake set</SPN_70_01>
+		<SPN_70_10>Not available</SPN_70_10>
+		<SPN_70_11>Not available</SPN_70_11>
+		<SPN_1633>Cruise Control Pause Switch,1,1,2,5,6</SPN_1633>
+		<SPN_1633_00>Off</SPN_1633_00>
+		<SPN_1633_01>On</SPN_1633_01>
+		<SPN_1633_10>Error Indicator</SPN_1633_10>
+		<SPN_1633_11>Take No Action</SPN_1633_11>
+		<SPN_84>Wheel-Based Vehicle Speed,0,0.00390625,0,km/h,2,2,3</SPN_84>
+		<SPN_595>Cruise Control Active,1,4,2,1,2</SPN_595>
+		<SPN_595_00>Cruise control switched off</SPN_595_00>
+		<SPN_595_01>Cruise control switched on</SPN_595_01>
+		<SPN_595_10>Not available</SPN_595_10>
+		<SPN_595_11>Not available</SPN_595_11>
+		<SPN_596>Cruise Control Enable Switch,1,4,2,3,4</SPN_596>
+		<SPN_596_00>Cruise control disabled</SPN_596_00>
+		<SPN_596_01>Cruise control enabled</SPN_596_01>
+		<SPN_596_10>Not available</SPN_596_10>
+		<SPN_596_11>Not available</SPN_596_11>
+		<SPN_597>Brake Switch,1,4,2,5,6</SPN_597>
+		<SPN_597_00>Brake pedal released</SPN_597_00>
+		<SPN_597_01>Brake pedal depressed</SPN_597_01>
+		<SPN_597_10>Error</SPN_597_10>
+		<SPN_597_11>Not Available</SPN_597_11>
+		<SPN_598>Clutch Switch,1,4,2,7,8</SPN_598>
+		<SPN_598_00>Clutch pedal released</SPN_598_00>
+		<SPN_598_01>Clutch pedal depressed</SPN_598_01>
+		<SPN_598_10>Not Available</SPN_598_10>
+		<SPN_598_11>Not Available</SPN_598_11>
+		<SPN_599>Cruise Control Set Switch,1,5,2,1,2</SPN_599>
+		<SPN_599_00>Cruise control activator not in the position 'set'</SPN_599_00>
+		<SPN_599_01>Cruise control activator in position 'set'</SPN_599_01>
+		<SPN_599_10>Not Available</SPN_599_10>
+		<SPN_599_11>Not Available</SPN_599_11>
+		<SPN_600>Cruise Control Coast (Decelerate) Switch,1,5,2,3,4</SPN_600>
+		<SPN_600_00>Cruise control activator not in the position 'coast'</SPN_600_00>
+		<SPN_600_01>Cruise control activator in position 'coast'</SPN_600_01>
+		<SPN_600_10>Not Available</SPN_600_10>
+		<SPN_600_11>Not Available</SPN_600_11>
+		<SPN_601>Cruise Control Resume Switch,1,5,2,5,6</SPN_601>
+		<SPN_601_00>Cruise control activator not in the position 'resume'</SPN_601_00>
+		<SPN_601_01>Cruise control activator in position 'resume'</SPN_601_01>
+		<SPN_601_10>Not Available</SPN_601_10>
+		<SPN_601_11>Not Available</SPN_601_11>
+		<SPN_602>Cruise Control Accelerate Switch,1,5,2,7,8</SPN_602>
+		<SPN_602_00>Cruise control activator not in the position 'accelerate'</SPN_602_00>
+		<SPN_602_01>Cruise control activator in position 'accelerate'</SPN_602_01>
+		<SPN_602_10>Not Available</SPN_602_10>
+		<SPN_602_11>Not Available</SPN_602_11>
+		<SPN_86>Cruise Control Set Speed,0,1,0,km/hr,1,6</SPN_86>
+		<SPN_976>PTO State,1,7,5,1,5</SPN_976>
+		<SPN_976_00000>Off/disable</SPN_976_00000>
+		<SPN_976_00001>Hold</SPN_976_00001>
+		<SPN_976_00010>Remote Hold</SPN_976_00010>
+		<SPN_976_00011>Standby</SPN_976_00011>
+		<SPN_976_00100>Remote standby</SPN_976_00100>
+		<SPN_976_00101>SET</SPN_976_00101>
+		<SPN_976_00110>Decelerate/coast</SPN_976_00110>
+		<SPN_976_00111>Resume</SPN_976_00111>
+		<SPN_976_01000>Accelerate</SPN_976_01000>
+		<SPN_976_01001>Accelerate Override</SPN_976_01001>
+		<SPN_976_01010>Programmed set speed 1</SPN_976_01010>
+		<SPN_976_01011>Programmed set speed 2</SPN_976_01011>
+		<SPN_976_01100>Programmed set speed 3</SPN_976_01100>
+		<SPN_976_01101>Programmed set speed 4</SPN_976_01101>
+		<SPN_976_01110>Programmed set speed 5</SPN_976_01110>
+		<SPN_976_01111>Programmed set speed 6</SPN_976_01111>
+		<SPN_976_10000>Programmed set speed 7</SPN_976_10000>
+		<SPN_976_10001>Programmed set speed 8</SPN_976_10001>
+		<SPN_976_10010>Not defined</SPN_976_10010>
+		<SPN_976_10011>Not defined</SPN_976_10011>
+		<SPN_976_10100>Not defined</SPN_976_10100>
+		<SPN_976_10101>Not defined</SPN_976_10101>
+		<SPN_976_10110>Not defined</SPN_976_10110>
+		<SPN_976_10111>Not defined</SPN_976_10111>
+		<SPN_976_11000>Not defined</SPN_976_11000>
+		<SPN_976_11001>Not defined</SPN_976_11001>
+		<SPN_976_11010>Not defined</SPN_976_11010>
+		<SPN_976_11011>Not defined</SPN_976_11011>
+		<SPN_976_11100>Not defined</SPN_976_11100>
+		<SPN_976_11101>Not defined</SPN_976_11101>
+		<SPN_976_11110>Not defined</SPN_976_11110>
+		<SPN_976_11111>Not Available</SPN_976_11111>
+		<SPN_527>Cruise Control States,1,7,3,6,8</SPN_527>
+		<SPN_527_000>Off/disable</SPN_527_000>
+		<SPN_527_001>Hold</SPN_527_001>
+		<SPN_527_010>Accelerate</SPN_527_010>
+		<SPN_527_011>Decelerate/coast</SPN_527_011>
+		<SPN_527_100>Resume</SPN_527_100>
+		<SPN_527_101>Set</SPN_527_101>
+		<SPN_527_110>Accelerator override</SPN_527_110>
+		<SPN_527_111>Not Available</SPN_527_111>
+		<SPN_968>Idle Increment Switch,1,8,2,1,2</SPN_968>
+		<SPN_968_00>Off</SPN_968_00>
+		<SPN_968_01>On</SPN_968_01>
+		<SPN_968_10>Not available</SPN_968_10>
+		<SPN_968_11>Not available</SPN_968_11>
+		<SPN_967>Idle Decrement Switch,1,8,2,3,4</SPN_967>
+		<SPN_967_00>Off</SPN_967_00>
+		<SPN_967_01>On</SPN_967_01>
+		<SPN_967_10>Not available</SPN_967_10>
+		<SPN_967_11>Not available</SPN_967_11>
+		<SPN_966>Engine Test Mode Switch,1,8,2,5,6</SPN_966>
+		<SPN_966_00>Off</SPN_966_00>
+		<SPN_966_01>On</SPN_966_01>
+		<SPN_966_10>Not available</SPN_966_10>
+		<SPN_966_11>Not available</SPN_966_11>
+		<SPN_1237>Engine Shutdown Override Switch,1,8,2,7,8</SPN_1237>
+		<SPN_1237_00>Off</SPN_1237_00>
+		<SPN_1237_01>On</SPN_1237_01>
+		<SPN_1237_10>Not available</SPN_1237_10>
+		<SPN_1237_11>Not available</SPN_1237_11>
+	</PGN65265>
+
+	<PGN65266>
+		<SPN_LIST>4,183,184,185,51</SPN_LIST>
+		<SPN_183>Fuel Rate,0,0.05,0,L/hr,2,1,2</SPN_183>
+		<SPN_184>Instantaneous Fuel Economy,0,0.001953125,0,km/kg,2,3,4</SPN_184>
+		<SPN_185>Average Fuel Economy,0,0.001953125,0,km/kg,2,5,6</SPN_185>
+		<SPN_51>Throttle Position,0,0.4,0,%,1,7</SPN_51>
+	</PGN65266>
+
+	<PGN65267>
+		<SPN_LIST>2,584,585</SPN_LIST>
+		<SPN_584>Latitude,0,0.0000001,-210,deg,4,1,4</SPN_584>
+		<SPN_585>Longitude,0,0.0000001,-210,deg,4,5,8</SPN_585>
+	</PGN65267>
+
+	<PGN65268>
+		<SPN_LIST>8,929,241,242,1699,1698,1697,2586,2587</SPN_LIST>
+		<SPN_929>Tire Location</SPN_929>
+		<SPN_241>Tire Pressure,0,4,0,kpa,1,2</SPN_241>
+		<SPN_242>Tire Temperature,0,0.03125,-273,deg C,2,3,4</SPN_242>
+		<SPN_1699>CTI Wheel Sensor Status,1,5,2,1,2</SPN_1699>
+		<SPN_1699_00>Ok ( No Fault)</SPN_1699_00>
+		<SPN_1699_01>Not Defined</SPN_1699_01>
+		<SPN_1699_10>Error</SPN_1699_10>
+		<SPN_1699_11>Not Supported</SPN_1699_11>
+		<SPN_1698>CTI Tire Status,1,5,2,3,4</SPN_1698>
+		<SPN_1698_00>Ok ( No Fault)</SPN_1698_00>
+		<SPN_1698_01>Not Defined</SPN_1698_01>
+		<SPN_1698_10>Error</SPN_1698_10>
+		<SPN_1698_11>Not Supported</SPN_1698_11>
+		<SPN_1697>CTI Wheel End Electrical Fault,1,5,2,5,6</SPN_1697>
+		<SPN_1697_00>Ok ( No Fault)</SPN_1697_00>
+		<SPN_1697_01>Not Defined</SPN_1697_01>
+		<SPN_1697_10>Error</SPN_1697_10>
+		<SPN_1697_11>Not Supported</SPN_1697_11>
+		<SPN_2586>Tire Air Leakage Rate,0,0.1,0,Pa/s,2,6,7</SPN_2586>
+		<SPN_2587>Tire Pressure Threshold Detection,1,8,3,6,8</SPN_2587>
+		<SPN_2587_000>Extreme over pressure - The tire pressure is at a level where the safety of the vehicle may be jeopardised</SPN_2587_000>
+		<SPN_2587_001>Over pressure - The tire pressure is higher than the pressure defined by the vehicle or tire manufacturer</SPN_2587_001>
+		<SPN_2587_010>No warning pressure - The tire pressure is within the thresholds defined by the vehicle or tire manufacturer</SPN_2587_010>
+		<SPN_2587_011>Under pressure - The tire pressure is lower than the pressure defined by the vehicle or tire manufacturer</SPN_2587_011>
+		<SPN_2587_100>Extreme under pressure - The tire pressure is at a level where the safety of the vehicle may be jeopardised</SPN_2587_100>
+		<SPN_2587_101>Not defined</SPN_2587_101>
+		<SPN_2587_110>Error indicator</SPN_2587_110>
+		<SPN_2587_111>Not available</SPN_2587_111>
+	</PGN65268>
+
+	<PGN65269>
+		<SPN_LIST>5,108,170,171,172,79</SPN_LIST>
+		<SPN_108>Barometric Pressure,0,0.5,0,kpa,1,1</SPN_108>
+		<SPN_170>Cab Interior Temperature,0,0.03125,-273,deg C,2,2,3</SPN_170>
+		<SPN_171>Ambient Air Temperature,0,0.03125,-273,deg C,2,4,5</SPN_171>
+		<SPN_172>Air Inlet Temperature,0,1,-40,deg C,1,6</SPN_172>
+		<SPN_79>Road Surface Temperature,0,0.03125,-273,deg C,2,7,8</SPN_79>
+	</PGN65269>
+
+	<PGN65270>
+		<SPN_LIST>7,81,102,105,106,107,173,112</SPN_LIST>
+		<SPN_81>Particulate Trap Inlet Pressure,0,0.5,0,kPa,1,1</SPN_81>
+		<SPN_102>Boost Pressure,0,2,0,kPa,1,2</SPN_102>
+		<SPN_105>Intake Manifold 1 Temperature,0,1,-40,deg C,1,3</SPN_105>
+		<SPN_106>Air Inlet Pressure,0,2,0,kPa,1,4</SPN_106>
+		<SPN_107>Air Filter 1 Differential Pressure,0,0.05,kPa,1,5</SPN_107>
+		<SPN_173>Exhaust Gas Temperature,0,0.03125,-273,deg C,2,6,7</SPN_173>
+		<SPN_112>Coolant Filter Differential Pressure,0,0.5,0,kPa,1,8</SPN_112>
+	</PGN65270>
+
+	<PGN65271>
+		<SPN_LIST>5,114,115,167,168,158</SPN_LIST>
+		<SPN_114>Net Battery Current,0,1,-125,A,1,1</SPN_114>
+		<SPN_115>Alternator Current,0,1,0,A,1,2</SPN_115>
+		<SPN_167>Alternator Potential (Voltage),0,0.05,0,V,2,3,4</SPN_167>
+		<SPN_168>Electrical Potential (Voltage),0,0.05,0,V,2,5,6</SPN_168>
+		<SPN_158>Battery Potential (Voltage), Switched,0,0.05,0,V,2,7,8</SPN_158>
+	</PGN65271>
+
+	<PGN65272>
+		<SPN_LIST>5,123,124,126,127,177</SPN_LIST>
+		<SPN_123>Clutch Pressure,0,16,0,kPa,1,1</SPN_123>
+		<SPN_124>Transmission Oil Level,0,0.4,0,%,1,2</SPN_124>
+		<SPN_126>Transmission Filter Differential Pressure,0,2,0,kPa,1,3</SPN_126>
+		<SPN_127>Transmission Oil Pressure,0,16,0,kPa,1,4</SPN_127>
+		<SPN_177>Transmission Oil Temperature,0,0.03125,-273,deg C,2,5,6</SPN_177>
+	</PGN65272>
+
+	<PGN65273>
+		<SPN_LIST>6,75,930,579,578,2613,2614</SPN_LIST>
+		<SPN_75>Steering Axle Temperature,0,1,-40,deg C,1,1</SPN_75>
+		<SPN_930>Drive Axle Location,</SPN_930>
+		<SPN_579>Drive Axle Lift Air Pressure,0,4,0,kPa,1,3</SPN_579>
+		<SPN_578>Drive Axle Temperature,0,1,-40,deg C,1,4</SPN_578>
+		<SPN_2613>Drive Axle Lube Pressure,0,4,0,kPa,1,5</SPN_2613>
+		<SPN_2614>Steering Axle Lube Pressure,0,4,0,kPa,1,8</SPN_2614>
+	</PGN65273>
+
+	<PGN65274>
+		<SPN_LIST>4,116,117,118,619</SPN_LIST>
+		<SPN_116>Brake Application Pressure,0,4,0,kPa,1,1</SPN_116>
+		<SPN_117>Brake Primary Pressure,0,4,0,kPa,1,2</SPN_117>
+		<SPN_118>Brake Secondary Pressure,0,4,0,kPa,1,3</SPN_118>
+		<SPN_619>Parking Brake Actuator,1,4,2,1,2</SPN_619>
+		<SPN_619_00>Parking brake actuator inactive</SPN_619_00>
+		<SPN_619_01>Parking brake actuator active</SPN_619_01>
+		<SPN_619_10>Not available</SPN_619_10>
+		<SPN_619_11>Not available</SPN_619_11>
+	</PGN65274>
+
+	<PGN65275>
+		<SPN_LIST>2,119,120</SPN_LIST>
+		<SPN_119>Hydraulic Retarder Pressure,0,16,0,kPa,1,1</SPN_119>
+		<SPN_120>Hydraulic Retarder Oil Temperature,0,1,-40,deg C,1,2</SPN_120>
+	</PGN65275>
+
+	<PGN65276>
+		<SPN_LIST>5,80,96,95,99,169</SPN_LIST>
+		<SPN_80>Washer Fluid Level,0,0.4,0,%,1,1</SPN_80>
+		<SPN_96>Fuel Level,0,0.4,0,%,1,2</SPN_96>
+		<SPN_95>Fuel Filter Differential Pressure,0,2,0,kPa,1,3</SPN_95>
+		<SPN_99>Engine Oil Filter Differential Pressure,0,0.5,0,kPa,1,4</SPN_99>
+		<SPN_169>Cargo Ambient Temperature,0,0.03125,-273,deg C,2,5,6</SPN_169>
+	</PGN65276>
+
+	<PGN65277>
+		<SPN_LIST>2,72,159</SPN_LIST>
+		<SPN_72>Blower Bypass Valve Position,0,0.4,0,%,1,1</SPN_72>
+		<SPN_159>Gas Supply Pressure,0,0.5,0,kPa,2,2,3</SPN_159>
+	</PGN65277>
+
+	<PGN65278>
+		<SPN_LIST>1,73</SPN_LIST>
+		<SPN_73>Auxiliary Pump Pressure,0,16,0,kPa,1,1</SPN_73>
+	</PGN65278>
+
+	<PGN65279>
+		<SPN_LIST>1,97</SPN_LIST>
+		<SPN_97>Water In Fuel Indicator,1,1,2,1,2</SPN_97>
+		<SPN_97_00>No</SPN_97_00>
+		<SPN_97_01>Yes</SPN_97_01>
+		<SPN_97_10>Not available</SPN_97_10>
+		<SPN_97_11>Not available</SPN_97_11>
+	</PGN65279>
+
+	<SERVICE_COMPONENT>
+		<SC_ID_0>Service check for entire vehicle</SC_ID_0>
+		<SC_ID_1>Brake lining;left front axle</SC_ID_1>
+		<SC_ID_2>Brake lining;right front axle</SC_ID_2>
+		<SC_ID_3>Brake lining;left rear axle</SC_ID_3>
+		<SC_ID_4>Brake lining;left rear axle</SC_ID_4>
+		<SC_ID_11>Brake lining;left rear axle#2</SC_ID_11>
+		<SC_ID_12>Brake lining;right rear axle#2</SC_ID_12>
+		<SC_ID_13>Brake lining;left rear axle#3</SC_ID_13>
+		<SC_ID_14>Brake lining;right rear axle#3</SC_ID_14>
+		<SC_ID_15>Brake lining;general</SC_ID_15>
+		<SC_ID_16>Regulated genetal check for entire vehicle</SC_ID_16>
+		<SC_ID_17>Brake system special check</SC_ID_17>
+		<SC_ID_18>In-between check</SC_ID_18>
+		<SC_ID_19>Check trip recorder</SC_ID_19>
+		<SC_ID_20>Check exhaust gas</SC_ID_20>
+		<SC_ID_21>Check vehicle speed limiter</SC_ID_21>
+		<SC_ID_30>Engine coolant change</SC_ID_30>
+		<SC_ID_31>Engine coolant filter change</SC_ID_31>
+		<SC_ID_32>Engine oil#1</SC_ID_32>
+		<SC_ID_33>Engine oil#2</SC_ID_33>
+		<SC_ID_35>Steering oil</SC_ID_35>
+		<SC_ID_37>Transmission oil#1</SC_ID_37>
+		<SC_ID_38>Transmission oil#2</SC_ID_38>
+		<SC_ID_40>Intermediate transmission oil</SC_ID_40>
+		<SC_ID_42>Front axle oil</SC_ID_42>
+		<SC_ID_43>Rear axle oil</SC_ID_43>
+		<SC_ID_48>Tires</SC_ID_48>
+		<SC_ID_49>Engine air filter</SC_ID_49>
+		<SC_ID_50>Engine oil filter</SC_ID_50>
+		<SC_ID_61>Tachograph</SC_ID_61>
+		<SC_ID_62>Driver card#1</SC_ID_62>
+		<SC_ID_63>Driver card#2</SC_ID_63>
+		<SC_ID_252>Reset all components</SC_ID_252>
+		<SC_ID_253>No action to be taken</SC_ID_253>
+		<SC_ID_254>Error</SC_ID_254>
+		<SC_ID_255>Not available</SC_ID_255>
+	</SERVICE_COMPONENT>
+</j1939>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
