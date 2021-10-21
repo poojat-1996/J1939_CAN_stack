@@ -1,0 +1,8 @@
+#!/bin/sh
+while [ 1 ];
+do
+cansend can0 18DB33F1#02010C0000000000
+cansend can0 18DB33F1#02010D0000000000
+cansend can0 18DB33F1#0201040000000000
+cansend can0 18DA10F1#0209020000000000
+done
